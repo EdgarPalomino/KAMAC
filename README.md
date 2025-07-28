@@ -1,6 +1,6 @@
 <!--
  * @Author: Xiao Wu
- * @LastEditTime: 2025-07-28 21:31:31
+ * @LastEditTime: 2025-07-28 21:46:16
  * Copyright (c) 2025 by UESTC, All Rights Reserved. 
 -->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
@@ -46,7 +46,7 @@ Experiments on two real-world medical benchmarks demonstrate that KAMAC signific
 
 
 ### 1. Reproduce Final Results
-You can load the corpus and access **final_results** to trace agent interactions and decisions:
+You can load the corpus and access **final_results** without downloading the dataset to trace agent interactions and decisions:
 
 ```bash
 
