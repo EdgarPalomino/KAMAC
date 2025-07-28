@@ -1,0 +1,16 @@
+{
+    "RADCURE-3535": {
+        "question": "Age: 50.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates [[265, 183, 78, 265, 207, 89], [265, 183, 78, 265, 207, 89]] appear to be identical and define a very small volumetric region within the CT scan. Given the normalized coordinates and the limited range along the z, y, and x axes, this region likely corresponds to a small anatomical structure or lesion.\n\nFrom a radiation oncology perspective, especially in head and neck cancer, such a small ROI could represent a localized tumor focus, a lymph node, or a critical organ at risk (OAR) such as a small salivary gland or a segment of the pharyngeal wall.\n\nHowever, without additional imaging context or contrast enhancement details, it is challenging to definitively identify the structure or abnormality. There is no visible pattern or abnormal mass clearly discernible from the bounding box alone.\n\nFor treatment planning, precise delineation of such small ROIs is crucial to optimize dose delivery while sparing adjacent normal tissues. If this ROI corresponds to a tumor or involved lymph node, it would be targeted with an appropriate radiation dose, typically around 66-70 Gy for gross disease in HPV-positive oropharyngeal squamous cell carcinoma.\n\nFinal assessment: The ROI is too small and lacks distinctive features on this scan to describe specific anatomical structures or abnormalities confidently.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no knowledge gaps within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

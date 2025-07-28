@@ -1,0 +1,16 @@
+{
+    "RADCURE-0588": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 64.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are [[262, 171, 68, 262, 194, 75], [262, 171, 68, 262, 194, 75]]. Both bounding boxes are identical, indicating a very small or possibly a single voxel region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but the exact anatomical location is not explicitly stated. However, given the context of a head and neck CT scan, these coordinates likely correspond to a small region within the oropharyngeal or nasopharyngeal area, or possibly a small lymph node or tumor focus.\n\n3. The ROI is very limited in size, which may suggest a small lesion or a localized abnormality. There is no direct information about the nature of the abnormality (tumor, lymph node, or other structure) from the coordinates alone.\n\n4. Without additional imaging details or contrast enhancement information, it is difficult to definitively identify the anatomical structure or abnormality. However, from a radiation oncology perspective, small ROIs in head and neck cancer imaging often represent either small tumor volumes or involved lymph nodes.\n\n5. The presence of two identical bounding boxes may indicate a focus on a single lesion or structure for targeted radiation planning.\n\n6. For survival probability assessment, the size and extent of the tumor or nodal involvement are critical. A very small ROI may correlate with early-stage disease, which generally has a better prognosis.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialties required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

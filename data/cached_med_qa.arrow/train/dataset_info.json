@@ -1,0 +1,74 @@
+{
+  "builder_name": "med_qa",
+  "citation": "@article{jin2021disease,\n  title={What disease does this patient have? a large-scale open domain question answering dataset from medical exams},\n  author={Jin, Di and Pan, Eileen and Oufattole, Nassim and Weng, Wei-Hung and Fang, Hanyi and Szolovits, Peter},\n  journal={Applied Sciences},\n  volume={11},\n  number={14},\n  pages={6421},\n  year={2021},\n  publisher={MDPI}\n}\n",
+  "config_name": "med_qa_en_source",
+  "dataset_name": "med_qa",
+  "dataset_size": 12234592,
+  "description": "In this work, we present the first free-form multiple-choice OpenQA dataset for solving medical problems, MedQA,\ncollected from the professional medical board exams. It covers three languages: English, simplified Chinese, and\ntraditional Chinese, and contains 12,723, 34,251, and 14,123 questions for the three languages, respectively. Together\nwith the question data, we also collect and release a large-scale corpus from medical textbooks from which the reading\ncomprehension models can obtain necessary knowledge for answering the questions.\n",
+  "download_checksums": {
+    "data_clean.zip": {
+      "num_bytes": 131741885,
+      "checksum": null
+    }
+  },
+  "download_size": 131741885,
+  "features": {
+    "meta_info": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_idx": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": [
+      {
+        "key": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "value": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ]
+  },
+  "homepage": "https://github.com/jind11/MedQA",
+  "license": "UNKNOWN",
+  "size_in_bytes": 143976477,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 9765366,
+      "num_examples": 10178,
+      "dataset_name": "med_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1248299,
+      "num_examples": 1273,
+      "dataset_name": "med_qa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1220927,
+      "num_examples": 1272,
+      "dataset_name": "med_qa"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

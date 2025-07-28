@@ -1,0 +1,16 @@
+{
+    "RADCURE-0915": {
+        "question": "Age: 75.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Nasal Cavity, Subsite: Nasal Vestibule/Septum, T: T1, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the nasal cavity. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [251, 89, 122, 251, 123, 142]\n   - [254, 206, 116, 254, 237, 147]\n\n2. These coordinates are normalized and define two volumetric regions within the head and neck CT scan.\n\n3. The first bounding box (z=251, y=89-123, x=122-142) likely corresponds to a region in the upper cervical spine or adjacent soft tissues, possibly near the oropharynx or hypopharynx.\n\n4. The second bounding box (z=254, y=206-237, x=116-147) is located more inferiorly and posteriorly, possibly involving lower cervical vertebrae or paraspinal soft tissues.\n\n5. Without direct visualization of the scan, but given the anatomical locations, these ROIs could represent either lymph node regions, tumor involvement, or critical organs at risk such as the spinal cord or paraspinal muscles.\n\n6. From a radiation oncology perspective, involvement of these regions could indicate advanced local or nodal disease, which may impact radiation planning, dose constraints, and prognosis.\n\n7. If these ROIs represent tumor or nodal disease, their location near critical structures like the spinal cord would necessitate careful dose planning to avoid toxicity.\n\n8. The presence of abnormalities in these regions could suggest a more advanced stage, potentially lowering survival probability.\n\nFinal answer: Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Within radiation therapy scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

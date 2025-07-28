@@ -1,0 +1,16 @@
+{
+    "RADCURE-3600": {
+        "question": "Age: 52.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 20, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are identical: [270, 190, 104, 270, 223, 125]. This suggests a very small or possibly zero-volume region, as the minimum and maximum z-values are the same (270), indicating a single slice or a point rather than a volumetric region.\n\n2. The coordinates are normalized relative to the original image size, but without the original image dimensions, exact anatomical localization is challenging. However, the y and x ranges (190 to 223 and 104 to 125) suggest a small region in the lateral dimension.\n\n3. Given the location in a head and neck CT, and the small size of the ROI, this could correspond to a small anatomical structure or a localized lesion.\n\n4. No visible abnormalities or patterns can be definitively described from the bounding box alone without image content. The mask is likely highlighting a small region of interest, possibly a lymph node or a small tumor focus.\n\n5. From a radiation oncology perspective, the presence of a small ROI in this region could represent a target for focused radiation therapy, but without further clinical or imaging context, it is not possible to assess tumor burden or involvement.\n\n6. Survival probability cannot be assessed solely based on these bounding box coordinates without clinical staging, pathology, or treatment details.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current expertise covers HPV-related head and neck radiation planning.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

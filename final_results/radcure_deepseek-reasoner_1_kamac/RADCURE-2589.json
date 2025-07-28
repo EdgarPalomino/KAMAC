@@ -1,0 +1,16 @@
+{
+    "RADCURE-2589": {
+        "question": "Age: 89.4, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 5, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: Tis, N: N0, M : M0, Stage: 0, Path: Squamous Cell Carcinoma In-Situ, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 50.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases and carcinoma in situ of the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Bounding box 1: [253, 209, 31, 253, 294, 120]\n   - Bounding box 2: [247, 171, 65, 247, 199, 72]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first bounding box appears larger and likely corresponds to a significant anatomical or pathological region, while the second is smaller and more localized.\n\n3. From a radiation oncology perspective, the first bounding box may encompass a region involving the oropharynx or hypopharynx, possibly including lymph node regions or tumor mass. The second bounding box, being smaller, might represent a smaller lymph node or a subsite of disease.\n\n4. Without direct visualization of the scan here, but based on typical anatomical locations and bounding box sizes, these regions could represent:\n   - Primary tumor site or gross tumor volume (GTV)\n   - Involved lymph nodes or suspicious nodal disease\n\n5. Important considerations for survival probability include:\n   - Tumor size and extent (larger volumes generally correlate with worse prognosis)\n   - Nodal involvement (presence of involved nodes worsens prognosis)\n   - HPV status (not provided here, but HPV-positive oropharyngeal cancers have better prognosis)\n   - Patient factors (age, performance status, smoking history) are not provided here\n\n6. If these bounding boxes represent gross tumor and involved nodes, this suggests at least nodal disease, which may indicate stage N1 or higher, potentially reducing survival probability compared to node-negative disease.\n\n7. From a radiation planning perspective, these volumes would be targeted for definitive radiation therapy, possibly with concurrent chemotherapy depending on staging and patient factors.\n\nFinal answer: Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no knowledge gaps within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

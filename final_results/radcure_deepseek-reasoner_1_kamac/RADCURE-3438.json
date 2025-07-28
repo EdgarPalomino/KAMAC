@@ -1,0 +1,16 @@
+{
+    "RADCURE-3438": {
+        "question": "Age: 68.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates [[214, 184, 95, 214, 203, 110]] define a very small volumetric region within the CT scan. The z-axis min and max are both 214, indicating a single slice or a very thin volume in the axial plane.\n\n2. The y-axis ranges from 184 to 203, and the x-axis from 95 to 110, which likely corresponds to a small region in the oropharyngeal or upper neck area, depending on the scan orientation and resolution.\n\n3. Given the location and size, this ROI could represent a small lymph node, a tumor focus, or a critical organ at risk (OAR) such as a portion of the pharynx, larynx, or a small vessel.\n\n4. Without contrast enhancement or further clinical data, it is difficult to definitively identify the structure, but from a radiation oncology perspective, this small ROI could be a target volume or a critical structure to spare.\n\n5. If this ROI corresponds to a tumor or involved lymph node, its small size and localized nature may suggest a limited disease burden, which generally correlates with better prognosis.\n\n6. If this is an OAR, careful radiation planning is needed to minimize dose and reduce toxicity.\n\n7. No obvious abnormalities such as large masses, necrosis, or gross anatomical distortion are described or visible in this small ROI.\n\nFinal assessment: The small, localized ROI suggests a limited disease or a small critical structure, which from a radiation oncology standpoint, is favorable for treatment planning and potentially better survival outcomes.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Survival assessment within radiation oncology scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

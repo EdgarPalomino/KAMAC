@@ -1,0 +1,16 @@
+{
+    "RADCURE-3392": {
+        "question": "Age: 68.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 2, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "The bounding box coordinates provided are identical: [273, 176, 99, 273, 209, 123]. This suggests a very thin or possibly a single-slice region along the z-axis (since the minimum and maximum z-values are the same at 273), spanning y-coordinates from 176 to 209 and x-coordinates from 99 to 123.\n\nFrom a medical oncologist's perspective analyzing a head and neck CT scan:\n\n1. Anatomical Structures:\n   - The region likely corresponds to a small volume within the head and neck area, possibly including soft tissue structures such as parts of the oropharynx, base of tongue, or adjacent lymph nodes.\n   - Given the limited z-axis thickness, this may represent a single axial slice or a very thin volume.\n\n2. Patterns or Abnormalities:\n   - Without the actual image data, it is difficult to definitively identify abnormalities.\n   - However, the presence of a masked region of interest (ROI) in this area could indicate a lesion, tumor, or lymph node involvement.\n   - If this ROI corresponds to a tumor or nodal disease, its size and location are critical for staging and treatment planning.\n   - The small volume might suggest a localized lesion or a small metastatic lymph node.\n\n3. Oncologic Implications:\n   - If this ROI represents a tumor or involved lymph node, its size and location will influence staging (T and N categories).\n   - This, in turn, affects prognosis and treatment decisions such as the need for chemotherapy, radiotherapy, or combined modality treatment.\n   - The exact coordinates and volume help in precise radiation planning to maximize tumor control while sparing normal tissues.\n\nSince no clinical or pathological data are provided, and the bounding box is very limited in volume, no definitive statement about survival probability can be made solely based on these coordinates.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no  \nReason: existing expertise covers systemic therapy decisions  \n---",
+        "Round 2-role-comment": "medical oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

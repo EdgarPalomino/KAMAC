@@ -1,0 +1,16 @@
+{
+    "RADCURE-0838": {
+        "question": "Age: 83.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases and early-stage glottic laryngeal cancer. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates provided are [[249, 186, 61, 249, 213, 68], [249, 186, 61, 249, 213, 68]]. Both boxes are identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but without the original image dimensions, exact anatomical localization is limited. However, the z-axis values (249 to 249) suggest a single slice or very thin volume in the axial plane, while the y and x ranges (186 to 213 and 61 to 68) define a small rectangular area.\n\n3. Given the head and neck CT context, this small ROI likely corresponds to a localized structure or lesion. The small size and location could correspond to a lymph node, a small tumor focus, or an anatomical structure such as a minor salivary gland or part of the pharynx.\n\n4. No additional information about the scan (contrast, pathology, or clinical data) is provided, so it is not possible to definitively identify abnormalities or disease involvement.\n\n5. From a radiation oncology perspective, if this ROI represents a tumor or involved lymph node, its small size and localized nature could suggest a limited disease burden, potentially favorable for targeted radiation therapy with curative intent.\n\n6. Without evidence of extensive disease or nodal involvement, the prognosis might be cautiously optimistic, assuming appropriate treatment.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All necessary expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-2066": {
+        "question": "Age: 71.0, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 40, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[269, 192, 83, 269, 212, 91], [269, 192, 83, 269, 212, 91]], which appear to be identical and define a very small volumetric region within the CT scan. Given the z, y, x ranges are minimal (z: 269 to 269, y: 192 to 212, x: 83 to 91), this suggests a thin slice or a very localized area.\n\nFrom a radiation oncology perspective, especially in head and neck squamous cell carcinoma (HNSCC), such a small ROI could correspond to a localized lesion or a small anatomical structure. However, the exact anatomical structure or abnormality cannot be definitively identified without further context or image details.\n\nGiven the limited volume and the lack of visible abnormalities or mass effect in this small region, it is unlikely to represent a large tumor or gross nodal disease. It might represent a small lymph node, a minor anatomical landmark, or a small tumor focus.\n\nStep-by-step reasoning for survival probability:\n- The ROI is very small, suggesting limited disease burden.\n- No obvious large mass or nodal conglomerate is visible.\n- If this corresponds to a small primary tumor or a small involved lymph node, prognosis may be favorable, especially if HPV positive.\n- Without evidence of extensive local or regional disease, radiation therapy planning can be targeted effectively.\n- Overall, limited disease volume correlates with better local control and survival.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ HNSCC radiation planning expertise covered\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

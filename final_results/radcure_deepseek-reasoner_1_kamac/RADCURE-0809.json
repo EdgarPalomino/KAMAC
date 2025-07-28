@@ -1,0 +1,16 @@
+{
+    "RADCURE-0809": {
+        "question": "Age: 64.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 50, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Tonsil Pillar, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan is a sagittal view of the head and neck region, showing bony structures (vertebrae), airway, and soft tissues.\n\n2. The bounding box coordinates are given as:\n   - [273, 162, 111, 273, 226, 144]\n   - [260, 232, 135, 260, 263, 164]\n\n3. These coordinates are normalized relative to the image size, defining volumetric regions of interest (ROIs). The first box appears to be located in the mid to lower cervical spine region, possibly including parts of the pharynx or larynx soft tissues anteriorly. The second box is slightly lower and more posterior, possibly including cervical lymph node regions or adjacent soft tissues.\n\n4. From a radiation oncology perspective, these ROIs could represent either tumor volumes or involved lymph nodes in a head and neck squamous cell carcinoma case.\n\n5. No obvious gross abnormalities such as large masses or destructive bone lesions are described or visible in the provided image snippet. The vertebral bodies appear intact, and the airway is patent.\n\n6. Without additional clinical data (tumor staging, HPV status, treatment plan), it is difficult to precisely assess prognosis. However, involvement of cervical lymph nodes or primary tumor in this region is common in oropharyngeal cancers.\n\n7. If these ROIs correspond to tumor or nodal disease, radiation therapy planning would focus on delivering adequate dose to these volumes while sparing critical structures like the spinal cord and salivary glands.\n\n8. Survival probability in head and neck squamous cell carcinoma depends on multiple factors including HPV status, tumor stage, nodal involvement, and treatment modality. The absence of gross bone destruction or airway compromise is favorable.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:No",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: No\nReason: Survival assessment falls within current expertise.\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

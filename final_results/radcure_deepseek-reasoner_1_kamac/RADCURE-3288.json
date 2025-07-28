@@ -1,0 +1,16 @@
+{
+    "RADCURE-3288": {
+        "question": "Age: 39.3, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 10, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are normalized and define two volumetric regions within the head and neck CT scan:\n   - Box 1: [244, 192, 72, 244, 215, 78]\n   - Box 2: [256, 241, 31, 256, 299, 128]\n\n2. The first bounding box appears to be a very thin slice along the z-axis (244 to 244), suggesting a 2D plane or a very narrow volume. The y and x ranges (192-215 and 72-78) suggest a small region in the lateral and anterior-posterior dimensions.\n\n3. The second bounding box is also a thin slice along the z-axis (256 to 256), but with a larger y and x range (241-299 and 31-128), indicating a larger area in the coronal plane.\n\n4. Anatomically, these coordinates likely correspond to regions in the upper cervical spine and adjacent soft tissues, possibly including parts of the oropharynx or hypopharynx, given the z-axis values near the upper neck.\n\n5. No explicit abnormalities such as masses or lymphadenopathy are described or visible in the masked ROIs. Without contrast or further imaging details, it is difficult to identify tumor presence or extent.\n\n6. From a radiation oncology perspective, these ROIs could represent target volumes for radiation planning (e.g., gross tumor volume or involved lymph nodes) or organs at risk (e.g., spinal cord, parotid glands).\n\n7. The absence of visible abnormalities or tumor in these ROIs suggests either early-stage disease or post-treatment imaging.\n\n8. Survival probability in head and neck squamous cell carcinoma depends heavily on tumor stage, HPV status, nodal involvement, and treatment modality. Without evidence of bulky disease or nodal metastases in these ROIs, prognosis may be favorable.\n\nFinal answer:\nAlive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: adequate expertise present  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-0343": {
+        "question": "Age: 66.8, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Larynx, Subsite: Glottis, T: T3, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [258, 166, 68, 258, 191, 84]\n   - [257, 194, 130, 257, 227, 162]\n\n2. These coordinates are normalized and define volumetric regions within the head and neck CT scan.\n\n3. The first bounding box appears to be located in the mid to lower oropharyngeal region, possibly involving soft tissue structures such as the base of tongue or tonsillar area, given the y and x ranges.\n\n4. The second bounding box is more inferior and posterior, possibly involving the hypopharynx or upper cervical esophagus region.\n\n5. No direct image is provided here, but based on typical anatomical locations and bounding box coordinates, these regions could correspond to areas where squamous cell carcinoma might arise or lymph node involvement might be present.\n\n6. From a radiation oncology perspective, involvement of these regions suggests a locally advanced disease with potential nodal involvement.\n\n7. The presence of multiple ROIs in these areas may indicate either primary tumor and nodal disease or multiple nodal stations involved.\n\n8. HPV status is not provided here, but if HPV positive, prognosis is generally better; if negative, prognosis is worse.\n\n9. Treatment planning would likely involve definitive radiation therapy targeting these volumes, possibly with concurrent chemotherapy depending on staging and patient factors.\n\n10. Survival probability depends on tumor stage, nodal involvement, HPV status, and treatment modality.\n\nSince no direct clinical data (age, stage, HPV status, treatment) is provided, I cannot definitively state survival probability, but the presence of multiple ROIs in these regions suggests at least nodal involvement, which can reduce survival compared to node-negative disease.\n\nFinal answer:\n\nAnswer:Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: current expertise covers required scope\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3497": {
+        "question": "Age: 57.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan is a sagittal view of the head and neck region, showing bony structures (vertebrae), soft tissues including the oropharynx, and airway.\n\n2. The two bounding boxes are given as normalized coordinates within the scan volume:\n   - Box 1: [253, 206, 140, 253, 239, 166]\n   - Box 2: [261, 177, 88, 261, 209, 116]\n\n3. These coordinates likely correspond to regions of interest (ROIs) that may represent either tumor volumes or critical organs at risk (OARs).\n\n4. The first bounding box (Box 1) is located more posteriorly and superiorly, possibly encompassing part of the oropharynx or base of tongue region, which is a common site for HPV-related squamous cell carcinoma.\n\n5. The second bounding box (Box 2) is located more inferiorly and anteriorly, possibly involving the hypopharynx or laryngeal region.\n\n6. No obvious gross abnormalities such as large masses or destructive bone lesions are visible in this single slice, but the presence of masked ROIs suggests these are areas of interest for radiation planning.\n\n7. From a radiation oncology perspective, these ROIs would be critical for delineating target volumes for treatment or sparing organs at risk.\n\n8. Without additional clinical data (tumor staging, HPV status, etc.), it is difficult to precisely estimate survival probability, but involvement of oropharyngeal sites with HPV positivity generally confers a favorable prognosis.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Current expertise suffices for HPV+ oropharyngeal cancer RT planning/dosing.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

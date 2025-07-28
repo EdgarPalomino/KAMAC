@@ -1,0 +1,16 @@
+{
+    "RADCURE-3603": {
+        "question": "Age: 68.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Supraglottis, T: T3, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "The provided bounding box coordinates are identical: [251, 206, 68, 251, 245, 92]. This suggests a very thin or possibly a single-slice region along the z-axis (since the min and max z values are both 251), spanning y from 206 to 245 and x from 68 to 92. This region is likely a small volumetric area within the head and neck CT scan.\n\nFrom a medical oncologist's perspective, without direct visualization of the image content inside the ROI, I can infer the following:\n\n1. Anatomical Location: The coordinates suggest a region in the mid to lower neck area, possibly including structures such as the larynx, hypopharynx, or adjacent soft tissues. The exact anatomical structure cannot be definitively identified without image visualization.\n\n2. Patterns or Abnormalities: Since the ROI is masked and defined, it likely corresponds to a region of interest such as a tumor, lymph node, or organ at risk. The identical bounding boxes may indicate a focus on a specific lesion or structure.\n\n3. Oncologic Implications: If this ROI corresponds to a tumor or involved lymph node, its size and location are critical for staging and treatment planning. For example, involvement of the larynx or hypopharynx with nodal disease impacts prognosis and therapeutic approach.\n\n4. Survival Probability Considerations: Key factors influencing survival include tumor stage (T, N, M), HPV status, histology, and treatment modality. Without these clinical details, survival prediction is limited. However, a localized lesion in this region treated with appropriate chemo-radiotherapy generally has a better prognosis than advanced or metastatic disease.\n\nFinal assessment: The bounding box likely marks a small, localized region of interest in the head and neck CT, possibly a tumor or involved lymph node. Without further clinical or imaging details, no definitive abnormality or survival prediction can be made.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no  \nReason: no knowledge gap within current scope  \n---",
+        "Round 2-role-comment": "medical oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

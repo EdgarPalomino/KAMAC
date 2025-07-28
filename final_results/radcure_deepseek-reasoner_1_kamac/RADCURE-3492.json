@@ -1,0 +1,16 @@
+{
+    "RADCURE-3492": {
+        "question": "Age: 48.5, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 15, Smoking Status: Ex-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T1, N: N1, M : M0, Stage: II, Path: NPC, Type 2 (WHO IIA), HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative nasopharyngeal carcinoma cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are normalized and define two volumetric regions within the head and neck CT scan:\n   - Box 1: [256, 220, 110, 256, 254, 140]\n   - Box 2: [239, 184, 112, 239, 216, 125]\n\n2. These coordinates likely correspond to regions of interest (ROIs) that may represent either anatomical structures or disease sites such as tumor volumes or involved lymph nodes.\n\n3. Given the z, y, x ranges, these ROIs appear to be located in the upper cervical region, possibly involving the oropharynx or adjacent lymphatic structures.\n\n4. From a radiation oncology perspective, the presence of ROIs in these areas could indicate tumor involvement or nodal metastases, which are critical for treatment planning and prognosis.\n\n5. The size and location of these ROIs will influence the radiation dose distribution, potential toxicity to nearby organs at risk (OARs), and overall treatment strategy.\n\n6. Without additional clinical data (e.g., tumor stage, HPV status), it is difficult to precisely estimate survival probability, but involvement of these regions often corresponds to at least stage II or higher disease in head and neck squamous cell carcinoma.\n\n7. HPV status is a key prognostic factor; HPV-positive oropharyngeal cancers generally have better outcomes.\n\n8. If these ROIs represent nodal disease or primary tumor, appropriate radiation dose escalation and concurrent chemotherapy may be indicated to improve local control and survival.\n\nFinal answer:  \nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3051": {
+        "question": "Age: 65.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Hypopharynx, Subsite: Pyriform Sinus, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT + EGFRI, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the hypopharynx and pyriform sinus. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [244, 198, 85, 244, 248, 127]\n   - Box 2: [255, 252, 135, 255, 288, 164]\n\n2. These coordinates are normalized to the image size, indicating two distinct volumetric regions of interest (ROIs).\n\n3. From a radiation oncology perspective, these ROIs likely correspond to either tumor volumes or critical organs at risk (OARs) relevant for treatment planning.\n\n4. The first bounding box appears to be located in a region consistent with the oropharynx or hypopharynx area, possibly involving soft tissue structures that could represent a tumor mass or involved lymph nodes.\n\n5. The second bounding box is more superior and lateral, possibly corresponding to lymph node regions or adjacent anatomical structures such as the parotid gland or upper cervical lymph nodes.\n\n6. No obvious gross anatomical abnormalities such as bone erosion or airway obstruction are described, but the presence of these ROIs suggests areas of concern for tumor involvement or nodal metastasis.\n\n7. From a survival probability standpoint, involvement of multiple nodal regions or large tumor volumes in the head and neck region, especially if HPV-negative, generally correlates with a more guarded prognosis.\n\n8. Without additional clinical data (e.g., tumor staging, HPV status, treatment details), a definitive survival prediction is limited, but the presence of multiple ROIs in critical areas suggests a need for aggressive treatment and close follow-up.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no\n\nAnswer: Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: No gaps in current team's scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

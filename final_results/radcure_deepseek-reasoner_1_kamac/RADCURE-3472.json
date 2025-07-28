@@ -1,0 +1,16 @@
+{
+    "RADCURE-3472": {
+        "question": "Age: 73.5, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [274, 184, 99, 274, 214, 124]\n   - Box 2: [260, 232, 119, 260, 268, 154]\n\n2. The coordinates are normalized relative to the image size, but the exact dimensions are not provided here. However, the z, y, x ranges suggest these boxes are localized regions within the scan.\n\n3. From a radiation oncology perspective, these bounding boxes likely correspond to regions of interest such as tumor volumes or involved lymph nodes.\n\n4. The first bounding box appears to be a relatively small volume, possibly representing a primary tumor or a small nodal metastasis.\n\n5. The second bounding box is located more inferiorly and posteriorly, possibly corresponding to a lymph node region or another involved structure.\n\n6. Without contrast enhancement or further clinical data, it is difficult to definitively identify the exact anatomical structures or confirm the presence of tumor.\n\n7. However, the presence of multiple ROIs in the head and neck CT scan often indicates disease involvement in both primary and nodal sites, which is common in head and neck squamous cell carcinoma.\n\n8. From a radiation oncology standpoint, the involvement of multiple regions may suggest a more advanced nodal stage, which can impact prognosis and treatment planning.\n\n9. The absence of detailed clinical staging, HPV status, or treatment details limits precise survival prediction.\n\n10. If these ROIs represent tumor and nodal disease, the patient may require comprehensive radiation therapy targeting both sites.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no knowledge gaps within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

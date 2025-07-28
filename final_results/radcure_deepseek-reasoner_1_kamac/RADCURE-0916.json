@@ -1,0 +1,16 @@
+{
+    "RADCURE-0916": {
+        "question": "Age: 61.6, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 40, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [271, 180, 106, 271, 213, 121]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 271), covering a small volume in the y and x dimensions.\n\n2. Anatomically, the z-axis in a head and neck CT corresponds roughly to the cranio-caudal direction. A single slice at z=271 likely corresponds to a specific axial level in the head and neck region.\n\n3. The y and x coordinates (180 to 213 in y, 106 to 121 in x) define a small rectangular region. This could correspond to a small anatomical structure or a localized lesion.\n\n4. Without the actual CT image visible here, but given the location and size, this ROI could represent a small lymph node, a tumor focus, or a critical organ at risk (OAR) such as a portion of the pharynx, larynx, or a small gland.\n\n5. Since the bounding box is very limited in z-axis thickness, it is unlikely to represent a large tumor mass but could represent a small metastatic node or a localized tumor focus.\n\n6. From a radiation oncology perspective, the presence of a small ROI in this region could indicate a target for focused radiation or an OAR to be spared.\n\n7. No obvious abnormalities can be described without image visualization, but the small volume suggests a limited disease or a small anatomical structure.\n\n8. Regarding survival probability, if this ROI corresponds to a small tumor or involved node in the head and neck region, prognosis depends on HPV status, tumor stage, nodal involvement, and treatment modality.\n\n9. Since no clinical details are provided here, survival prediction cannot be precise, but small localized disease generally has a better prognosis.\n\nFinal answer:\n\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ oropharynx cases are within radiation oncology scope.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

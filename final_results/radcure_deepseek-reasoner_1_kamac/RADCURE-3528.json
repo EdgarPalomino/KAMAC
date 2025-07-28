@@ -1,0 +1,16 @@
+{
+    "RADCURE-3528": {
+        "question": "Age: 57.4, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 11, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Tonsil, T: T1, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 30, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates [[260, 199, 117, 260, 238, 141]] define a volumetric region within the CT scan. The z-axis range is from 260 to 260, indicating a single slice or very thin volume in the axial plane. The y-axis range is from 199 to 238, and the x-axis range is from 117 to 141, which localizes the region in the head and neck anatomy.\n\n2. The green highlighted region in the sagittal CT image appears to be located in the oropharyngeal area, possibly involving the base of tongue or tonsillar region, given the anatomical landmarks visible (cervical vertebrae posteriorly, airway anteriorly).\n\n3. No obvious gross abnormal mass or irregularity is visible in this single slice, but the highlighted region may represent a region of interest such as a tumor, lymph node, or organ at risk (OAR) for radiation planning.\n\n4. From a radiation oncology perspective, the exact nature of the ROI (tumor vs. normal tissue) is critical for dose planning. If this is a tumor volume, its size and location relative to critical structures (spinal cord, airway) will influence dose constraints and fractionation.\n\n5. Without additional clinical data (tumor staging, HPV status, treatment plan), it is difficult to predict survival probability solely from this image and bounding box. However, if this is a small, localized oropharyngeal tumor in an HPV-positive patient treated with definitive radiation, prognosis is generally favorable.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Expertise covered  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

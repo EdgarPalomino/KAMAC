@@ -1,0 +1,16 @@
+{
+    "RADCURE-3522": {
+        "question": "Age: 72.2, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Salivary Glands, Subsite: Submandibular Gland, T: T2, N: N0, M : M0, Stage: II, Path: Basaloid carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for salivary gland malignancies, including basaloid carcinoma of the submandibular gland. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan includes two bounding boxes with normalized coordinates:\n   - Box 1: [240, 238, 99, 240, 262, 118]\n   - Box 2: [235, 172, 63, 235, 197, 74]\n\n2. These coordinates correspond to specific volumetric regions within the head and neck CT scan. Given the context of salivary gland malignancies, these likely represent either tumor volumes or critical adjacent structures.\n\n3. The first bounding box appears to be located in a region consistent with the submandibular gland or adjacent soft tissues, given the z, y, x coordinates. This could represent the primary tumor or involved tissue.\n\n4. The second bounding box is smaller and located more superiorly and anteriorly, possibly representing a lymph node or a smaller lesion.\n\n5. No obvious gross anatomical abnormalities such as bone erosion or large nodal masses are described, but the presence of these ROIs suggests targeted areas for radiation planning.\n\n6. From a radiation oncology perspective, the involvement of the submandibular gland with basaloid carcinoma (as per the example) and no evident nodal or distant metastasis would suggest a localized disease amenable to definitive radiotherapy.\n\n7. The absence of nodal involvement (N0) and distant metastasis (M0) in the clinical context, along with a T2 tumor, generally indicates a favorable prognosis with appropriate radiation dosing.\n\n8. The bounding boxes help in delineating the gross tumor volume (GTV) and possibly involved lymph nodes for precise radiation targeting, minimizing dose to surrounding critical structures.\n\nFinal assessment: Given the localized nature of the disease, absence of nodal or distant spread, and appropriate radiation treatment, the patient's survival probability is favorable.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: All aspects of radiation therapy planning and dosing are within current expertise.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3377": {
+        "question": "Age: 55.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Possible, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a sagittal view of the head and neck region.\n2. The bounding box coordinates provided are [[251, 178, 67, 251, 203, 79], [251, 178, 67, 251, 203, 79]], which appear to be identical, indicating a single region of interest (ROI).\n3. The ROI is located in the upper cervical region, likely encompassing part of the oropharynx or hypopharynx, given the z, y, x coordinates relative to the image size.\n4. The masked region is small and localized, suggesting a focused lesion or structure.\n5. No obvious large mass or gross anatomical distortion is visible in this slice.\n6. From a radiation oncology perspective, the location and size of the ROI are critical for planning targeted radiation therapy, especially if this represents a tumor or involved lymph node.\n7. Without additional clinical data (tumor stage, HPV status, etc.), it is difficult to precisely estimate survival probability.\n8. However, a small, localized lesion in the oropharyngeal/hypopharyngeal region, if treated with definitive radiation therapy, generally has a reasonable prognosis, especially if HPV positive.\n9. The absence of visible large nodal disease or distant metastasis in this image slice is favorable.\n10. Overall, assuming standard treatment and no other adverse factors, the patient likely has a good chance of survival.\n\nAnswer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

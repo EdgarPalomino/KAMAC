@@ -1,0 +1,16 @@
+{
+    "RADCURE-3466": {
+        "question": "Age: 69.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 50, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[265, 197, 83, 265, 213, 91], [265, 197, 83, 265, 213, 91]], which appear to be identical and define a very small volumetric region within the CT scan. Given the coordinates, the region is limited in size and likely corresponds to a very localized anatomical structure or lesion.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location and Size**: The bounding box is very small and localized, suggesting it may represent a small lesion, lymph node, or a specific organ subregion. The exact anatomical structure is not explicitly stated, but given the head and neck CT context, it could be part of a lymph node chain or a small tumor focus.\n\n2. **Patterns or Abnormalities**: Without direct visualization of the CT image here, I rely on the bounding box size and location. The small size may indicate an early or limited disease focus, which is favorable for radiation targeting and control.\n\n3. **Implications for Radiation Therapy**: A small, well-defined ROI is ideal for precise radiation targeting, minimizing dose to surrounding normal tissues. This can improve local control and reduce toxicity.\n\n4. **Survival Probability Considerations**: Small, localized lesions in head and neck squamous cell carcinoma, especially if HPV-positive, generally have better prognosis. If HPV status is unknown or negative, prognosis depends more on tumor size, nodal involvement, and other clinical factors.\n\n5. **Limitations**: Without additional clinical data (tumor stage, HPV status, nodal involvement), survival prediction is limited. However, the small ROI size suggests a potentially favorable scenario for local control.\n\nFinal answer based on the above reasoning:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no knowledge gaps within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

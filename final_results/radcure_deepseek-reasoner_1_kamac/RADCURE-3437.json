@@ -1,0 +1,16 @@
+{
+    "RADCURE-3437": {
+        "question": "Age: 50.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T1, N: N2, M : M0, Stage: III, Path: NPC: Type 3 (WHO IIB), HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially stage III, WHO type IIB, HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[270, 171, 122, 270, 190, 133], [270, 171, 122, 270, 190, 133]], which appear to be identical and define a very small volumetric region within the CT scan. Given the z, y, x axes values and their normalization relative to the image size, this region likely corresponds to a localized area in the nasopharyngeal region or adjacent structures.\n\nFrom a radiation oncologist's perspective focusing on nasopharyngeal carcinoma (NPC), especially stage III, WHO type IIB, HPV status, and treatment planning:\n\n1. Anatomical Structures: The region likely includes part of the nasopharynx or adjacent soft tissue structures. The small size of the bounding box suggests it may be targeting a specific lesion or nodal involvement rather than a large anatomical organ.\n\n2. Patterns or Abnormalities: Since the bounding box is small and localized, it may represent a tumor focus or involved lymph node. In NPC, nodal metastases are common and critical for staging and radiation planning.\n\n3. Survival Probability Considerations: For stage III NPC, especially WHO type IIB, the prognosis depends on tumor size, nodal involvement, HPV status (negative or positive), and treatment modality. The presence of a small, well-defined lesion or nodal disease that can be encompassed within a precise radiation field is favorable for local control.\n\n4. Treatment Implications: Accurate delineation of such regions is essential for dose escalation to tumor volumes while sparing normal tissues, improving survival and reducing toxicity.\n\nGiven the limited information and the small, localized bounding box, if this corresponds to a treatable lesion in a patient receiving standard chemo-radiotherapy with adequate dose (e.g., 70 Gy in 35 fractions), the survival probability is generally favorable.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Multidisciplinary input already addressed within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

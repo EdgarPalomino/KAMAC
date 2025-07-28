@@ -1,0 +1,16 @@
+{
+    "RADCURE-0879": {
+        "question": "Age: 69.4, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 10, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N3, M : M0, Stage: IVB, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two provided bounding boxes indicating regions of interest (ROIs).\n2. The bounding box coordinates are normalized and correspond to specific volumetric regions within the scan:\n   - First bounding box: [235, 175, 106, 235, 203, 129]\n   - Second bounding box: [247, 234, 116, 247, 263, 143]\n3. These coordinates likely correspond to anatomical structures or pathological regions such as lymph nodes, tumor volumes, or critical organs at risk (OARs) relevant for radiation planning.\n4. Without direct visualization of the CT slices, but based on typical head and neck anatomy and the coordinate ranges, these ROIs may represent:\n   - Lymph node regions in the neck (common sites for metastatic spread in head and neck squamous cell carcinoma).\n   - Possible tumor involvement or nodal metastases.\n5. From a radiation oncology perspective, identifying these ROIs is critical for delineating gross tumor volume (GTV) and clinical target volume (CTV) to ensure adequate dose coverage while sparing normal tissues.\n6. The presence of multiple ROIs in the neck region may indicate nodal disease, which can impact staging and prognosis.\n7. The pattern of involvement (number, size, and location of nodes) influences treatment planning, dose prescription, and survival probability.\n8. If these ROIs correspond to metastatic lymph nodes, this would suggest at least N2 or N3 nodal staging, which is associated with a more advanced disease and potentially lower survival probability.\n9. HPV status, tumor primary site, and other clinical factors would further refine prognosis, but are not provided here.\n10. Overall, the identification of these ROIs suggests the need for comprehensive radiation coverage of involved nodal regions to optimize local control.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: team expertise covers required aspects  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

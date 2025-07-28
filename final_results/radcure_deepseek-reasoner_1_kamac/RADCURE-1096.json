@@ -1,0 +1,16 @@
+{
+    "RADCURE-1096": {
+        "question": "Age: 68.3, Sex: Male, ECOG PS: ECOG 0, Smoking PY: none, Smoking Status: unknown, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: Yes, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative glottic laryngeal cancer. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [257, 230, 52, 257, 291, 137]\n   - Box 2: [249, 175, 75, 249, 206, 89]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to cover a larger volume, likely including parts of the oropharynx or hypopharynx region, possibly encompassing lymph node areas or tumor sites.\n\n3. The second box is smaller and more localized, possibly representing a smaller lesion, lymph node, or an anatomical structure such as a salivary gland or a small tumor focus.\n\n4. From a radiation oncology perspective, the presence of multiple ROIs in the head and neck CT scan suggests either multiple tumor sites or tumor plus involved lymph nodes.\n\n5. The anatomical structures likely involved include the pharyngeal mucosa, lymphatic drainage regions, and possibly adjacent soft tissues.\n\n6. Patterns or abnormalities visible in these ROIs could indicate tumor involvement or nodal metastasis, which are critical for radiation treatment planning.\n\n7. The involvement of these regions, especially if representing nodal disease, would impact staging and prognosis.\n\n8. HPV status, tumor size, nodal involvement, and patient factors would further refine survival probability, but these are not provided here.\n\n9. Without additional clinical data, the presence of multiple ROIs in the head and neck region generally suggests a more advanced local or regional disease, which may reduce survival probability compared to early-stage disease.\n\nFinal answer:\n\nAnswer: Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional expertise required\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

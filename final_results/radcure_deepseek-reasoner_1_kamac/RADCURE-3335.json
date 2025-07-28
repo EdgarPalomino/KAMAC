@@ -1,0 +1,16 @@
+{
+    "RADCURE-3335": {
+        "question": "Age: 62.4, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T3, N: N0, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [249, 181, 62, 249, 208, 78]. This suggests a very small or possibly a single slice region of interest (ROI) in the CT scan, likely a localized structure or lesion.\n\n2. The coordinates are normalized relative to the original image size, but without the original image dimensions, the exact physical size is unclear. However, the z-axis values being the same (249 to 249) indicate a single axial slice.\n\n3. The ROI is located in the upper cervical region based on typical head and neck CT anatomy, likely involving soft tissue structures around the pharynx or larynx.\n\n4. Since the ROI is masked, it likely highlights a lesion or an anatomical structure of interest, possibly a tumor or lymph node.\n\n5. From a radiation oncology perspective, the presence of a localized ROI in this region could represent a primary tumor or involved lymph node in head and neck squamous cell carcinoma.\n\n6. Without additional clinical data (tumor size, nodal involvement, HPV status), it is difficult to precisely estimate survival probability. However, a small, localized lesion without nodal or distant spread generally correlates with a better prognosis.\n\n7. If this ROI corresponds to a tumor site, radiation therapy planning would focus on delivering an adequate dose to this volume while sparing adjacent critical structures such as the spinal cord and salivary glands.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialties required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

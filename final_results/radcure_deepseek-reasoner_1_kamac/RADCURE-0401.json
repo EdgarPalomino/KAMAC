@@ -1,0 +1,16 @@
+{
+    "RADCURE-0401": {
+        "question": "Age: 52.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a head and neck image in the sagittal plane.\n2. The bounding box coordinates [[279, 207, 111, 279, 227, 123]] define a very thin volume along the z-axis (279 to 279), which suggests a single slice or a very narrow region.\n3. The y-axis range is from 207 to 227, and the x-axis from 111 to 123, indicating a small region in the posterior oropharyngeal area or possibly the upper cervical spine region.\n4. Anatomical structures in this region typically include parts of the pharynx, cervical vertebrae, and possibly the base of the tongue or soft tissues adjacent to the airway.\n5. Without contrast enhancement or further clinical context, it is difficult to definitively identify abnormalities.\n6. No obvious mass or abnormal density is described or visible in the provided slice.\n7. From a radiation oncology perspective, if this region corresponds to a target volume or an organ at risk, careful delineation is critical to avoid unnecessary toxicity.\n8. If this region is a disease site (e.g., tumor or nodal involvement), its small size and location would influence radiation dose planning and prognosis.\n9. Since no explicit tumor or abnormality is described, and the bounding box is very limited, it is likely a normal anatomical region or a small ROI for treatment planning.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: No knowledge gaps within current team scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

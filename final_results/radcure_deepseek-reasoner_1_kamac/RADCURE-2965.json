@@ -1,0 +1,16 @@
+{
+    "RADCURE-2965": {
+        "question": "Age: 67.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases of the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[265, 202, 78, 265, 213, 84], [265, 202, 78, 265, 213, 84]], which appear to be identical and define a very small volumetric region within the CT scan. Given the coordinates, the region is limited in the z-axis (slice 265), y-axis (202 to 213), and x-axis (78 to 84).\n\nStep-by-step analysis:\n\n1. **Anatomical Location**: The z-coordinate 265 corresponds to a specific axial slice in the head and neck CT. The y and x coordinates define a small box likely within soft tissue structures of the neck.\n\n2. **Size and Volume**: The bounding box is very small, suggesting it may represent a small lesion, lymph node, or a specific organ subregion.\n\n3. **Visible Structures**: Without the actual image, but based on typical head and neck anatomy at this level, this region could correspond to a small lymph node or a localized tumor focus in the neck soft tissues.\n\n4. **Patterns or Abnormalities**: Since the ROI is masked, it likely highlights an area of interest such as a tumor or involved lymph node. The small size suggests a limited disease burden.\n\n5. **Radiation Oncology Perspective**: Identifying such small ROIs is critical for precise radiation targeting to maximize tumor control while sparing normal tissues. If this represents a metastatic lymph node or primary tumor focus, it would influence the radiation field design and dose.\n\n6. **Survival Probability Consideration**: Small, localized disease in the head and neck region, especially if HPV-positive squamous cell carcinoma, generally has a favorable prognosis with appropriate radiation therapy. The absence of larger or multiple ROIs suggests limited disease extent.\n\nFinal conclusion: The bounding box likely represents a small, localized lesion or lymph node in the neck. From a radiation oncology standpoint, this would be a target for focused radiation therapy with a generally favorable prognosis if treated appropriately.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no knowledge gaps within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

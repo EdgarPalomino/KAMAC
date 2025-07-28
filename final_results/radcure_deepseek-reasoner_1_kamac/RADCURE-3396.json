@@ -1,0 +1,16 @@
+{
+    "RADCURE-3396": {
+        "question": "Age: 66.9, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are identical: [242, 167, 111, 242, 219, 139]. This suggests a very thin or possibly a single-slice volumetric region within the CT scan, spanning from z=242 to 242, y=167 to 219, and x=111 to 139 (normalized to image size). This region likely corresponds to a localized area in the head and neck.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: The coordinates suggest a region in the mid to lower neck or upper thoracic inlet area, depending on the scan orientation and normalization. This area could include structures such as the oropharynx, hypopharynx, larynx, or adjacent lymph node regions.\n\n2. **Visible Structures**: Without the actual image, but based on typical CT anatomy and the bounding box size, this region may include soft tissue structures such as lymph nodes, parts of the pharynx, or possibly a tumor mass.\n\n3. **Patterns or Abnormalities**: Since the ROI is masked, it likely highlights a region of interest such as a tumor or involved lymph node. The identical bounding boxes suggest a focus on a single lesion or structure.\n\n4. **Clinical Implications**: For head and neck squamous cell carcinoma (especially HPV-positive), the presence of a defined ROI in this region could represent a primary tumor or involved nodal disease. This would be critical for radiation therapy planning to ensure adequate dose coverage while sparing adjacent normal tissues.\n\n5. **Survival Probability Considerations**: HPV-positive oropharyngeal cancers generally have a better prognosis. The size and location of the lesion, nodal involvement, and absence of distant metastasis are key factors. If this ROI corresponds to a localized tumor or nodal disease without distant spread, and the patient is receiving definitive chemoradiation, the survival probability is generally favorable.\n\nFinal answer:\n\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: expertise within team scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

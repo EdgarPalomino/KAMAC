@@ -1,0 +1,16 @@
+{
+    "RADCURE-3352": {
+        "question": "Age: 52.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 35, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T3, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[254, 186, 79, 254, 208, 89], [254, 186, 79, 254, 208, 89]], which appear to be identical and define a very small volumetric region within the CT scan. Given the normalized coordinates and the limited range along the z, y, and x axes, this region likely corresponds to a very localized area in the head and neck CT.\n\nFrom a radiation oncology perspective, the small size and location of this ROI suggest it could be targeting a specific anatomical structure or a small lesion. However, without additional context such as the exact anatomical landmarks or contrast enhancement, it is difficult to definitively identify the structure. The region could correspond to a small lymph node, a portion of the pharynx, or a localized tumor focus.\n\nNo obvious abnormalities such as large masses, gross anatomical distortion, or extensive lymphadenopathy are visible within this small ROI based on the bounding box alone. The scan slice shown does not reveal significant pathological changes in this region.\n\nConsidering the limited information and the small ROI, if this region represents a tumor or involved lymph node, it would likely be an early or localized disease site, which generally correlates with a better prognosis when treated appropriately with radiation therapy.\n\nFinal answer:\nAlive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

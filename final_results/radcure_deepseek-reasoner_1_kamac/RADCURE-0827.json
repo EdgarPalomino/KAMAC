@@ -1,0 +1,16 @@
+{
+    "RADCURE-0827": {
+        "question": "Age: 89.5, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 15, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases in elderly patients. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The provided bounding box coordinates are:\n   - [245, 185, 84, 245, 214, 90]\n   - [256, 243, 31, 256, 322, 134]\n\n2. These coordinates are normalized relative to the original image size and define volumetric regions within the head and neck CT scan.\n\n3. The first bounding box appears to be a very thin slice along the z-axis (245 to 245), suggesting a 2D plane or a very thin volume. The y-axis ranges from 185 to 214, and the x-axis from 84 to 90. This region likely corresponds to a small anatomical structure or lesion in the mid to lower neck region.\n\n4. The second bounding box is also a thin slice along the z-axis (256 to 256), with a larger y-axis range (243 to 322) and x-axis range (31 to 134). This suggests a larger 2D area or thin volume, possibly encompassing a larger anatomical structure or region of interest.\n\n5. Without the actual image, but based on typical head and neck anatomy and the coordinates, these regions could correspond to:\n   - The first box: possibly a small lesion or lymph node in the mid-neck region.\n   - The second box: a larger area possibly including part of the oropharynx, hypopharynx, or adjacent lymphatic structures.\n\n6. From a radiation oncology perspective, these ROIs could represent tumor volumes or involved lymph nodes requiring targeted radiation.\n\n7. No explicit abnormalities or tumor characteristics are described, so the assessment is limited to anatomical localization.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: No additional specialties required beyond current expertise.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3541": {
+        "question": "Age: 85.0, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 50, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1b, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases and early-stage glottic laryngeal cancer. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are [[251, 175, 68, 251, 198, 76], [251, 175, 68, 251, 198, 76]]. Both bounding boxes are identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but the exact anatomical location is not explicitly described here. However, given the context of a head and neck CT scan, these coordinates likely correspond to a small, localized region.\n\n3. The ROI appears to be a small volume, possibly representing a lesion, tumor, or an anatomical structure such as a lymph node or part of the pharynx or larynx.\n\n4. Without additional clinical data (e.g., tumor size, nodal involvement, HPV status, or pathology), it is difficult to definitively characterize the abnormality or its impact on prognosis.\n\n5. From a radiation oncology perspective, the presence of a defined ROI in the head and neck region could represent a target for radiation therapy planning, especially if it corresponds to a tumor or involved lymph node.\n\n6. The survival probability would depend on multiple factors including tumor stage, HPV status, nodal involvement, and treatment modality, none of which are provided here.\n\n7. Since no explicit abnormalities or anatomical structures are described or visible in the image snippet, and the bounding boxes are identical and small, it suggests a localized lesion or structure without evident extensive disease.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Alive  \nAnswer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV status and treatment parameters are sufficient for radiation planning.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

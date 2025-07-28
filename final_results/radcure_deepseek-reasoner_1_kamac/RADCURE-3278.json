@@ -1,0 +1,16 @@
+{
+    "RADCURE-3278": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "question": "Age: 55.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 30, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-medical oncologist": "The bounding box coordinates provided are identical: [247, 155, 91, 247, 197, 123]. This suggests a very limited or zero volume region, as the minimum and maximum values along the z-axis are the same (247 to 247). This likely corresponds to a single slice or a very thin region in the CT scan.\n\nFrom a medical oncologist's perspective, analyzing a single slice or very thin ROI limits the ability to fully assess volumetric tumor burden or organ involvement. However, I can comment on the anatomical structures typically present in this region of a head and neck CT scan.\n\n- The coordinates suggest a region in the upper neck or lower head area, possibly including parts of the oropharynx, hypopharynx, or adjacent soft tissues.\n- No clear volumetric abnormality or mass can be inferred from a single slice bounding box.\n- Without contrast enhancement or additional clinical context, it is difficult to identify tumor presence or lymph node involvement.\n- If this ROI corresponds to a masked region of interest, it may represent a small lesion or anatomical structure of interest for further evaluation.\n\nGiven the limited data and the nature of the bounding box, no definitive anatomical abnormality or tumor can be confidently described.\n\nAnswer: alive",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no  \nReason: current expertise covers systemic therapy decisions  \n---",
+        "Round 2-role-comment": "medical oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

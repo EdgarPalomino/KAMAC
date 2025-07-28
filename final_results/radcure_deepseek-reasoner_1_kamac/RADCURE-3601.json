@@ -1,0 +1,16 @@
+{
+    "RADCURE-3601": {
+        "question": "Age: 72.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Bounding box 1: [251, 234, 34, 251, 296, 109]\n   - Bounding box 2: [249, 193, 59, 249, 212, 64]\n\n2. These coordinates are normalized relative to the original image size, defining volumetric regions of interest (ROIs).\n\n3. The first bounding box appears to cover a larger volume, likely including parts of the oropharynx or hypopharynx region, possibly encompassing lymph node regions or tumor mass.\n\n4. The second bounding box is smaller and more localized, possibly representing a smaller lesion, lymph node, or anatomical structure such as a salivary gland or a small tumor focus.\n\n5. From a radiation oncology perspective, the presence of multiple ROIs could indicate primary tumor and involved lymph nodes or multiple disease sites.\n\n6. Without direct visualization of the scan, but given the bounding boxes, the likely scenario is a head and neck squamous cell carcinoma with at least one primary tumor site and possibly involved regional lymph nodes.\n\n7. The anatomical structures involved could include the pharynx, lymph nodes, or adjacent soft tissues.\n\n8. No explicit abnormalities such as bone erosion or gross necrosis can be confirmed without image details, but the presence of ROIs suggests areas targeted for radiation planning.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient within scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

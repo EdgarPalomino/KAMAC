@@ -1,0 +1,16 @@
+{
+    "RADCURE-0540": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the hard palate. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 51.5, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 35, Smoking Status: Current, Ds Site: Lip & Oral Cavity, Subsite: Hard Palate, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [254, 223, 109, 254, 256, 135]\n   - Box 2: [242, 190, 100, 242, 213, 106]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to be located more posteriorly and superiorly (higher z and y values), while the second box is more anterior and inferior.\n\n3. Anatomical structures in this region typically include parts of the oropharynx, nasopharynx, base of tongue, tonsillar region, and adjacent lymph nodes.\n\n4. Given the bounding boxes, the first region likely corresponds to a volume near the oropharyngeal or nasopharyngeal area, possibly including lymph node regions or tumor involvement.\n\n5. The second bounding box is smaller and more anterior, possibly representing a smaller lesion or involved lymph node.\n\n6. No explicit description of abnormalities is provided, but the presence of masked ROIs suggests these are areas of interest, likely tumor or involved lymph nodes.\n\n7. From a radiation oncology perspective, these volumes would be critical for target delineation in planning radiation therapy, especially for head and neck squamous cell carcinoma.\n\n8. Without additional clinical data (tumor staging, HPV status, etc.), survival probability cannot be precisely estimated, but involvement of multiple regions or lymph nodes generally indicates a more advanced stage and potentially worse prognosis.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV-related radiation planning expertise already present\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

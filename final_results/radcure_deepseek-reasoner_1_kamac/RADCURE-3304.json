@@ -1,0 +1,16 @@
+{
+    "RADCURE-3304": {
+        "question": "Age: 80.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 60, Smoking Status: Ex-smoker, Ds Site: Hypopharynx, Subsite: Pyriform Sinus, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the hypopharynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are identical: [247, 191, 60, 247, 234, 81]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 247), spanning y from 191 to 234 and x from 60 to 81.\n\n2. Given the normalized coordinates and the typical orientation of head and neck CT scans, this region likely corresponds to a small, localized area in the axial plane.\n\n3. Without the actual image, I cannot visually confirm the anatomical structures, but based on the location and size, this ROI could represent a small lesion or a specific organ substructure such as a lymph node or a small tumor focus.\n\n4. The fact that the bounding boxes are identical and very limited in z-axis suggests a focus on a very specific, possibly suspicious or treated area.\n\n5. From a radiation oncology perspective, such a small ROI might be a target volume for boost radiation or a critical organ at risk (OAR) that needs sparing.\n\n6. No direct information about tumor size, nodal involvement, or other clinical parameters is provided here, so survival probability cannot be directly inferred from this data alone.\n\n7. However, if this ROI corresponds to a small tumor or involved lymph node, and assuming standard treatment protocols, the prognosis would depend on HPV status, tumor stage, and treatment modality.\n\n8. Since no clinical or pathological data is given, I cannot definitively comment on survival probability.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ cases managed with RT alone fall within current expertise\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

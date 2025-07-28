@@ -1,0 +1,16 @@
+{
+    "RADCURE-1826": {
+        "question": "Age: 65.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T3, N: N2, M : M0, Stage: III, Path: NPC: Type 3 (WHO IIB), HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially stage III, WHO type 3 (IIB), HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist specializing in nasopharyngeal carcinoma (NPC), stage III, WHO type 3 (IIB), HPV negative:\n\n1. **Anatomical Structures and ROI Analysis:**\n   - The CT scan is a sagittal view of the head and neck region.\n   - The two bounding boxes provided correspond to volumetric regions within the nasopharyngeal area.\n   - The first bounding box ([260, 219, 135, 260, 249, 165]) likely encompasses a region in the nasopharynx or adjacent soft tissues.\n   - The second bounding box ([242, 185, 121, 242, 234, 158]) appears to cover a slightly more inferior or anterior region, possibly including lymph node regions or adjacent structures.\n   - The masked regions (highlighted in yellow and green) suggest areas of interest, likely tumor or involved lymph nodes.\n\n2. **Patterns and Abnormalities:**\n   - The highlighted regions correspond to abnormal soft tissue masses consistent with tumor involvement.\n   - Given the stage III classification and the bounding boxes, these likely represent the primary tumor and involved regional lymph nodes.\n   - No obvious distant metastases are visible in this scan.\n   - The tumor appears localized but with regional nodal involvement, consistent with N2 staging.\n\n3. **Radiation Oncology Perspective on Survival Probability:**\n   - Stage III NPC (T3N2M0) with WHO type 3 histology and HPV negative status generally has an intermediate prognosis.\n   - Concurrent chemoradiotherapy with a dose of 70 Gy in 35 fractions is standard and offers good local control.\n   - Absence of distant metastasis and good performance status improve survival chances.\n   - The presence of nodal disease (N2) increases risk but is manageable with aggressive treatment.\n   - Overall, with appropriate treatment, the patient has a reasonable chance of survival.\n\nFinal answer:\n\n('Answer:Alive',)",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no\n\nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Team scope sufficient\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

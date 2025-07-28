@@ -1,0 +1,16 @@
+{
+    "RADCURE-3430": {
+        "question": "Age: 70.7, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[269, 186, 92, 269, 206, 106], [269, 186, 92, 269, 206, 106]], which appear to be identical and define a very small volumetric region within the CT scan. Given the z-axis values are the same (269 to 269), this suggests a single axial slice or a very thin volume.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: The coordinates correspond to a small region in the head and neck CT scan. The y and x ranges (186 to 206 and 92 to 106) suggest a localized area, possibly within or near the oropharynx or adjacent structures.\n\n2. **Visible Structures**: Without the actual image, but based on typical head and neck anatomy and the coordinate ranges, this region could include parts of the oropharynx, possibly the base of tongue or tonsillar region, or adjacent lymph nodes.\n\n3. **Patterns or Abnormalities**: Since the ROI is masked and small, it likely represents a lesion or lymph node of interest, possibly a tumor or metastatic node. The identical bounding boxes suggest a focus on a single lesion.\n\n4. **Radiation Oncology Perspective**: Identifying the exact location and extent of the lesion is critical for radiation treatment planning. Precise targeting minimizes dose to surrounding normal tissues (e.g., spinal cord, salivary glands) and maximizes tumor control.\n\n5. **Survival Probability Consideration**: Without additional clinical data (tumor stage, HPV status, patient performance status), survival prediction is limited. However, if this ROI corresponds to a small, localized HPV-positive oropharyngeal squamous cell carcinoma, prognosis is generally favorable with definitive radiation therapy.\n\nFinal answer based on the provided data and typical clinical context:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All necessary expertise covered\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

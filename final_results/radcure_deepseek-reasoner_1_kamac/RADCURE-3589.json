@@ -1,0 +1,16 @@
+{
+    "RADCURE-3589": {
+        "question": "Age: 55.0, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 50, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are [[279, 192, 94, 279, 223, 117], [279, 192, 94, 279, 223, 117]]. Both boxes are identical, indicating a specific region of interest within the CT scan.\n\n2. The coordinates correspond to a very narrow slice along the z-axis (279 to 279), which suggests a single axial slice or a very thin volume. The y-axis ranges from 192 to 223, and the x-axis from 94 to 117, defining a small volumetric region.\n\n3. Without the actual image to visualize, but based on typical head and neck CT anatomy and the location of these coordinates (likely mid to lower neck region), this ROI could correspond to a lymph node region or a small anatomical structure such as a part of the oropharynx or adjacent soft tissue.\n\n4. Since the ROI is masked, it likely represents either a tumor volume or a nodal metastasis. The small size and location could suggest a metastatic lymph node or a small primary tumor focus.\n\n5. From a radiation oncology perspective, identifying and accurately delineating such ROIs is critical for planning targeted radiation therapy to maximize tumor control while sparing normal tissues.\n\n6. Without additional clinical data (tumor stage, HPV status, etc.), it is difficult to precisely estimate survival probability. However, small, well-defined lesions in the oropharynx or neck with no evidence of distant metastasis generally have a better prognosis, especially if HPV positive.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ head/neck SCC radiation planning/dosing expertise is sufficient.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

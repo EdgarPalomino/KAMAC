@@ -1,0 +1,16 @@
+{
+    "RADCURE-3534": {
+        "question": "Age: 61.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 30, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T3, N: N0, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [249, 122, 49, 249, 150, 64]\n   - [255, 168, 4, 255, 336, 105]\n\n2. These coordinates are normalized relative to the original image size and define volumetric regions within the head and neck CT scan.\n\n3. The first bounding box appears to be a very thin slice along the z-axis (249 to 249), spanning y=122 to 150 and x=49 to 64. This suggests a 2D plane or very thin volume, likely representing a specific anatomical structure or lesion in a localized area.\n\n4. The second bounding box spans from z=255 to 255 (again a thin slice), y=168 to 336, and x=4 to 105, indicating a larger area in the y and x dimensions but still a thin slice in z.\n\n5. Given the location and dimensions, these ROIs could correspond to regions in the oropharynx or hypopharynx, possibly including lymph node regions or tumor volumes.\n\n6. Without direct visualization, but considering typical head and neck anatomy and common sites of squamous cell carcinoma involvement, these bounding boxes may represent:\n   - The first ROI: a small lesion or nodal involvement near the midline or lateral pharyngeal wall.\n   - The second ROI: a larger nodal basin or tumor extension in the neck.\n\n7. No explicit abnormalities such as gross tumor mass, necrosis, or calcifications can be confirmed without image visualization, but the presence of these ROIs suggests areas of interest for radiation targeting.\n\n8. From a radiation oncology perspective, these regions would be critical for delineation of gross tumor volume (GTV) or involved lymph nodes for planning curative radiation therapy.\n\n9. The survival probability would depend on tumor stage, HPV status, nodal involvement, and treatment modality, none of which are explicitly provided here.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: existing expertise covers radiation therapy planning and dosing for HPV-related HNSCC.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

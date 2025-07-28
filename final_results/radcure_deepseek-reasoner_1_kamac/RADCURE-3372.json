@@ -1,0 +1,16 @@
+{
+    "RADCURE-3372": {
+        "question": "Age: 55.2, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 20, Smoking Status: Current, Ds Site: Nasal Cavity, Subsite: none, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the nasal cavity. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[248, 95, 118, 248, 138, 133], [248, 95, 118, 248, 138, 133]], which appear to be identical and define a very thin volumetric region along the z-axis (from 248 to 248), with y from 95 to 138 and x from 118 to 133. This suggests a single slice or a very narrow region in the axial plane.\n\nFrom a radiation oncologist's perspective analyzing a head and neck CT scan:\n\n1. Anatomical Structures: The region defined is likely within the mid to lower head and neck area, possibly including parts of the oropharynx or hypopharynx, depending on the exact slice level. The narrow z-range suggests a single axial slice, so the volume is very limited.\n\n2. Patterns or Abnormalities: Since the region is masked, it likely corresponds to a region of interest such as a tumor or involved lymph node. However, without contrast enhancement or further clinical details, it is difficult to definitively characterize the lesion. The identical bounding boxes suggest a focus on a specific lesion or structure.\n\n3. Radiation Oncology Implications: If this ROI corresponds to a tumor or involved node, its precise localization is critical for radiation treatment planning to ensure adequate dose coverage while sparing adjacent normal tissues. The small volume may indicate a localized lesion, which could be favorable for targeted radiation therapy.\n\n4. Survival Probability Considerations: Without additional clinical staging, HPV status, or treatment details, survival prediction is limited. However, a small, localized lesion in the head and neck region, if treated appropriately with radiation (with or without chemotherapy), generally has a better prognosis.\n\nFinal assessment: The provided bounding box likely marks a small, localized lesion in the head and neck region. From a radiation oncology standpoint, this would be a target for focused radiation therapy, potentially associated with a favorable survival outcome if no nodal or distant metastases are present.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Sufficient within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3587": {
+        "question": "Age: 74.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 50, Smoking Status: Current, Ds Site: Larynx, Subsite: Supraglottis, T: T4a, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: Yes, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [267, 155, 55, 267, 197, 87]\n   - [257, 217, 113, 257, 253, 147]\n\n2. These coordinates are normalized and define volumetric regions within the head and neck CT scan. The first bounding box appears to be located more superiorly and anteriorly, while the second is more inferior and posterior.\n\n3. Anatomical structures in these regions likely include parts of the oropharynx, hypopharynx, or possibly lymph node regions in the neck, depending on the exact slice and orientation.\n\n4. Since the scan includes masked regions of interest, these ROIs may represent tumor volumes or involved lymph nodes.\n\n5. From a radiation oncology perspective, the presence of multiple ROIs in these regions could indicate either primary tumor sites or nodal metastases, which are critical for treatment planning.\n\n6. No direct information about tumor size, invasion, or necrosis is provided, but the presence of two distinct ROIs suggests multifocal disease or nodal involvement.\n\n7. The involvement of these regions, especially if nodal, can impact staging and prognosis, influencing radiation dose and field design.\n\n8. Without additional clinical data (e.g., tumor histology, HPV status), survival probability cannot be precisely estimated, but multiple involved regions generally correlate with a more advanced stage and potentially worse prognosis.\n\nFinal answer:\n\nAnswer: Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient within scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

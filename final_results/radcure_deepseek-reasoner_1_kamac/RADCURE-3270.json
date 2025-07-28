@@ -1,0 +1,16 @@
+{
+    "RADCURE-3270": {
+        "question": "Age: 52.7, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [259, 209, 121, 259, 245, 152]\n   - [240, 157, 95, 240, 186, 113]\n\n2. These coordinates are normalized and define volumetric regions within the head and neck CT scan. The first bounding box appears to be located more superiorly and posteriorly (higher z and y values), while the second is more inferior and anterior.\n\n3. Anatomical structures in these regions of a head and neck CT typically include parts of the oropharynx, base of tongue, tonsillar region, and possibly lymph node regions.\n\n4. Since the bounding boxes are masked regions of interest, they likely correspond to either tumor volumes or involved lymph nodes.\n\n5. Without direct visualization of the scan, but given the coordinates and typical head and neck anatomy, these ROIs may represent:\n   - Primary tumor in the oropharynx or base of tongue region.\n   - Regional lymph node involvement.\n\n6. From a radiation oncology perspective, involvement of these regions, especially if bilateral or multiple nodes, would influence staging and treatment planning.\n\n7. The presence of disease in these areas, especially if HPV positive squamous cell carcinoma, generally has a better prognosis compared to HPV negative.\n\n8. The survival probability depends on tumor size (T), nodal involvement (N), distant metastasis (M), HPV status, and treatment modality.\n\n9. Since no direct mention of distant metastasis or other adverse features is given, and assuming standard treatment with chemo-radiotherapy, the prognosis is generally favorable.\n\nFinal answer:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Team collaboration already covers necessary specialties.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

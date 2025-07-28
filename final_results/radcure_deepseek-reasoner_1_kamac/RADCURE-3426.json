@@ -1,0 +1,16 @@
+{
+    "RADCURE-3426": {
+        "question": "Age: 86.7, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[282, 144, 95, 282, 188, 112], [282, 144, 95, 282, 188, 112]], which appear to be identical, indicating a single region of interest (ROI) within the CT scan.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Location and Size of ROI**: The bounding box is defined by minimum and maximum values along the z, y, and x axes. The z-axis values are both 282, indicating a single slice or very thin volume in the axial plane. The y-axis ranges from 144 to 188, and the x-axis from 95 to 112, suggesting a small, localized region.\n\n2. **Anatomical Structures**: Given the axial slice and the coordinates, this ROI likely corresponds to a small region in the oropharyngeal or hypopharyngeal area, possibly involving soft tissue structures such as the base of tongue, tonsillar region, or adjacent lymph nodes.\n\n3. **Visible Patterns or Abnormalities**: Since the ROI is masked, it likely highlights a lesion or area of interest, possibly a tumor or involved lymph node. The small size and localization suggest a limited disease volume.\n\n4. **Implications for Radiation Therapy**: A small, well-defined ROI is favorable for targeted radiation therapy, allowing for dose escalation to the tumor while sparing surrounding normal tissues. This can improve local control and reduce toxicity.\n\n5. **Survival Probability Considerations**: If this ROI corresponds to a primary tumor or involved node in HPV-positive oropharyngeal squamous cell carcinoma, the prognosis is generally favorable with appropriate radiation therapy. The small size and localized nature further support a good outcome.\n\nFinal answer:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Radiation oncologist's expertise covers HPV+ head and neck SCC planning/dosing.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

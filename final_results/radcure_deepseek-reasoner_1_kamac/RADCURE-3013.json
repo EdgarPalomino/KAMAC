@@ -1,0 +1,16 @@
+{
+    "RADCURE-3013": {
+        "question": "Age: 65.2, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 30, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a sagittal view of the head and neck region.\n2. The two bounding boxes are defined by normalized coordinates, which correspond to specific volumetric regions within the scan.\n3. The first bounding box [270, 193, 98, 270, 227, 121] appears to be a thin slice (z min and max are the same at 270), suggesting a 2D plane or a very thin volume. This region is located roughly in the mid to lower neck area, possibly including parts of the oropharynx or hypopharynx.\n4. The second bounding box [257, 224, 136, 257, 253, 165] is also a thin slice (z min and max both 257), located slightly lower and more posterior, possibly including parts of the cervical esophagus or upper trachea.\n5. No obvious gross abnormalities such as large masses or grossly enlarged lymph nodes are visible in these regions based on the image provided.\n6. The anatomical structures visible include the vertebral bodies posteriorly, the airway anteriorly, and soft tissues of the neck.\n7. From a radiation oncology perspective, these regions could correspond to areas of interest for targeting or sparing during radiation therapy, especially if there is known disease involvement or risk of microscopic spread.\n8. Without additional clinical information (tumor stage, pathology, HPV status), it is difficult to predict survival probability solely based on these bounding boxes and the image.\n9. However, if these regions are involved by tumor or nodal disease, it could impact staging and prognosis.\n10. Given the lack of visible gross disease in these bounding boxes and no other clinical data, the survival probability cannot be definitively assessed.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialties required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

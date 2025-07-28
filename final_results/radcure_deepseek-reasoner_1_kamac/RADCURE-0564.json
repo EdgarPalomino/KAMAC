@@ -1,0 +1,16 @@
+{
+    "RADCURE-0564": {
+        "question": "Age: 74.6, Sex: Female, ECOG PS: ECOG 1, Smoking PY: 15, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil Pillar, T: T2, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates given are [[277, 193, 108, 277, 221, 123], [270, 234, 129, 270, 257, 152]]. These coordinates are normalized and define two volumetric regions within the head and neck CT scan.\n\n2. The first bounding box appears to be very thin in the z-axis (277 to 277), which suggests it might be a single slice or a very narrow region. The y-axis ranges from 193 to 221 and the x-axis from 108 to 123. This region is likely located in the upper cervical or oropharyngeal area given the typical dimensions of head and neck CT scans.\n\n3. The second bounding box also has a very narrow z-axis range (270 to 270), with y-axis from 234 to 257 and x-axis from 129 to 152. This is likely a different anatomical region, possibly lower in the neck or adjacent to the first region.\n\n4. Without direct visualization of the CT scan, but based on typical anatomy and the bounding box locations, these regions could correspond to lymph node areas or small tumor volumes in the oropharynx or neck.\n\n5. From a radiation oncology perspective, these ROIs might represent involved lymph nodes or tumor sites requiring targeted radiation.\n\n6. No explicit abnormalities or tumor characteristics can be definitively described without image visualization, but the presence of these ROIs suggests areas of interest for treatment planning.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

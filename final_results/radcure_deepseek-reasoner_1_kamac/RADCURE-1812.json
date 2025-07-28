@@ -1,0 +1,16 @@
+{
+    "RADCURE-1812": {
+        "question": "Age: 65.3, Sex: Female, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Lip & Oral Cavity, Subsite: Floor of Mouth, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the floor of mouth. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Bounding box 1: [264, 234, 52, 264, 286, 135]\n   - Bounding box 2: [267, 143, 126, 267, 166, 142]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first bounding box appears to cover a region in the lower neck or upper thoracic inlet area, possibly including lymph node regions or soft tissue structures. The second bounding box is smaller and more superior, likely in the oropharyngeal or base of tongue region.\n\n3. From a radiation oncology perspective, these ROIs could represent:\n   - Primary tumor sites or gross tumor volumes (GTV)\n   - Involved lymph nodes or nodal disease\n   - Critical organs at risk (OARs) such as the spinal cord, parotid glands, or pharyngeal constrictors\n\n4. Without direct visualization of the scan, but given the location and typical head and neck cancer patterns, the first bounding box may correspond to a nodal mass or tumor extension in the lower neck, which is significant for staging and treatment planning.\n\n5. The second bounding box, being smaller and more superior, could represent a primary tumor or a smaller nodal metastasis.\n\n6. The presence of multiple ROIs suggests at least locoregional disease spread, which impacts prognosis and radiation treatment fields.\n\n7. From a survival probability standpoint, involvement of multiple nodal regions or bulky disease in the lower neck generally indicates a higher stage and potentially worse prognosis, especially if HPV status is negative or unknown.\n\n8. Treatment planning would need to ensure adequate dose coverage of these volumes while sparing critical structures to minimize toxicity.\n\nFinal answer based on this reasoning:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Current expertise covers radiation planning and HPV-related considerations; no additional specialties required.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

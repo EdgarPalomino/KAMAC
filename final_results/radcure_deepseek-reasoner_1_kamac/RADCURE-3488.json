@@ -1,0 +1,16 @@
+{
+    "RADCURE-3488": {
+        "question": "Age: 81.7, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 50, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is a sagittal view of the head and neck region. The green mask highlights a region of interest (ROI) in the oropharyngeal area, likely involving the base of tongue or adjacent structures.\n\n2. The bounding box coordinates [[237, 116, 95, 237, 175, 116], [237, 116, 95, 237, 175, 116]] appear to be identical, indicating a single volumetric region of interest. The coordinates are normalized, but given the image size, this ROI corresponds to a localized area in the oropharynx.\n\n3. Anatomical structures visible in this region include the base of tongue, oropharyngeal mucosa, and possibly adjacent lymphatic tissue. The green mask likely represents a tumor or involved lymph node.\n\n4. No obvious gross bone destruction or airway compromise is visible in this single slice, but the tumor appears to be localized without extensive invasion.\n\n5. From a radiation oncology perspective, this tumor location and size suggest a locally advanced oropharyngeal squamous cell carcinoma, possibly HPV positive given the site and patient profile.\n\n6. Treatment would typically involve definitive radiation therapy, possibly with concurrent chemotherapy depending on nodal status and HPV status.\n\n7. Prognostically, HPV positive oropharyngeal cancers have a better survival rate compared to HPV negative, especially with appropriate radiation dosing (e.g., 70 Gy in 35 fractions).\n\n8. Without additional clinical data (age, performance status, nodal involvement), survival prediction is limited but generally favorable if HPV positive and treated with definitive RT.\n\nFinal answer based on typical clinical context and imaging:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: HPV+ oropharyngeal cancer survival assessment falls within radiation oncology scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

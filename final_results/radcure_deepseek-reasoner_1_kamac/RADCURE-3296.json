@@ -1,0 +1,16 @@
+{
+    "RADCURE-3296": {
+        "question": "Age: 59.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are identical: [275, 190, 89, 275, 236, 119]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 275), spanning y from 190 to 236 and x from 89 to 119 in normalized coordinates.\n\nFrom a radiation oncology perspective, this region likely corresponds to a small, localized area within the head and neck CT scan. Given the axial slice and the coordinates, this could represent a region in the oropharynx or adjacent soft tissues, possibly highlighting a tumor or involved lymph node.\n\nNo direct anatomical structures can be definitively identified without the image, but the small volume and location suggest a targeted ROI, possibly a tumor or nodal metastasis.\n\nRegarding abnormalities, the presence of a masked ROI in this region often indicates a lesion or disease focus relevant for radiation planning.\n\nSince the bounding boxes are identical, it may be a duplication or emphasis on the same lesion.\n\nWithout additional clinical data (tumor stage, HPV status, treatment), survival probability cannot be precisely assessed. However, if this ROI corresponds to a localized oropharyngeal squamous cell carcinoma, especially if HPV-positive, the prognosis is generally favorable with appropriate chemo-radiotherapy.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current expertise covers necessary aspects\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

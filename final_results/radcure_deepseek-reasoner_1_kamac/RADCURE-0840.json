@@ -1,0 +1,16 @@
+{
+    "RADCURE-0840": {
+        "question": "Age: 68.2, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 50, Smoking Status: Current, Ds Site: Larynx, Subsite: Subglottis, T: T3, N: N0, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[257, 186, 64, 257, 216, 82], [257, 186, 64, 257, 216, 82]], which appear to be identical, indicating a single volumetric region of interest (ROI) within the CT scan.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: The coordinates correspond to a specific region in the head and neck CT scan. Given the z, y, x axes values, this ROI likely corresponds to a localized area in the oropharyngeal or hypopharyngeal region, possibly involving soft tissue structures.\n\n2. **Visible Structures**: Within this ROI, one would expect to see parts of the pharynx, possibly lymph nodes, or tumor mass if present. The scan slice shows soft tissue density with no obvious bony involvement or gross anatomical distortion visible in the provided image.\n\n3. **Patterns or Abnormalities**: The ROI is masked, suggesting it may represent a tumor or involved lymph node. There is no clear evidence of necrosis or calcification within this region on the image. The absence of contrast enhancement details limits assessment of vascular involvement.\n\n4. **Clinical Implications**: If this ROI corresponds to a tumor or nodal disease, its size and location are critical for radiation planning. Precise targeting is necessary to maximize tumor control while sparing adjacent critical structures such as the spinal cord, carotid arteries, and salivary glands.\n\n5. **Survival Probability Consideration**: Without additional clinical data (tumor stage, HPV status, patient performance status), survival prediction is limited. However, localized disease in the oropharynx with no distant metastasis generally has a favorable prognosis, especially if HPV-positive. Radiation dose and fractionation would be tailored accordingly.\n\nFinal answer: No definitive abnormality can be confirmed solely from the bounding box and image provided, but the ROI likely represents a target volume for radiation therapy.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialties required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

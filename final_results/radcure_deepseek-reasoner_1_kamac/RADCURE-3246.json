@@ -1,0 +1,16 @@
+{
+    "RADCURE-3246": {
+        "question": "Age: 81.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 100, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan is of the head and neck region, with two bounding boxes indicating regions of interest (ROIs).\n2. The first bounding box coordinates are [257, 202, 125, 257, 235, 153]. This box appears to be a thin slice along the z-axis (both min and max z are 257), suggesting a 2D plane or a very thin volume. The y and x ranges (202-235 and 125-153) suggest a localized area in the mid to lower neck region.\n3. The second bounding box coordinates are [262, 154, 66, 262, 181, 78], also a thin slice at z=262, with y from 154 to 181 and x from 66 to 78, indicating a smaller, more superior and medial region compared to the first box.\n4. Anatomical structures in these regions likely include parts of the pharynx, larynx, or adjacent soft tissues, possibly lymph nodes or tumor regions.\n5. Without contrast enhancement or further clinical data, it is difficult to definitively identify abnormalities, but the presence of masked ROIs suggests these are areas of interest for tumor or nodal involvement.\n6. From a radiation oncology perspective, these ROIs could represent gross tumor volumes (GTV) or involved lymph nodes requiring targeted radiation.\n7. The thin z-axis range suggests these are specific slices chosen for detailed evaluation, possibly highlighting suspicious or confirmed disease sites.\n8. No obvious large mass or gross anatomical distortion is described, but the presence of ROIs implies abnormal tissue warranting treatment planning.\n9. Survival probability would depend on tumor stage, HPV status, nodal involvement, and treatment modality, none of which are provided here.\n10. Given the limited data, I cannot definitively comment on survival but can confirm these ROIs are critical for precise radiation targeting.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Current expertise covers HPV-related HNSCC radiation planning.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

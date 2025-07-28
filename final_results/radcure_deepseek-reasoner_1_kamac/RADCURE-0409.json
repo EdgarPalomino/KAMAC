@@ -1,0 +1,16 @@
+{
+    "RADCURE-0409": {
+        "question": "Age: 52.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 60, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a sagittal view of the head and neck region.\n2. The two bounding boxes are given as normalized coordinates relative to the image size:\n   - Box 1: [241, 150, 89, 241, 173, 108]\n   - Box 2: [253, 185, 125, 253, 216, 154]\n3. Both boxes have the same minimum and maximum z-coordinate (241 and 253), indicating they are thin slices in the z-axis.\n4. The y and x coordinates suggest these boxes are located in the oropharyngeal region, likely around the base of tongue and adjacent structures.\n5. The first box is smaller and more anterior, possibly representing a tumor or involved lymph node.\n6. The second box is larger and more posterior and inferior, possibly representing a second involved lymph node or extension of disease.\n7. No obvious normal anatomical structures such as the spinal cord or major vessels are included in these boxes.\n8. The presence of two distinct ROIs in this region suggests multifocal disease or nodal involvement.\n9. From a radiation oncology perspective, these ROIs would be critical for target volume delineation and dose planning.\n10. The involvement of multiple nodal regions or tumor sites in the oropharynx, especially if HPV positive, generally has a favorable prognosis but requires careful dose delivery to avoid toxicity.\n11. The thin z-axis dimension suggests these are precise segmentations, likely for high-accuracy treatment planning.\n\nFinal assessment: The bounding boxes likely represent tumor and nodal disease in the oropharynx region, important for radiation targeting. The prognosis depends on HPV status, tumor size, nodal involvement, and treatment modality.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ oropharynx cases are managed within multidisciplinary teams, but radiation oncologists lead definitive chemoRT planning/dose decisions.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

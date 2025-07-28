@@ -1,0 +1,16 @@
+{
+    "RADCURE-3449": {
+        "question": "Age: 58.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 50, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Soft Palate, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates provided are identical: [271, 140, 106, 271, 191, 128]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 271), spanning y from 140 to 191 and x from 106 to 128.\n\n2. Given the z-axis is fixed at 271, this corresponds to a single axial slice in the CT scan.\n\n3. The region covers a vertical range (y-axis) of 51 pixels and a horizontal range (x-axis) of 22 pixels, which is a relatively small area.\n\n4. Without the actual image content visible here, I cannot directly describe anatomical structures or abnormalities. However, based on typical head and neck CT anatomy and the location of the bounding box (mid to lower axial slices), this region could correspond to part of the oropharynx or adjacent soft tissues.\n\n5. Since the ROI is masked, it likely represents either a tumor volume or a critical organ at risk (OAR).\n\n6. From a radiation oncology perspective, the small size and single-slice nature of the ROI may indicate a localized lesion or a small organ at risk.\n\n7. No direct evidence of gross tumor volume (GTV) or nodal involvement can be inferred solely from these coordinates.\n\n8. Without further clinical or imaging data, survival probability cannot be precisely estimated.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

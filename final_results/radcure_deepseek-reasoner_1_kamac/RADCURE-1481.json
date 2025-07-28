@@ -1,0 +1,16 @@
+{
+    "RADCURE-1481": {
+        "question": "Age: 77.0, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1b, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [249, 172, 69, 249, 188, 77]\n   - Box 2: [255, 223, 38, 255, 275, 121]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to be a smaller region, possibly within or near the upper aerodigestive tract or adjacent soft tissues. The second box is larger and extends over a wider range in the y and x axes, possibly encompassing a larger anatomical structure or pathological region.\n\n3. From a radiation oncology perspective, these ROIs could represent:\n   - Organs at risk (OARs) such as the pharynx, larynx, or salivary glands.\n   - Disease regions such as primary tumor or involved lymph nodes.\n   - Cellular structures are less likely to be visible on CT but could be inferred from the ROI.\n\n4. Without direct visualization of the scan, but given the bounding boxes, the second box's larger size and location might correspond to a nodal region or a tumor mass in the neck.\n\n5. Important considerations for survival probability in head and neck squamous cell carcinoma (HNSCC) include:\n   - Tumor size and extent (T stage)\n   - Nodal involvement (N stage)\n   - HPV status (HPV-positive tumors generally have better prognosis)\n   - Patient factors (age, performance status, smoking history)\n   - Treatment modality and dose\n\n6. Since the question only provides bounding boxes without clinical staging or pathology, I cannot definitively assess survival probability. However, if these ROIs represent tumor and nodal disease, the presence of nodal involvement generally worsens prognosis.\n\n7. From a radiation oncologist's perspective, accurate delineation of these ROIs is critical for treatment planning to maximize tumor control while sparing normal tissues.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient within scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-1177": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "question": "Age: 52.6, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-medical oncologist": "The provided bounding box coordinates are identical: [275, 143, 99, 275, 166, 109]. This suggests a very thin or possibly zero thickness region along the z-axis (since min and max z are both 275), which may indicate a single slice or a very limited volume in the scan.\n\nFrom a medical oncologist's perspective, analyzing a head and neck CT scan with such bounding boxes typically aims to identify tumor involvement, nodal disease, or critical anatomical structures relevant for treatment planning.\n\nHowever, with the given coordinates, the region is very limited and likely corresponds to a small area in the posterior oropharyngeal region or adjacent structures, but no clear volumetric lesion or abnormality can be confidently described based on this data alone.\n\nNo visible anatomical structures or abnormalities can be definitively identified or characterized from the provided bounding box coordinates without additional imaging context or clinical information.\n\nTherefore, no direct oncologic implications or survival predictions can be made from this limited data.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no\nReason: adequate expertise within scope\n---",
+        "Round 2-role-comment": "medical oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-1486": {
+        "question": "Age: 73.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T1, N: N0, M : M0, Stage: I, Path: NPC: Type 3 (WHO IIB), HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially early-stage WHO type 3 (IIB) NPC cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[269, 208, 123, 269, 227, 131], [269, 208, 123, 269, 227, 131]], which appear to be identical and define a very small volumetric region within the CT scan. Given the z, y, x axes values and their normalization relative to the image size, this region is likely localized in a very specific and small area of the head and neck.\n\nFrom a radiation oncologist's perspective, analyzing this small ROI in a head and neck CT scan, the following considerations apply:\n\n1. Anatomical Structures: The coordinates suggest a region near the posterior or inferior part of the head/neck, possibly close to the base of the skull or upper cervical spine. This area may include parts of the nasopharynx, oropharynx, or adjacent soft tissues.\n\n2. Patterns or Abnormalities: Since the ROI is very small and duplicated, it may represent a focused lesion or a region of interest marked for treatment planning or diagnostic evaluation. No obvious large mass or abnormality is described or visible in the provided data.\n\n3. Clinical Implications: For nasopharyngeal carcinoma (NPC), early detection and precise targeting of the tumor volume are critical. If this ROI corresponds to a tumor or involved lymph node, it would be essential to ensure adequate radiation dose coverage while sparing critical nearby structures such as the brainstem, spinal cord, and salivary glands.\n\n4. Survival Probability: Without additional clinical data (tumor stage, nodal involvement, metastasis, pathology, treatment details), it is challenging to estimate survival probability solely based on this small ROI. However, if this region represents an early-stage NPC lesion (e.g., T1N0M0), treated with definitive radiotherapy, the prognosis is generally favorable.\n\nSince no further clinical or pathological information is provided, and the ROI is very limited in size, I cannot definitively identify abnormalities or predict survival outcomes.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: current expertise covers treatment planning and dosing for early-stage nasopharyngeal carcinoma\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3152": {
+        "question": "Age: 62.7, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 40, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [247, 173, 89, 247, 197, 99]\n   - Box 2: [257, 222, 44, 257, 276, 127]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to be a relatively small region, possibly within the oropharynx or adjacent soft tissues. The second box is larger and extends over a wider range in the y and x axes, possibly including lymph node regions or other soft tissue structures.\n\n3. From a radiation oncology perspective, these ROIs could represent:\n   - Primary tumor sites (e.g., oropharynx, base of tongue)\n   - Involved lymph nodes (nodal metastases)\n   - Organs at risk (OARs) such as the spinal cord, parotid glands, or pharyngeal constrictors\n\n4. Without direct visualization of the scan, but given the bounding boxes, the first ROI might correspond to a primary tumor or a small nodal mass, while the second ROI could represent a larger nodal basin or a critical structure.\n\n5. Important considerations for survival probability include:\n   - Tumor size and location\n   - Nodal involvement (N stage)\n   - HPV status (HPV positive tumors generally have better prognosis)\n   - Treatment modality and dose\n\n6. Since the question does not provide clinical or pathological details, I cannot definitively assess survival probability. However, if these ROIs represent a primary tumor and involved nodes in a typical HPV-positive oropharyngeal squamous cell carcinoma treated with definitive radiation, the prognosis is generally favorable.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Survival assessment within radiation oncology scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

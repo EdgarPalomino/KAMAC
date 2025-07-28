@@ -1,0 +1,16 @@
+{
+    "RADCURE-0750": {
+        "question": "Age: 65.5, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 30, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two provided bounding boxes indicating regions of interest (ROIs).\n2. The first bounding box coordinates: [223, 153, 105, 223, 318, 169] suggest a volumetric region extending along the z-axis at slice 223, y-axis from 153 to 318, and x-axis from 105 to 169.\n3. The second bounding box coordinates: [223, 170, 93, 223, 208, 112] indicate a smaller region within the same z-slice (223), y-axis 170 to 208, and x-axis 93 to 112.\n4. These ROIs likely correspond to anatomical structures or pathological regions such as lymph nodes or tumor volumes.\n5. Given the location in the head and neck CT, the first larger ROI may correspond to a lymph node region or a tumor mass in the oropharyngeal or neck area.\n6. The second smaller ROI could represent a smaller lymph node or a subregion of the tumor or adjacent structure.\n7. No direct visible abnormalities can be described without the actual image, but the presence of these ROIs suggests areas of interest for radiation targeting.\n8. From a radiation oncology perspective, these ROIs would be critical for delineating gross tumor volume (GTV) or involved lymph nodes for treatment planning.\n9. The survival probability would depend on tumor staging, HPV status, and treatment modality, which are not provided here.\n10. Without additional clinical data, a definitive survival prognosis cannot be given, but the presence of defined ROIs indicates active disease requiring targeted radiation.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: current expertise suffices for radiation planning  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

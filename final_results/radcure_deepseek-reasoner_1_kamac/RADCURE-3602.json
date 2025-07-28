@@ -1,0 +1,16 @@
+{
+    "RADCURE-3602": {
+        "question": "Age: 66.8, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 52, Smoking Status: Current, Ds Site: Hypopharynx, Subsite: Pyriform Sinus, T: T2, N: N3, M : M0, Stage: IVB, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the hypopharynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are identical: [251, 214, 101, 251, 239, 118]. This suggests a very small or possibly a single-slice region of interest within the CT scan, located at the same z-axis position (251) and spanning a narrow range in the y (214 to 239) and x (101 to 118) axes.\n\nStep-by-step analysis from a radiation oncologist's perspective:\n\n1. **Anatomical Location**: The z-coordinate 251 likely corresponds to a specific axial slice in the head and neck region. The y and x coordinates define a small volume within this slice. Given the typical size of head and neck CT scans, this region is quite localized.\n\n2. **Visible Structures**: Without the actual image, but based on typical head and neck anatomy and the coordinates, this small ROI could correspond to a small lymph node, a portion of a gland (e.g., submandibular or parotid), or a small tumor focus.\n\n3. **Patterns or Abnormalities**: Since the ROI is masked, it likely highlights an area of interest such as a tumor, lymph node metastasis, or an organ at risk. The small size and precise localization suggest it might be a suspicious lymph node or a small tumor nodule.\n\n4. **Implications for Radiation Therapy**: If this ROI represents a tumor or involved lymph node, it would be critical to include it in the high-dose target volume during radiation planning. The small size might allow for a focused boost dose, sparing surrounding normal tissues.\n\n5. **Survival Probability Considerations**: The prognosis depends on the tumor stage, nodal involvement, HPV status, and treatment modality. A small, localized lesion without extensive nodal or distant spread generally has a better prognosis. However, without additional clinical data, precise survival prediction is limited.\n\nFinal answer based on the provided data and typical clinical context:\n\n('Answer:Alive',)",
+        "initial_assessment_review_assessment-radiation oncologist": "('Answer:Dead',)",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient expertise within current scope\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

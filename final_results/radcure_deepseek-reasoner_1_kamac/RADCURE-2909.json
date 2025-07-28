@@ -1,0 +1,16 @@
+{
+    "RADCURE-2909": {
+        "question": "Age: 68.4, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T2, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[275, 172, 110, 275, 203, 129], [275, 172, 110, 275, 203, 129]], which appear to be identical and define a very thin volumetric region within the CT scan. Given the z-axis values are the same (275 to 275), this suggests a single slice or a very narrow region in the axial plane.\n\nAnalyzing the anatomical structures visible in this region of a head and neck CT scan:\n\n- The coordinates likely correspond to a region in the oropharyngeal or upper neck area, given the typical dimensions and location.\n- The scan shows bony structures consistent with cervical vertebrae posteriorly.\n- Soft tissue structures anterior to the vertebrae may include the pharyngeal airway, muscles, and possibly lymph node regions.\n- No obvious large mass or abnormal density is visible within the defined bounding box.\n- The absence of contrast enhancement information limits assessment of vascular or tumor involvement.\n- No clear signs of gross tumor or nodal disease are apparent in this small region.\n\nFrom a radiation oncology perspective, the lack of visible abnormality in this ROI suggests no gross tumor or nodal mass in this specific volume. However, this does not exclude disease elsewhere in the scan.\n\nGiven the limited information and no visible abnormality in the ROI, survival probability cannot be directly inferred from this image alone. Clinical staging, pathology, HPV status, and treatment details are essential for prognosis.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: HPV+ oropharyngeal cancer management within radiation therapy scope",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

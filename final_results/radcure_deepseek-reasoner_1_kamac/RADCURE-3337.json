@@ -1,0 +1,16 @@
+{
+    "RADCURE-3337": {
+        "question": "Age: 66.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are [[265, 173, 75, 265, 194, 89], [265, 173, 75, 265, 194, 89]]. Both boxes are identical, indicating a specific small volumetric region within the CT scan.\n\n2. The coordinates suggest a very limited z-axis range (265 to 265), which implies a single axial slice or a very thin volume. The y-axis ranges from 173 to 194, and the x-axis from 75 to 89, indicating a small region in the lateral and anterior-posterior dimensions.\n\n3. Without the actual image data visible here, I infer that this region likely corresponds to a small anatomical structure or lesion within the head and neck area, possibly a lymph node or a small tumor focus.\n\n4. From a radiation oncology perspective, the size and location of the ROI are critical for planning targeted radiation therapy. Small, well-defined lesions or involved lymph nodes can be treated with focused radiation doses to maximize tumor control while sparing normal tissues.\n\n5. The absence of multiple or larger bounding boxes suggests limited disease burden in this region, which generally correlates with a better prognosis.\n\n6. However, without additional clinical data (tumor stage, HPV status, nodal involvement), it is difficult to precisely estimate survival probability.\n\n7. Given the limited volume and assuming this represents a localized lesion amenable to definitive radiation therapy, the survival probability is likely favorable.\n\nFinal answer:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All necessary expertise for radiation therapy planning/dosing is covered.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

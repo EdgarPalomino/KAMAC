@@ -1,0 +1,16 @@
+{
+    "RADCURE-3313": {
+        "question": "Age: 51.9, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [244, 173, 88, 244, 207, 122]. This suggests a very thin or possibly a single-slice region in the z-axis (since min z = max z = 244), spanning y from 173 to 207 and x from 88 to 122.\n\n2. The region is localized in a very specific area of the head and neck CT scan. Given the axial slice number (z=244), this likely corresponds to a mid to lower neck level, possibly around the oropharynx or hypopharynx region depending on the scan orientation and resolution.\n\n3. The masked region of interest (ROI) is likely highlighting a structure or lesion in this area. Since the bounding box is small and localized, it could represent a lymph node, a tumor focus, or an organ at risk (OAR) such as part of the pharynx or larynx.\n\n4. Without additional imaging details or contrast enhancement, it is difficult to definitively identify the structure. However, from a radiation oncology perspective, this region is critical for planning treatment fields in head and neck squamous cell carcinoma (HNSCC), especially if it involves nodal disease or primary tumor.\n\n5. No obvious abnormalities such as gross tumor mass or large nodal conglomerates are described or visible in the provided data. The ROI may represent a target volume or a critical structure to be spared.\n\n6. From a survival probability standpoint, the presence of a localized ROI in this region without evidence of extensive disease or distant metastasis suggests a potentially favorable prognosis if treated appropriately with radiation therapy.\n\nFinal answer:\n\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: radiation oncologist input suffices for HPV+ HNSCC radiation planning/dosing assessment.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

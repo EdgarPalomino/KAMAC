@@ -1,0 +1,16 @@
+{
+    "RADCURE-1075": {
+        "question": "Age: 46.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0.5, Smoking Status: Ex-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T4, N: N1, M : M0, Stage: IV, Path: NPC: Type 3 (WHO IIB), HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially advanced stage IV cases with T4N1M0 staging. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist specializing in nasopharyngeal carcinoma (NPC), stage IV (T4N1M0):\n\n1. **Bounding Box Coordinates**: The provided bounding boxes are identical: [242, 198, 114, 242, 235, 140]. This suggests a very localized region within the CT scan, likely corresponding to a specific anatomical or pathological structure.\n\n2. **Anatomical Location**: Given the z, y, x coordinates normalized to the image size, this region appears to be in the upper neck or skull base area, consistent with the nasopharynx location.\n\n3. **Visible Structures**: The masked region likely includes part of the nasopharynx and possibly adjacent soft tissue or lymph nodes. The spine is visible posteriorly, and the airway anteriorly.\n\n4. **Patterns or Abnormalities**: Since the ROI is masked and localized, it likely corresponds to the tumor volume or involved lymph nodes. In T4 disease, tumor invasion into adjacent structures such as the skull base, parapharyngeal space, or intracranial extension is common.\n\n5. **Implications for Radiation Therapy**: The precise delineation of this ROI is critical for planning high-dose radiation (e.g., 70 Gy in 35 fractions) while sparing critical structures like the brainstem and spinal cord. The presence of N1 disease indicates regional lymph node involvement, which also requires targeted radiation.\n\n6. **Survival Probability Considerations**: T4N1M0 NPC has a guarded prognosis but can be managed effectively with concurrent chemoradiotherapy. The absence of distant metastasis (M0) is favorable. The patient's performance status, tumor biology (WHO IIB, HPV negative), and treatment modality (ChemoRT) also influence survival positively.\n\nFinal assessment: Given the advanced local disease but no distant metastasis, and assuming standard-of-care treatment, the patient has a reasonable chance of survival.\n\nAnswer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: no gaps in current scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

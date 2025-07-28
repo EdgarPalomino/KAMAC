@@ -1,0 +1,16 @@
+{
+    "RADCURE-1038": {
+        "question": "Age: 66.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 35, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates provided are identical: [279, 171, 105, 279, 225, 129]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 279), spanning y from 171 to 225 and x from 105 to 129.\n\n2. Given the z-axis is fixed at 279, this corresponds to a single axial slice in the CT volume.\n\n3. The region is relatively small in the x and y dimensions, indicating a localized area.\n\n4. Without the actual image, I cannot visually confirm the anatomical structures, but based on typical head and neck CT anatomy and the coordinates, this region likely corresponds to a small structure or lesion in the oropharyngeal or adjacent area.\n\n5. Since the region is masked, it may represent a region of interest such as a tumor, lymph node, or critical organ at risk.\n\n6. From a radiation oncology perspective, the size and location of the ROI are critical for planning dose delivery to maximize tumor control while sparing normal tissues.\n\n7. The fact that the bounding box is very thin along the z-axis may indicate a small lesion or a delineated structure such as a lymph node or a small tumor focus.\n\n8. No obvious abnormalities can be described without image visualization, but the presence of a masked ROI suggests a target for radiation therapy or an organ at risk.\n\nFinal conclusion: Based on the bounding box data alone, no definitive anatomical abnormality can be described, but the region likely corresponds to a small lesion or structure relevant for radiation treatment planning.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: existing expertise suffices\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-1695": {
+        "question": "Age: 78.6, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[264, 191, 61, 264, 205, 68], [264, 191, 61, 264, 205, 68]]. Notably, the minimum and maximum z-values are the same (264), indicating a single axial slice or a very thin volume. The y and x ranges are small, suggesting a localized region.\n\nFrom a radiation oncology perspective, this small, localized ROI likely corresponds to a specific anatomical structure or lesion within the head and neck CT scan. However, without additional context such as contrast enhancement or clinical data, it is difficult to definitively identify the structure. The coordinates suggest a region in the upper neck or lower head area, possibly near the oropharynx or base of tongue, common sites for squamous cell carcinoma.\n\nNo obvious abnormalities such as large masses, gross bone destruction, or extensive lymphadenopathy are visible within this small ROI. The limited volume and slice thickness reduce the ability to assess tumor extent or nodal involvement fully.\n\nGiven the limited data and the small ROI, from a radiation oncologist's standpoint, this region might represent a target volume for focused radiation therapy or a small nodal or primary tumor site. The prognosis and survival probability would depend heavily on tumor staging, HPV status, and treatment modality, none of which are provided here.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:Alive  \nno",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: HPV+ head/neck SCC radiation planning expertise is covered  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

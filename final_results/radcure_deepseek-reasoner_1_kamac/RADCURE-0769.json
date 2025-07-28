@@ -1,0 +1,16 @@
+{
+    "RADCURE-0769": {
+        "question": "Age: 71.8, Sex: Female, ECOG PS: ECOG 1, Smoking PY: na, Smoking Status: unknown, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two provided bounding boxes indicating regions of interest (ROIs).\n2. The first bounding box coordinates are [272, 136, 93, 272, 183, 110]. Since the z-axis min and max are the same (272), this likely represents a single axial slice or a very thin volume. The y-axis ranges from 136 to 183 and x-axis from 93 to 110, localizing a vertical and lateral region.\n3. The second bounding box coordinates are [257, 194, 104, 257, 224, 131], again with z min and max equal (257), indicating a thin slice at a different axial level.\n4. Without the actual image, I infer these ROIs may correspond to anatomical structures or lesions in the oropharyngeal or hypopharyngeal region, possibly lymph nodes or tumor volumes.\n5. From a radiation oncology perspective, the location and size of these ROIs are critical for planning target volumes (PTVs) and organs at risk (OARs).\n6. If these ROIs represent tumor or nodal disease, their size and location relative to critical structures (spinal cord, brainstem, salivary glands) will influence dose constraints and prognosis.\n7. The presence of multiple ROIs may indicate multifocal disease or nodal involvement, which can worsen prognosis.\n8. Without additional clinical data (tumor stage, HPV status, treatment), survival probability cannot be precisely estimated.\n9. However, if these ROIs represent limited disease volumes amenable to definitive radiation therapy, especially in HPV-positive oropharyngeal cancer, survival is generally favorable.\n10. Conversely, if these represent bulky nodal disease or involvement of critical structures, prognosis is poorer.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: no additional specialties required  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-2993": {
+        "question": "Age: 68.4, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 30, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates given are [[275, 173, 100, 275, 207, 122], [275, 173, 100, 275, 207, 122]]. Both are identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates correspond to a very thin slice along the z-axis (275 to 275), which suggests a 2D plane or a very narrow volume in the axial direction.\n\n3. The y-axis range is from 173 to 207, and the x-axis range is from 100 to 122, defining a rectangular area in the axial plane.\n\n4. Without the actual image, but based on typical head and neck CT anatomy, this region likely corresponds to a small area in the oropharyngeal or base of tongue region, or possibly a lymph node region depending on the slice level.\n\n5. The ROI is masked, which usually indicates either a tumor volume, involved lymph node, or critical organ at risk.\n\n6. From a radiation oncology perspective, the size and location of this ROI are critical for planning dose delivery to maximize tumor control while sparing normal tissues.\n\n7. If this ROI represents a tumor or involved node, its small size and precise localization would allow for targeted radiation therapy, potentially improving local control and survival.\n\n8. However, without additional clinical data (tumor stage, HPV status, nodal involvement), survival probability cannot be precisely estimated.\n\n9. Given the limited information and the small ROI, if this is a primary tumor or involved node in a typical HPV-positive oropharyngeal cancer patient, the prognosis is generally favorable with appropriate radiation therapy.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: survival assessment within scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3311": {
+        "question": "Age: 61.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [243, 148, 104, 243, 174, 122]. This suggests a very small or possibly a single-slice region of interest (ROI) within the CT scan.\n\n2. The ROI is located in the upper cervical region based on the z, y, x coordinates relative to the head and neck CT volume.\n\n3. The highlighted region in blue appears to be within or adjacent to the oropharyngeal area, possibly involving soft tissue structures such as the base of tongue or tonsillar region.\n\n4. No obvious gross abnormality such as a large mass or bone erosion is visible in this single slice. The bony anatomy of the cervical vertebrae and mandible appears intact.\n\n5. The ROI may represent a small tumor focus, lymph node, or a target volume for radiation planning.\n\n6. Without additional clinical data (tumor size, nodal involvement, HPV status), it is difficult to precisely estimate survival probability.\n\n7. However, if this ROI corresponds to a small, HPV-positive oropharyngeal squamous cell carcinoma treated with definitive chemoradiation, the prognosis is generally favorable.\n\nFinal answer:\n\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ oropharyngeal cancer prognosis within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

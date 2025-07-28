@@ -1,0 +1,16 @@
+{
+    "RADCURE-1016": {
+        "question": "Age: 83.0, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 5, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Vallecula, T: T3, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: Yes, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan includes two bounding boxes with coordinates:\n   - Box 1: [251, 153, 97, 251, 192, 111]\n   - Box 2: [257, 203, 133, 257, 235, 163]\n\n2. These coordinates are normalized relative to the original image size and define specific volumetric regions within the head and neck CT scan.\n\n3. Anatomical structures in this region of the head and neck typically include parts of the oropharynx, hypopharynx, larynx, cervical vertebrae, and adjacent soft tissues.\n\n4. The first bounding box appears to be located in a region consistent with the oropharynx or hypopharynx, possibly involving soft tissue structures such as the base of tongue or vallecula.\n\n5. The second bounding box is located more inferiorly and posteriorly, possibly involving deeper neck structures or lymph node regions.\n\n6. The presence of masked regions of interest (ROIs) in these bounding boxes suggests areas of abnormality, likely tumor involvement or nodal disease.\n\n7. From a radiation oncology perspective, involvement of these regions, especially if representing primary tumor and nodal disease, would influence staging, treatment planning, and prognosis.\n\n8. Key prognostic factors include tumor size, nodal involvement, HPV status, and treatment modality.\n\n9. Without additional clinical data (e.g., tumor stage, HPV status), it is difficult to precisely estimate survival probability, but involvement of multiple regions in the oropharynx and neck nodes generally indicates at least locally advanced disease.\n\n10. Treatment would likely involve definitive radiation therapy with or without chemotherapy, targeting both primary and nodal disease.\n\nFinal answer:  \nAnswer: Dead",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: current expertise covers required scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-2515": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 72.1, Sex: Female, ECOG PS: ECOG 2, Smoking PY: 110, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T1b, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[259, 206, 58, 259, 220, 64], [259, 206, 58, 259, 220, 64]], which appear to be identical and define a very small volumetric region within the CT scan. Given the normalized coordinates and the limited spatial extent (the z-axis min and max are the same at 259, which may indicate a single slice or a very thin volume), this region likely corresponds to a small anatomical structure or a localized lesion.\n\nFrom a radiation oncology perspective, especially in head and neck squamous cell carcinoma (HNSCC), the key anatomical structures to consider in this region would be:\n\n- Potentially part of the oropharynx or adjacent soft tissues, depending on the slice level.\n- Possible lymph node regions or small tumor deposits.\n- Nearby critical organs at risk (OARs) such as the spinal cord, pharyngeal constrictors, or salivary glands, depending on exact location.\n\nHowever, without additional context or contrast enhancement, it is difficult to definitively identify the structure or abnormality. The identical bounding boxes suggest a focus on a very specific, possibly suspicious area that may represent a tumor or involved lymph node.\n\nNo obvious large mass or gross anatomical distortion is described or visible from the bounding box data alone. The small volume suggests a localized lesion or ROI for targeted radiation planning.\n\nFinal assessment: The ROI likely represents a small tumor or involved lymph node region relevant for radiation targeting, but no gross abnormality or large anatomical structure is clearly identified from the bounding box coordinates alone.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Sufficient within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

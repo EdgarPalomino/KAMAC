@@ -1,0 +1,16 @@
+{
+    "RADCURE-2949": {
+        "question": "Age: 62.3, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Supraglottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are [[263, 186, 79, 263, 216, 103], [263, 186, 79, 263, 216, 103]]. Both boxes are identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but the exact anatomical location is not explicitly stated. However, given the context of head and neck CT and typical coordinate conventions, this ROI likely corresponds to a localized region in the oropharyngeal or hypopharyngeal area.\n\n3. The ROI appears to be a relatively small volume, possibly representing a tumor or involved lymph node.\n\n4. No direct image is provided here, so I cannot visually confirm anatomical structures or abnormalities. However, the presence of a masked ROI in this region in a head and neck CT often suggests a tumor or suspicious lesion.\n\n5. From a radiation oncology perspective, the size and location of the ROI are critical for planning radiation fields and dosing. If this ROI corresponds to a primary tumor or involved node, it will influence target volume delineation.\n\n6. Without additional clinical data (e.g., tumor stage, HPV status, treatment plan), survival probability cannot be precisely estimated. However, small, localized tumors in the head and neck region treated with definitive radiation therapy generally have a favorable prognosis, especially if HPV-positive.\n\n7. Since the bounding boxes are identical and relatively small, this may represent a well-defined lesion amenable to focused radiation therapy.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current expertise suffices for radiation planning and dosing.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

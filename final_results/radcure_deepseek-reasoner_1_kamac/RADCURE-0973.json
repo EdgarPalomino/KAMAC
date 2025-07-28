@@ -1,0 +1,16 @@
+{
+    "RADCURE-0973": {
+        "question": "Age: 46.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Nasopharynx, Subsite: Sup wall, T: T3, N: N2, M : M0, Stage: III, Path: NPC: Type 3 (WHO IIB), HPV: none, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially stage III WHO type 3 (IIB) cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, focusing on the nasopharynx area, which is the primary site of interest for nasopharyngeal carcinoma (NPC).\n\n2. The bounding box coordinates provided are normalized and define two volumetric regions:\n   - [272, 209, 118, 272, 250, 146]\n   - [278, 185, 115, 278, 212, 130]\n\n3. These coordinates likely correspond to regions around the nasopharynx and adjacent structures such as the base of the skull, parapharyngeal space, or possibly involved lymph nodes.\n\n4. From a radiation oncology perspective, the presence of these ROIs suggests areas of interest for treatment planning, possibly representing tumor volume or involved lymph nodes.\n\n5. Given the patient's clinical data: \n   - Age 46.1, male, ECOG 0 (good performance status)\n   - Non-smoker, no distant metastasis (M0)\n   - Stage III (T3N2M0) nasopharyngeal carcinoma, WHO type 3 (IIB)\n   - Undergoing concurrent chemoradiotherapy with a dose of 70 Gy in 35 fractions\n\n6. The prognosis for stage III NPC treated with definitive chemoradiotherapy is generally favorable, especially with good performance status and no distant metastasis.\n\n7. The bounding boxes do not indicate gross anatomical abnormalities beyond the expected tumor involvement, and no signs of distant spread are noted.\n\n8. Therefore, from a radiation oncologist's perspective, the patient has a reasonable chance of survival with appropriate treatment.\n\nAnswer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current team expertise suffices for radiation planning and survival assessment.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

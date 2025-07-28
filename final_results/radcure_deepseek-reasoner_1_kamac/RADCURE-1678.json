@@ -1,0 +1,16 @@
+{
+    "RADCURE-1678": {
+        "question": "Age: 65.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Paranasal Sinus, Subsite: Ethmoid Sinus, T: T4b, N: N0, M : M0, Stage: IVB, Path: Adenoid Cystic, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck adenoid cystic carcinoma, especially in advanced stage IVB cases involving the ethmoid sinus. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step reasoning as a radiation oncologist:\n\n1. The bounding box coordinates provided are identical: [270, 111, 124, 270, 195, 154]. This suggests a very thin or possibly a single-slice region of interest (ROI) in the CT scan, likely corresponding to a small or localized area.\n\n2. The anatomical location is the ethmoid sinus, part of the paranasal sinuses, which is a complex area surrounded by critical structures such as the orbit, skull base, and brain.\n\n3. The patient has advanced stage IVB adenoid cystic carcinoma (T4bN0M0) of the ethmoid sinus. T4b indicates very advanced local disease with possible invasion into critical adjacent structures.\n\n4. Radiation therapy alone was administered with a dose of 70 Gy in 35 fractions, which is a standard curative dose for head and neck adenoid cystic carcinoma.\n\n5. No chemotherapy was given, and there is no evidence of regional or distant metastasis.\n\n6. From a radiation oncology perspective, the prognosis in T4b ethmoid sinus adenoid cystic carcinoma is guarded due to the difficulty in achieving complete local control given the proximity to critical structures and the aggressive nature of the tumor.\n\n7. However, the absence of nodal or distant disease and the use of definitive high-dose radiation therapy improve the chance of local control and survival.\n\n8. The provided CT image with the ROI does not show obvious gross residual tumor or extensive invasion beyond the ethmoid sinus, which may suggest a controlled or stable disease post-treatment.\n\nFinal assessment: Given the advanced stage but localized disease treated with definitive radiation, the patient has a reasonable chance of being alive at the time of assessment.\n\nAnswer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialties required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

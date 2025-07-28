@@ -1,0 +1,16 @@
+{
+    "RADCURE-3611": {
+        "question": "Age: 51.5, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The provided bounding box coordinates [[231, 233, 122, 231, 240, 129]] correspond to a very small volumetric region within the CT scan. The z-axis range is from 231 to 233, y-axis from 122 to 231, and x-axis from 240 to 129. However, the x-axis coordinates appear reversed (240 to 129), which may indicate a need to clarify orientation, but assuming it defines a small region.\n\n2. The CT image is a sagittal view of the head and neck region. The bounding box appears to be located in the posterior oropharyngeal or upper cervical region, possibly near the base of the tongue or tonsillar area, given typical anatomical landmarks.\n\n3. No obvious gross abnormalities such as large masses or destructive lesions are visible within the masked ROI in this image slice. The bony structures of the cervical spine and skull base appear intact.\n\n4. From a radiation oncology perspective, the region could represent a target volume or an organ at risk (OAR) such as the pharyngeal constrictor muscles or lymph node regions.\n\n5. Without additional clinical data (tumor staging, HPV status, treatment plan), it is difficult to predict survival probability solely based on this image and bounding box.\n\n6. However, if this region corresponds to a small tumor or involved lymph node in HPV-positive oropharyngeal squamous cell carcinoma, the prognosis is generally favorable with definitive chemoradiation.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialists needed\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-1488": {
+        "question": "Age: 74.7, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 2, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The provided bounding boxes are:\n   - [251, 170, 64, 251, 189, 73]\n   - [252, 222, 36, 252, 273, 109]\n\n2. These coordinates are normalized relative to the original image size and define volumetric regions within the head and neck CT scan.\n\n3. The first bounding box appears to be a very thin slice along the z-axis (z min = 251, z max = 251), suggesting a single axial slice at z=251, covering y from 170 to 189 and x from 64 to 73. This region is likely a small anatomical structure or lesion.\n\n4. The second bounding box is also a thin slice at z=252, covering a larger y range (222 to 273) and x range (36 to 109). This could represent a larger anatomical region or a disease area.\n\n5. Without direct visualization of the CT scan, but based on typical head and neck anatomy and the z-levels, these regions could correspond to areas in the oropharynx or adjacent lymph node regions.\n\n6. From a radiation oncology perspective, these ROIs might represent either tumor volumes or involved lymph nodes.\n\n7. No explicit abnormalities or tumor characteristics are described, so I cannot definitively identify tumor presence or extent.\n\n8. For survival probability, key factors include tumor site, stage, HPV status, and treatment modality, none of which are provided here.\n\n9. Therefore, based on the limited information, I cannot make a definitive survival prediction.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

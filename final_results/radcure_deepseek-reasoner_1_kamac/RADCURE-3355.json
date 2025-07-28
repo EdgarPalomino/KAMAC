@@ -1,0 +1,16 @@
+{
+    "RADCURE-3355": {
+        "question": "Age: 68.2, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 20, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[264, 172, 70, 264, 194, 79], [264, 172, 70, 264, 194, 79]]. Notably, the minimum and maximum values for the z-axis are the same (264), indicating a zero thickness along that axis, which suggests the bounding box may represent a single slice or a very thin region in the scan.\n\nGiven the location in the head and neck CT scan and the coordinates, this region likely corresponds to a small anatomical structure or a localized lesion. However, without additional context such as the exact anatomical landmarks or contrast enhancement, it is challenging to definitively identify the structure.\n\nFrom a radiation oncology perspective, if this ROI corresponds to a tumor or involved lymph node, its small size and limited volume could be favorable for targeted radiation therapy with potentially lower toxicity to surrounding tissues. If this is a disease region, the absence of volumetric thickness might indicate early or minimal disease, which generally correlates with better prognosis.\n\nNo obvious abnormalities such as large masses, extensive nodal involvement, or gross anatomical distortion are described or visible within the given bounding box parameters.\n\nFinal assessment: The ROI appears to be a small, localized region without evident gross abnormality, which may suggest a limited disease burden if this corresponds to tumor tissue.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient expertise within current scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

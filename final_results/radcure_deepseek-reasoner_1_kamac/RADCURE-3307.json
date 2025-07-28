@@ -1,0 +1,16 @@
+{
+    "RADCURE-3307": {
+        "question": "Age: 63.0, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates are given as [[271, 192, 87, 271, 228, 112], [224, 151, 144, 224, 181, 156]]. These represent two volumetric regions within the head and neck CT scan.\n\n2. The first bounding box has identical minimum and maximum z-values (271), which suggests it might be a single slice or a very thin volume in the z-axis. The y-axis ranges from 192 to 228, and the x-axis from 87 to 112. This region likely corresponds to a structure in the lower neck or upper thoracic inlet area, possibly including parts of the larynx, hypopharynx, or upper esophagus.\n\n3. The second bounding box also has identical z-values (224), with y from 151 to 181 and x from 144 to 156. This is another thin volume, possibly representing a different anatomical structure or lesion in the mid to lower neck region.\n\n4. Without direct visualization, but based on typical head and neck anatomy and the coordinates, these ROIs could represent lymph node regions or tumor volumes.\n\n5. From a radiation oncology perspective, identifying these volumes is critical for target delineation and sparing of organs at risk.\n\n6. No explicit abnormalities or tumor characteristics are described, so I cannot comment on tumor size, invasion, or nodal involvement.\n\n7. Since the question is about visible anatomical structures or abnormalities, and given the bounding boxes likely correspond to lymph node or tumor regions, I would note the presence of these ROIs in typical nodal stations or tumor sites.\n\nFinal answer:\n\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: No additional specialties required  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

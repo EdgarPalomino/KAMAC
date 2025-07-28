@@ -1,0 +1,16 @@
+{
+    "RADCURE-3402": {
+        "question": "Age: 50.9, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Current, Ds Site: Nasal Cavity, Subsite: Vestibule, T: T4b, N: N2a, M : M0, Stage: IVB, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates provided are identical: [253, 104, 134, 253, 174, 169]. This suggests a single volumetric region of interest (ROI) is being highlighted twice, possibly indicating a specific anatomical or pathological structure.\n\n2. The CT image is a sagittal view of the head and neck region. The highlighted ROI (in magenta) appears to be located anteriorly in the oropharyngeal region, possibly involving the base of tongue or adjacent soft tissues.\n\n3. The highlighted region is well-defined and appears to be a soft tissue mass or lesion. There is no obvious invasion into the bony structures or airway visible in this slice.\n\n4. From a radiation oncology perspective, this ROI could represent a primary tumor or involved lymph node in a head and neck squamous cell carcinoma (HNSCC) patient.\n\n5. The absence of gross invasion into critical structures such as the mandible, cervical spine, or airway suggests a potentially resectable or irradiable lesion with a reasonable chance of local control.\n\n6. The size and location of the lesion will influence radiation planning, dose constraints, and potential toxicity to adjacent organs at risk (OARs) such as the oral cavity, pharyngeal constrictors, and spinal cord.\n\n7. Without additional clinical data (tumor stage, HPV status, nodal involvement), it is difficult to precisely estimate survival probability. However, a localized lesion in the oropharynx with no evident distant spread generally has a better prognosis, especially if HPV positive.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialists required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-0783": {
+        "question": "Age: 65.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T1, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates provided are identical: [234, 192, 113, 234, 239, 135]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 234), spanning y from 192 to 239 and x from 113 to 135.\n\n2. Given the location in a head and neck CT scan, this region likely corresponds to a small anatomical structure or a localized lesion.\n\n3. The image shows a sagittal view of the head and neck. The highlighted region (in pink) appears to be in the oropharyngeal area, possibly involving the base of tongue or adjacent soft tissues.\n\n4. No obvious gross abnormality such as a large mass or extensive tissue distortion is visible in this region. The bony structures (vertebrae, mandible) appear intact.\n\n5. From a radiation oncology perspective, if this region corresponds to a tumor or involved lymph node, its small size and localized nature would be favorable for targeted radiation therapy.\n\n6. Without additional clinical data (tumor stage, HPV status, nodal involvement), it is difficult to definitively predict survival, but a small, localized lesion in the oropharynx, especially if HPV positive, generally has a good prognosis with radiation therapy.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: treatment scope covered\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

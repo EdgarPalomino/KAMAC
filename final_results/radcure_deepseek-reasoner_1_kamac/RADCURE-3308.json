@@ -1,0 +1,16 @@
+{
+    "RADCURE-3308": {
+        "question": "Age: 62.4, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 28, Smoking Status: Ex-smoker, Ds Site: Nasopharynx, Subsite: none, T: T1, N: N2, M : M0, Stage: III, Path: NPC, Type 2 (WHO IIA), HPV: Negative, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative nasopharyngeal carcinoma. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates given are [[240, 170, 109, 240, 190, 127], [240, 170, 109, 240, 190, 127]]. Both boxes are identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but without the original image dimensions, exact anatomical localization is limited. However, the z, y, x ranges suggest a relatively small volume.\n\n3. The CT image provided is a sagittal view of the head and neck region. The ROI is marked in blue, located posteriorly near the base of the skull and upper cervical spine.\n\n4. Anatomically, this region corresponds to the oropharyngeal area, possibly involving the base of tongue or tonsillar region, or adjacent soft tissues.\n\n5. No obvious gross abnormalities such as large masses or bone destruction are visible in the marked ROI on this single slice. The blue mask likely indicates a segmented structure or lesion.\n\n6. From a radiation oncology perspective, this ROI could represent a tumor volume or nodal disease requiring targeted radiation.\n\n7. Without further clinical data (tumor staging, pathology, HPV status), survival probability cannot be precisely estimated. However, if this is a small, localized lesion in the oropharynx, especially if HPV-positive, prognosis tends to be favorable with definitive chemoradiation.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All necessary data for radiation therapy planning is available.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3607": {
+        "question": "Age: 73.6, Sex: Female, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Hypopharynx, Subsite: Post-cricoid, T: T1, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: Y, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [253, 235, 68, 253, 274, 87]\n   - [271, 249, 117, 271, 297, 140]\n\n2. These coordinates define two volumetric regions within the head and neck CT scan. The first box is located more anteriorly and inferiorly (lower z and y values), while the second box is more posterior and superior.\n\n3. Without direct visualization of the CT scan image here, but based on typical head and neck anatomy and the coordinate ranges, these regions likely correspond to areas within or near the oropharynx or hypopharynx, possibly involving lymph node regions or primary tumor sites.\n\n4. The presence of masked ROIs suggests these are areas of interest, possibly tumor or involved lymph nodes.\n\n5. From a radiation oncology perspective, the involvement of these regions, especially if they represent nodal disease or primary tumor, would influence radiation target volumes and dose planning.\n\n6. The involvement of multiple regions may indicate nodal spread or multifocal disease, which can impact prognosis.\n\n7. Prognostically, HPV status is a critical factor in oropharyngeal squamous cell carcinoma, with HPV-positive patients generally having better outcomes.\n\n8. The question does not provide clinical or pathological details such as tumor stage, HPV status, or treatment modality, which are essential for survival prediction.\n\n9. Without these details, and based solely on the presence of multiple ROIs in the head and neck region, the patient may have at least nodal involvement, which can worsen prognosis compared to localized disease.\n\n10. However, the absence of other clinical data limits precise survival prediction.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Dead",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: current expertise covers necessary aspects  \n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

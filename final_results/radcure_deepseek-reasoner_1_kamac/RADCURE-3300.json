@@ -1,0 +1,16 @@
+{
+    "RADCURE-3300": {
+        "question": "Age: 60.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 44, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are [[256, 197, 78, 256, 217, 87], [256, 197, 78, 256, 217, 87]], which appear to be identical and define a very limited volumetric region within the CT scan. Given the normalized coordinates and the image size, this region likely corresponds to a small area in the upper cervical spine or adjacent soft tissues in the head and neck region.\n\nFrom a radiation oncology perspective, the key considerations include:\n\n1. Anatomical Structures: The region likely includes parts of the cervical vertebrae and possibly adjacent soft tissues such as muscles or lymph nodes. No large organs or major vascular structures are expected in this small volume.\n\n2. Patterns or Abnormalities: Since the bounding boxes are identical and small, this may represent a focused region of interest, possibly a small tumor, lymph node, or a region of concern for disease involvement. However, without visible contrast enhancement or clear mass effect in the image, no definitive abnormality can be described.\n\n3. Clinical Implications: If this region corresponds to a tumor or involved lymph node, its small size and localized nature could be favorable for targeted radiation therapy with a good chance of local control. The absence of visible large masses or extensive disease suggests a potentially early-stage or limited disease burden.\n\n4. Survival Probability: Assuming this is a localized head and neck squamous cell carcinoma (possibly HPV-negative given no mention), treated with appropriate radiation dose and fractionation, the prognosis would depend on other clinical factors such as T and N stage, HPV status, and patient performance status. Small, localized disease generally correlates with better survival.\n\nFinal assessment: The image and bounding box suggest a small, localized region without obvious extensive disease, which from a radiation oncology standpoint, is associated with a relatively favorable prognosis if treated appropriately.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: radiation therapy scope covered  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3378": {
+        "question": "Age: 67.8, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 48, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is a sagittal view of the head and neck region, showing bony structures (vertebrae), soft tissues, and airways.\n\n2. The bounding boxes are given as normalized coordinates relative to the image size, with two regions of interest (ROIs):\n   - ROI 1: [250, 245, 147, 250, 259, 162]\n   - ROI 2: [248, 202, 119, 248, 218, 129]\n\n3. These ROIs likely correspond to specific anatomical or pathological areas. Given the z, y, x coordinates, the first ROI is located more posteriorly and superiorly (higher y values), possibly near the oropharyngeal or nasopharyngeal region. The second ROI is more anterior and inferior, possibly near the hypopharynx or larynx.\n\n4. Visible anatomical structures in this region include the cervical vertebrae, pharyngeal airway, base of tongue, and possibly lymph node regions.\n\n5. No obvious gross abnormalities such as large masses or destructive bone lesions are visible in the provided image slice. The vertebral bodies appear intact, and the airway is patent.\n\n6. From a radiation oncology perspective, these ROIs might represent tumor volumes or involved lymph nodes targeted for radiation.\n\n7. Without additional clinical data (tumor size, nodal involvement, HPV status), it is difficult to precisely estimate survival probability. However, if these ROIs represent small to moderate tumor volumes in the oropharynx or hypopharynx, and assuming HPV positivity and no distant metastasis, the prognosis with definitive radiation therapy is generally favorable.\n\nFinal answer:\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer: Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer: Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient expertise within current team  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-3432": {
+        "question": "Age: 72.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 55, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[246, 197, 65, 246, 229, 79], [246, 197, 65, 246, 229, 79]], which appear to be identical and define a very thin volumetric region within the CT scan. Given the z-axis values are the same (246 to 246), this suggests a single axial slice or a very thin slab.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: The coordinates correspond to a specific region in the head and neck CT scan. The y and x ranges (197 to 229 and 65 to 79) define a rectangular area in the axial plane. This area likely corresponds to a small region within the oropharynx or adjacent structures, depending on the slice level.\n\n2. **Visible Structures**: Without the actual image, but based on typical head and neck anatomy and the bounding box size, this region could include parts of the pharyngeal wall, lymphoid tissue (e.g., tonsillar region), or small muscular structures.\n\n3. **Patterns or Abnormalities**: Since the ROI is masked and the bounding box is very limited, it likely highlights a lesion or area of interest such as a tumor or involved lymph node. The identical bounding boxes suggest a focus on a single lesion or structure.\n\n4. **Radiation Oncology Perspective**: If this ROI corresponds to a tumor or involved lymph node, its precise localization is critical for radiation treatment planning. The small volume suggests a localized lesion, which may be amenable to targeted radiation therapy with curative intent.\n\n5. **Survival Probability Considerations**: Without clinical staging, HPV status, or other patient factors, survival prediction is limited. However, a small, localized lesion in the oropharynx or adjacent region, especially if HPV-positive, generally has a favorable prognosis with appropriate radiation therapy.\n\nFinal answer based on the provided data and typical radiation oncology considerations:\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Radiation therapy planning and dosing within scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

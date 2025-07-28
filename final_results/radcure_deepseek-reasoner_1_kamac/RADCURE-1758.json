@@ -1,0 +1,16 @@
+{
+    "RADCURE-1758": {
+        "question": "Age: 57.4, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 40, Smoking Status: Current, Ds Site: Larynx, Subsite: Supraglottis, T: T1, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates are [[272, 219, 73, 272, 245, 79], [272, 219, 73, 272, 245, 79]], which appear to be identical and define a very small volumetric region within the CT scan. Given the z, y, and x ranges, this region is quite limited in size.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: The coordinates suggest a small region in the head and neck CT scan, likely within the oropharyngeal or adjacent area given typical CT dimensions. The exact anatomical structure is difficult to specify without more context, but it could correspond to a small lesion or a specific organ at risk (OAR) such as a lymph node or a small part of a gland or mucosal surface.\n\n2. **Visible Structures or Abnormalities**: Since the bounding boxes are identical and small, this likely represents a focused region of interest, possibly a tumor or a suspicious lymph node. No direct image is provided here, so I cannot visually confirm the presence of a mass or abnormality.\n\n3. **Radiation Oncology Perspective**: If this ROI corresponds to a tumor or involved lymph node, its small size might indicate an early-stage lesion or a small metastatic focus. This would influence radiation planning by allowing a more targeted dose with sparing of surrounding normal tissues.\n\n4. **Survival Probability Consideration**: Small, localized lesions in head and neck squamous cell carcinoma, especially if HPV-positive, generally have a favorable prognosis with appropriate radiation therapy. The absence of multiple or large ROIs suggests limited disease burden.\n\nFinal assessment: Without additional clinical data (tumor stage, HPV status, nodal involvement), but based on the small ROI size and localization, the patient likely has a localized disease amenable to curative radiation therapy.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: radiation oncologist's scope covers HPV+ head and neck cancer planning/dosing; no gaps requiring new specialties.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

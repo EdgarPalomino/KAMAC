@@ -1,0 +1,16 @@
+{
+    "RADCURE-2722": {
+        "question": "Age: 62.2, Sex: Male, ECOG PS: ECOG 2, Smoking PY: 10, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 64.0, Fx: 40, Local: none, Regional: Possible, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates [[265, 180, 88, 265, 211, 119], [265, 180, 88, 265, 211, 119]] indicate a very small volumetric region within the CT scan, with identical minimum and maximum z-values (265), suggesting a single axial slice or a very thin volume.\n\nFrom a radiation oncology perspective, focusing on head and neck squamous cell carcinoma (HNSCC), especially HPV-positive cases, the region defined by these coordinates likely corresponds to a localized area within the oropharynx or adjacent structures. However, the exact anatomical structures visible in this small volume are limited due to the thin slice.\n\nGiven the limited volume and the lack of additional clinical or imaging context (such as tumor size, nodal involvement, or presence of distant metastases), it is difficult to definitively identify abnormalities or disease extent. No clear gross tumor volume (GTV) or involved lymph nodes can be confidently described from this data alone.\n\nFor survival probability assessment, key factors include tumor stage (T and N), HPV status, smoking history, and treatment modality. Without these, prognosis cannot be accurately estimated.\n\nTherefore, based solely on the provided bounding box and image slice, no definitive anatomical abnormalities or tumor involvement can be described.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: sufficient expertise within current team scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

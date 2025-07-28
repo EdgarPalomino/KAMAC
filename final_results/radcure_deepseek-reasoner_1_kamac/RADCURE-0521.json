@@ -1,0 +1,16 @@
+{
+    "RADCURE-0521": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "question": "Age: 64.0, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT + EGFRI, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [266, 184, 114, 266, 213, 139]. This suggests a very small or possibly a single-slice region of interest (ROI) within the CT scan.\n\n2. The ROI is located in the upper cervical region, likely involving soft tissue structures adjacent to the cervical spine and airway.\n\n3. The green mask in the image appears to highlight a region in the oropharyngeal area, possibly the tonsillar or base of tongue region, which are common sites for HPV-related squamous cell carcinoma.\n\n4. From a radiation oncology perspective, the presence of a defined ROI in this area could represent a tumor volume or involved lymph node.\n\n5. The small size and location of the ROI suggest a localized lesion without obvious gross invasion into adjacent critical structures such as the spinal cord or major vessels.\n\n6. Given the typical radiosensitivity of HPV-positive oropharyngeal squamous cell carcinoma and the apparent limited extent of disease, the prognosis with definitive radiation therapy is generally favorable.\n\n7. Without additional clinical data (tumor stage, nodal involvement, HPV status), the survival probability cannot be precisely quantified, but localized disease in this region treated with radiation usually has a good outcome.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no\n\nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current expertise suffices for radiation therapy assessment.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RADCURE-1684": {
+        "question": "Age: 62.4, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 40, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T4a, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are identical for both entries: [270, 152, 89, 270, 224, 122]. This suggests a very thin or possibly zero-volume region along the z-axis (since min z = max z = 270), which may indicate a single slice or a line rather than a volumetric region.\n\nFrom a radiation oncology perspective, especially in head and neck squamous cell carcinoma (HNSCC), the anatomical structures in this region (z=270 slice, y=152 to 224, x=89 to 122) likely correspond to a portion of the oropharynx or adjacent soft tissues, depending on the scan orientation and resolution.\n\nGiven the limited volumetric extent, it is difficult to identify a distinct organ or tumor volume. No clear abnormal mass or gross tumor volume (GTV) can be delineated from this bounding box alone. The region may represent a small ROI for dose evaluation or a critical structure contour.\n\nWithout additional imaging context or contrast enhancement, no obvious anatomical abnormalities or tumor infiltration can be confidently described.\n\nFrom a survival probability standpoint, the lack of visible gross tumor or nodal disease in this ROI does not provide sufficient information to estimate prognosis. Survival in HNSCC depends heavily on tumor stage, nodal involvement, HPV status, and treatment modality, none of which can be inferred from this bounding box alone.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ oropharynx expertise covered\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

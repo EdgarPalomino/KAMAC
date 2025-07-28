@@ -1,0 +1,16 @@
+{
+    "RADCURE-1081": {
+        "question": "Age: 67.0, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 36, Smoking Status: Ex-smoker, Ds Site: Lip & Oral Cavity, Subsite: Buccal Mucosa, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Persistent, Regional: Persistent, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases with persistent local and regional disease after initial RT. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is a head and neck image, with two provided bounding boxes indicating regions of interest (ROIs).\n2. The bounding boxes coordinates are:\n   - Box 1: [233, 149, 105, 233, 158, 109]\n   - Box 2: [233, 210, 129, 233, 213, 130]\n3. Both bounding boxes have the same z-axis minimum and maximum values (233), indicating these ROIs are on a single axial slice.\n4. The y and x coordinates suggest these ROIs are small, localized areas within the scan.\n5. Without direct visualization, but given the location in the head and neck CT, these ROIs could correspond to small anatomical structures or possibly small tumor foci or lymph nodes.\n6. The first ROI (y:149-158, x:105-109) is likely in the region of the oropharynx or adjacent soft tissues.\n7. The second ROI (y:210-213, x:129-130) is more inferior and lateral, possibly near lymph node regions or salivary glands.\n8. No obvious large mass or gross abnormality is described or visible in these small ROIs.\n9. From a radiation oncology perspective, these small ROIs could represent target volumes for radiation boost or suspicious lymph nodes.\n10. The presence of small ROIs alone does not indicate prognosis; clinical staging, HPV status, and treatment response are critical.\n11. Without additional clinical data, survival probability cannot be definitively assessed.\n12. However, small localized ROIs without evidence of extensive disease or distant metastasis generally suggest a better prognosis if treated appropriately.\n\nFinal answer:  \nAlive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive  \nAlive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Current expertise suffices for radiation planning and dosing assessment.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

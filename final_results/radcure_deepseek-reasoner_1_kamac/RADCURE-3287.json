@@ -1,0 +1,16 @@
+{
+    "RADCURE-3287": {
+        "question": "Age: 90.0, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 1, Smoking Status: Ex-smoker, Ds Site: Nasal Cavity, Subsite: none, T: T1, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 60.0, Fx: 25, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases in elderly patients. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, sagittal view.\n2. The two bounding boxes given are:\n   - [238, 91, 99, 238, 157, 125]\n   - [262, 184, 112, 262, 228, 134]\n3. These coordinates are normalized and define volumetric regions within the scan.\n4. The first bounding box appears to be located in the oropharyngeal region, possibly involving soft tissue structures such as the base of tongue or tonsillar area.\n5. The second bounding box is more inferior and posterior, possibly involving the hypopharynx or upper esophageal region.\n6. No obvious large mass or gross abnormality is visible in the provided image slice, but the masked ROIs may represent areas of interest for tumor or nodal disease.\n7. From a radiation oncology perspective, these regions are critical for planning target volumes in head and neck squamous cell carcinoma, especially HPV-related oropharyngeal cancers.\n8. The absence of visible gross tumor in this slice does not exclude microscopic disease or nodal involvement.\n9. Survival probability depends on tumor stage, HPV status, nodal involvement, and treatment modality, none of which are explicitly provided here.\n10. Without additional clinical data, it is not possible to definitively predict survival, but involvement of these regions typically requires careful radiation planning to optimize local control and minimize toxicity.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: sufficient expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

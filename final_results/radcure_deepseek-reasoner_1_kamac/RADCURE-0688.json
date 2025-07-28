@@ -1,0 +1,16 @@
+{
+    "RADCURE-0688": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx glottis subsite. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 71.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 25, Smoking Status: Ex-smoker, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: none, Tx Modality: RT alone, Chemo? : none, Dose: 66.0, Fx: 33, Local: none, Regional: Yes, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [251, 155, 61, 251, 184, 78]\n   - [256, 205, 22, 256, 263, 119]\n\n2. These coordinates are normalized relative to the original image size and define volumetric regions within the head and neck CT scan.\n\n3. The first bounding box appears to be a thin slice (z min and max both 251) spanning y=155 to 184 and x=61 to 78. This likely corresponds to a small anatomical structure or lesion in a specific axial slice.\n\n4. The second bounding box is also a thin slice (z min and max both 256) spanning y=205 to 263 and x=22 to 119, covering a larger area in the axial plane.\n\n5. Without direct visualization, but based on typical head and neck anatomy and the coordinates, these regions could correspond to:\n   - The first box: possibly a small lesion or lymph node in the mid to lower neck region.\n   - The second box: a larger region possibly including part of the oropharynx, hypopharynx, or adjacent lymphatic structures.\n\n6. From a radiation oncology perspective, these ROIs may represent tumor volumes or involved lymph nodes requiring targeted radiation.\n\n7. No explicit abnormalities are described, but the presence of masked ROIs suggests areas of interest for treatment planning.\n\n8. Survival probability depends on tumor site, stage, HPV status, and treatment modality, none of which are provided here.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All required specialties are present.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

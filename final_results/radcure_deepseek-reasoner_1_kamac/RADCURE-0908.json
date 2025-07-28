@@ -1,0 +1,16 @@
+{
+    "RADCURE-0908": {
+        "question": "Age: 41.0, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Larynx, Subsite: Glottis, T: T1a, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 51.0, Fx: 20, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a head and neck image in sagittal view, showing the cervical spine, pharyngeal airway, and surrounding soft tissues.\n\n2. The two bounding boxes are given as:\n   - [266, 182, 71, 266, 201, 79]\n   - [260, 232, 25, 260, 286, 115]\n\n3. The coordinates are normalized and define volumetric regions. The first box appears to be a small region in the upper cervical area, possibly around the oropharynx or hypopharynx. The second box is larger and more inferior, possibly including parts of the larynx or upper trachea.\n\n4. From a radiation oncology perspective, these regions could correspond to:\n   - Organs at risk (OARs) such as the spinal cord, pharyngeal constrictor muscles, or larynx.\n   - Disease regions such as primary tumor or involved lymph nodes.\n\n5. Without visible contrast or tumor delineation, no obvious mass or abnormality is clearly seen in the provided image slice. The spinal cord appears intact and without gross compression.\n\n6. The bounding boxes may represent target volumes or OARs for radiation planning.\n\n7. No visible gross abnormalities such as tumor mass, necrosis, or bone destruction are apparent in this slice.\n\nFinal assessment: No clear visible abnormality or tumor is identified in the provided image and bounding boxes. The regions likely correspond to normal anatomical structures or planned radiation volumes.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: multidisciplinary input already addressed  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

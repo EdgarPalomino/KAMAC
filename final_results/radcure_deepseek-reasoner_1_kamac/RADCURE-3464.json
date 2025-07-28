@@ -1,0 +1,16 @@
+{
+    "RADCURE-3464": {
+        "question": "Age: 62.9, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 1, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The bounding box coordinates given are [[233, 152, 106, 233, 205, 133], [233, 152, 106, 233, 205, 133]], which appear to be identical, indicating a single region of interest (ROI) within the CT scan.\n\n2. The coordinates are normalized relative to the original image size, spanning from z=233 to 233 (no depth), y=152 to 205, and x=106 to 133. The zero range in the z-axis suggests this ROI is essentially a 2D slice or a very thin volume.\n\n3. Anatomically, the y and x ranges correspond to a region in the mid to lower head and neck area, likely including parts of the oropharynx or adjacent soft tissues.\n\n4. The masked ROI likely highlights a lesion or structure of interest, possibly a tumor or involved lymph node.\n\n5. Without additional clinical data (tumor size, nodal involvement, HPV status), it is difficult to precisely assess prognosis.\n\n6. However, from a radiation oncology perspective, if this ROI corresponds to a primary tumor or involved node in the oropharynx, HPV status and nodal stage are critical for survival prediction.\n\n7. If HPV positive and treated with definitive chemo-radiotherapy at standard doses (e.g., 70 Gy in 35 fractions), survival is generally favorable.\n\n8. If HPV negative or with extensive nodal disease, prognosis worsens.\n\n9. The lack of volumetric depth in the ROI may limit assessment of tumor bulk or extracapsular extension.\n\n10. Overall, the imaging alone is insufficient to definitively predict survival without clinical and pathological correlation.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Survival assessment within radiation oncology scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

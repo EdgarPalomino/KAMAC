@@ -1,0 +1,16 @@
+{
+    "RADCURE-0852": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 84.8, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 15, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided CT scan is a head and neck image with two bounding boxes indicating regions of interest (ROIs).\n2. The first bounding box coordinates are [272, 175, 92, 272, 200, 112]. Since the z-axis min and max are the same (272), this likely represents a 2D slice or a very thin volume. The y-axis ranges from 175 to 200, and the x-axis from 92 to 112. This region is likely located in the posterior oropharyngeal or hypopharyngeal area, possibly including soft tissue structures or lymph nodes.\n3. The second bounding box coordinates are [216, 127, 139, 216, 155, 152]. Similarly, the z-axis min and max are the same (216), indicating a thin slice. The y-axis ranges from 127 to 155, and the x-axis from 139 to 152. This region may correspond to a different anatomical structure, possibly a lymph node or a tumor focus in the oropharynx or adjacent soft tissues.\n4. Without direct visualization of the scan, I cannot definitively identify the structures, but these ROIs likely represent either tumor volumes or involved lymph nodes.\n5. From a radiation oncology perspective, these ROIs would be critical for target delineation to ensure adequate dose coverage while sparing normal tissues.\n6. The presence of multiple ROIs may indicate multifocal disease or nodal involvement, which can impact staging and prognosis.\n7. If these ROIs correspond to tumor or nodal disease, the patient may require comprehensive radiation treatment including primary and nodal volumes.\n8. The survival probability depends on tumor stage, HPV status, and treatment modality, which are not provided here.\n9. No obvious abnormalities such as bone erosion or gross soft tissue invasion can be confirmed without image visualization.\n10. Overall, these ROIs are important for treatment planning but do not alone determine survival without clinical context.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: Survival assessment within radiation oncology scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

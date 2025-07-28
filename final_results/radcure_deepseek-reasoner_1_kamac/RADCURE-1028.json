@@ -1,0 +1,16 @@
+{
+    "RADCURE-1028": {
+        "question": "Age: 57.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 35, Smoking Status: Current, Ds Site: Nasopharynx, Subsite: Sup wall, T: T3, N: N2, M : M0, Stage: III, Path: NPC: Type 3 (WHO IIB), HPV: none, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for nasopharyngeal carcinoma, especially in stage III, WHO type 3 (IIB) cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The provided bounding box coordinates [[240, 186, 109, 240, 216, 125], [240, 186, 109, 240, 216, 125]] indicate a very small volumetric region within the CT scan, specifically a thin slice or small segment in the z-axis (240 to 240, effectively a single slice), and a limited range in the y (186 to 216) and x (109 to 125) axes.\n\nFrom a radiation oncologist's perspective focusing on nasopharyngeal carcinoma (NPC), especially stage III, WHO type 3 (IIB), this region likely corresponds to a localized area within the nasopharynx or adjacent structures. The fact that the bounding boxes are identical suggests a focus on a very specific ROI, possibly a tumor or involved lymph node.\n\nVisible anatomical structures in this region on a head and neck CT would typically include parts of the nasopharynx, possibly the base of the skull, or adjacent soft tissues. Without contrast or further imaging details, it is difficult to definitively identify abnormalities, but the presence of a masked ROI here suggests a lesion or tumor focus.\n\nGiven the stage III NPC and the location, this ROI likely represents the primary tumor or involved nodal disease. The small size of the bounding box may indicate a localized tumor volume or a nodal metastasis targeted for radiation therapy.\n\nFrom a survival probability standpoint, stage III NPC treated with concurrent chemoradiotherapy (70 Gy in 35 fractions) generally has a favorable prognosis, especially in WHO type 3 histology, which is more radiosensitive. The absence of distant metastasis (M0) and the use of combined modality treatment improve outcomes.\n\nFinal assessment: The ROI corresponds to a localized tumor or nodal disease in the nasopharynx region, suitable for targeted radiation therapy. Given the clinical context, the patient has a reasonable chance of survival with appropriate treatment.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: current expertise covers required scope  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

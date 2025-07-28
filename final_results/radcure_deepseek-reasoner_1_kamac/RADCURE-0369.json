@@ -1,0 +1,16 @@
+{
+    "RADCURE-0369": {
+        "question": "Age: 60.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 6, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T2, N: N2c, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "The provided CT scan shows two masked regions of interest (ROIs) defined by the bounding boxes:\n\n1. Bounding box 1: [255, 230, 119, 255, 257, 149]\n2. Bounding box 2: [243, 193, 79, 243, 227, 103]\n\nStep-by-step analysis from a medical oncologist's perspective:\n\n- The first bounding box appears to be located in the upper cervical region, possibly involving soft tissue structures near the oropharynx or hypopharynx. This area could correspond to lymph nodes or tumor involvement in the neck region.\n- The second bounding box is located more inferiorly and anteriorly, possibly involving the base of tongue or floor of mouth region, or adjacent lymphatic structures.\n- The presence of these ROIs in the head and neck CT scan suggests areas of interest that may represent tumor involvement or metastatic lymph nodes.\n- From an oncologic standpoint, involvement of multiple regions in the neck, especially bilateral or multiple nodal stations, can indicate advanced nodal disease (N2 or higher), which impacts staging and prognosis.\n- The exact nature of the abnormalities (tumor vs. reactive nodes) cannot be definitively determined without further clinical and pathological correlation.\n- If these ROIs represent metastatic lymph nodes or primary tumor extension, this would suggest a more advanced stage head and neck squamous cell carcinoma, which typically requires multimodal therapy including chemotherapy and radiation.\n- The survival probability in such cases depends on factors including tumor HPV status, nodal burden, extracapsular extension, and response to therapy.\n- Without additional clinical data, the presence of these two distinct ROIs in the neck region likely indicates nodal metastases, which generally portends a worse prognosis compared to node-negative disease.\n\nFinal answer:\nAnswer:Dead",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Dead",
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no\nReason: no existing knowledge gap in systemic therapy decisions\n---",
+        "Round 2-role-comment": "medical oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

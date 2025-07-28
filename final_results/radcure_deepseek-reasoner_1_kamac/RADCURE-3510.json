@@ -1,0 +1,16 @@
+{
+    "RADCURE-3510": {
+        "question": "Age: 68.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 75, Smoking Status: Current, Ds Site: Larynx, Subsite: Glottis, T: T2, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: Yes, Regional: Yes, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the larynx. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [258, 213, 138, 258, 247, 167]\n   - Box 2: [256, 172, 74, 256, 199, 84]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to be located more superiorly and posteriorly (higher y and z values), while the second box is more inferior and anterior (lower y and z values).\n\n3. Anatomical structures in this region typically include the oropharynx, hypopharynx, larynx, cervical lymph nodes, and surrounding soft tissues.\n\n4. The presence of masked ROIs suggests these are areas of interest, likely representing either tumor volumes or involved lymph nodes.\n\n5. From a radiation oncology perspective, the location and size of these ROIs are critical for planning target volumes (PTVs) and organs at risk (OARs) sparing.\n\n6. Without direct visualization of the scan, but given the coordinates and typical head and neck anatomy, these ROIs could correspond to:\n   - Primary tumor site in the oropharynx or hypopharynx.\n   - Regional lymph node involvement.\n\n7. The presence of multiple ROIs suggests at least regional nodal disease, which impacts staging and prognosis.\n\n8. HPV status is not provided here, but HPV-positive oropharyngeal cancers generally have better prognosis and response to radiation.\n\n9. The survival probability depends on tumor stage, nodal involvement, HPV status, and treatment modality.\n\n10. Since the question is about visible anatomical structures, patterns, or abnormalities, the key point is that these ROIs likely represent tumor and nodal disease in the head and neck region, which will require careful radiation planning to maximize tumor control and minimize toxicity.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Dead",
+        "Round 1-role-comment": "radiation oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: survival assessment within radiation oncology scope\n---",
+        "Round 2-role-comment": "radiation oncologist:dead",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

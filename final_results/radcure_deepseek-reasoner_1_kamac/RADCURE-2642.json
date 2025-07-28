@@ -1,0 +1,16 @@
+{
+    "RADCURE-2642": {
+        "question": "Age: 70.8, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 60, Smoking Status: Current, Ds Site: Oropharynx, Subsite: Soft Palate, T: T1, N: N0, M : M0, Stage: I, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The CT scan is a sagittal view of the head and neck region, showing bony structures (vertebrae), soft tissues, and airways.\n\n2. The bounding boxes provided are normalized coordinates within the scan volume. The first bounding box [249, 203, 121, 249, 233, 149] and the second [240, 173, 110, 240, 200, 125] likely correspond to regions of interest (ROIs) in the oropharyngeal or hypopharyngeal area, given the typical anatomical landmarks in this scan.\n\n3. The first bounding box appears to be located posteriorly near the base of the tongue or oropharynx, possibly including part of the tongue musculature or adjacent soft tissues.\n\n4. The second bounding box is slightly more superior and anterior, possibly involving the soft palate or upper oropharynx.\n\n5. No obvious gross abnormalities such as large masses or destructive bone lesions are visible in the provided image slice.\n\n6. The vertebral bodies appear intact without lytic or blastic changes.\n\n7. The airway is patent without obvious obstruction.\n\n8. From a radiation oncology perspective, these ROIs could represent tumor volumes or nodal regions targeted for radiation.\n\n9. Without additional clinical data (tumor staging, HPV status, smoking history), it is difficult to precisely estimate survival probability.\n\n10. However, if these ROIs represent localized squamous cell carcinoma in the oropharynx, and assuming standard treatment with radiation (with or without chemotherapy), the prognosis is generally favorable, especially if HPV-positive.\n\nFinal answer:\n\n('Answer:Alive',)",
+        "initial_assessment_review_assessment-radiation oncologist": "('Answer:Alive',)",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Current expertise covers required scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

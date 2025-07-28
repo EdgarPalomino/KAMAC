@@ -1,0 +1,16 @@
+{
+    "RADCURE-3421": {
+        "question": "Age: 67.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil Pillar, T: T2, N: N0, M : M0, Stage: II, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis:\n\n1. The bounding box coordinates provided are [[270, 196, 114, 270, 229, 126], [270, 196, 114, 270, 229, 126]]. Both bounding boxes are identical, indicating a very small or possibly a single slice region in the CT scan.\n\n2. The coordinates are normalized relative to the original image size, but the exact dimensions of the original scan are not provided here. However, the z-axis values (270 to 270) suggest a single axial slice, while the y and x ranges (196 to 229 and 114 to 126) define a small rectangular region.\n\n3. From a radiation oncology perspective, this small ROI could correspond to a localized anatomical structure or a small lesion. Given the head and neck CT context, this region might include parts of the oropharynx, lymph nodes, or small tumor foci.\n\n4. Without visible image data or contrast enhancement details, it is difficult to definitively identify abnormalities. However, the presence of a masked ROI in this region may indicate a target for radiation therapy planning, such as a tumor or involved lymph node.\n\n5. For survival probability, key factors include tumor size, nodal involvement, HPV status, and treatment modality. Since these are not provided here, and the ROI is small, it may represent a limited disease volume, which generally correlates with better prognosis.\n\n6. No direct evidence of gross anatomical abnormalities or extensive disease is apparent from the bounding box data alone.\n\nFinal answer:\nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Sufficient expertise within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

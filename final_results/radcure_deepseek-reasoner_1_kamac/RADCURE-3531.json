@@ -1,0 +1,16 @@
+{
+    "RADCURE-3531": {
+        "question": "Age: 57.9, Sex: Female, ECOG PS: ECOG 1, Smoking PY: na, Smoking Status: unknown, Ds Site: Nasal Cavity, Subsite: Vestibule, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: Negative, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: Yes, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-negative cases involving the nasal cavity and regional lymph nodes. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are identical: [242, 79, 109, 242, 126, 134]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 242), spanning y from 79 to 126 and x from 109 to 134.\n\n2. Given the normalized coordinates and the typical orientation of head and neck CT scans, this region likely corresponds to a small volume in the axial plane, possibly within the oropharyngeal or hypopharyngeal region, or adjacent soft tissues.\n\n3. Without the actual image data visible here, I cannot directly identify specific anatomical structures or abnormalities. However, the small volume and location suggest this could be a region of interest such as a lymph node, a tumor focus, or an organ at risk (e.g., part of the pharynx, larynx, or a nodal basin).\n\n4. From a radiation oncology perspective, the identification of such a region is critical for accurate target delineation or organ sparing during treatment planning.\n\n5. Since the bounding box is very limited in the z-axis, it may represent a small lesion or a specific anatomical landmark important for dose planning.\n\n6. Without further clinical or imaging context (e.g., tumor staging, HPV status, or presence of nodal disease), it is not possible to definitively comment on survival probability.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "no  \nAnswer:Alive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: no additional specialists required\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

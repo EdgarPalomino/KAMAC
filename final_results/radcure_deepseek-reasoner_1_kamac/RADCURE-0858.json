@@ -1,0 +1,16 @@
+{
+    "RADCURE-0858": {
+        "question": "Age: 72.2, Sex: Male, ECOG PS: ECOG 2, Smoking PY: 40, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsil, T: T3, N: N3, M : M0, Stage: IVB, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is a sagittal view of the head and neck region, showing bony structures (cervical vertebrae), soft tissues of the oropharynx, and airway.\n\n2. The bounding box coordinates are normalized and define two volumetric regions:\n   - First box: [265, 179, 82, 265, 223, 110]\n   - Second box: [255, 223, 123, 255, 259, 152]\n\n3. These boxes likely correspond to regions of interest in the oropharyngeal area or adjacent lymph node regions, given the typical anatomical landmarks.\n\n4. The first bounding box appears to be located around the oropharynx or base of tongue region, possibly including tumor or involved lymph nodes.\n\n5. The second bounding box is more inferior and posterior, possibly involving lower cervical lymph nodes or adjacent soft tissue structures.\n\n6. From a radiation oncology perspective, involvement of multiple nodal levels or bulky disease in these regions can impact prognosis and treatment planning.\n\n7. Without additional clinical data (tumor size, nodal status, HPV status), it is difficult to definitively assess survival probability.\n\n8. However, if these ROIs represent involved tumor and nodal disease in a head and neck squamous cell carcinoma patient, especially if HPV positive, the prognosis is generally better than HPV negative cases.\n\n9. Treatment would likely involve definitive radiation therapy with or without chemotherapy, targeting these volumes.\n\n10. The presence of multiple involved regions suggests at least nodal involvement, which can be associated with intermediate to advanced stage disease.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no\n\nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: All required expertise is present.\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

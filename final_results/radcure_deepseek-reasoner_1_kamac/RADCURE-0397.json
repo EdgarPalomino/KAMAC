@@ -1,0 +1,16 @@
+{
+    "RADCURE-0397": {
+        "question": "Age: 57.2, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T1, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are:\n   - [263, 223, 126, 263, 253, 154]\n   - [272, 191, 108, 272, 210, 122]\n\n2. These coordinates are normalized and define volumetric regions within the head and neck CT scan. The z-axis values (263 and 272) suggest slices in the lower neck or upper thoracic inlet region, while the y and x values correspond to lateral and anterior-posterior dimensions.\n\n3. The first bounding box spans a region with a larger y and x range (223 to 253 in y, 126 to 154 in x), possibly including soft tissue structures such as lymph nodes or parts of the pharynx.\n\n4. The second bounding box is smaller and more anterior (y: 191 to 210, x: 108 to 122), possibly representing a smaller lesion or anatomical structure such as a lymph node or a small tumor focus.\n\n5. Without direct visualization of the CT image, but given the location and typical radiation oncology concerns, these ROIs likely correspond to involved lymph nodes or tumor volumes in the neck region.\n\n6. From a radiation oncology perspective, the presence of these ROIs in the neck region could indicate nodal involvement, which is critical for staging and treatment planning.\n\n7. The involvement of lymph nodes in head and neck squamous cell carcinoma, especially HPV-positive oropharyngeal cancer, generally affects prognosis but can still have favorable outcomes with appropriate radiation therapy.\n\n8. The size and location of these ROIs would guide the radiation target volumes, dose escalation, and possibly the need for concurrent chemotherapy.\n\n9. Without additional clinical data (tumor stage, HPV status, etc.), it is difficult to definitively predict survival, but nodal involvement alone in HPV-positive disease often still correlates with good prognosis.\n\nFinal answer:  \nAnswer:Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: Team scope sufficient\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

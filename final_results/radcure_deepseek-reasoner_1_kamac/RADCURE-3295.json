@@ -1,0 +1,16 @@
+{
+    "RADCURE-3295": {
+        "question": "Age: 49.8, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 10, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 0\nAnswer: ",
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in head and neck cancers. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "The provided bounding box coordinates are identical: [270, 181, 134, 270, 202, 140]. This suggests a very thin or possibly a single-slice region along the z-axis (since the minimum and maximum z values are both 270), spanning a small area in the y and x dimensions.\n\nGiven the location in a head and neck CT scan, this region likely corresponds to a very localized anatomical structure or lesion. However, the exact anatomical structure or abnormality cannot be definitively identified without further context such as the slice orientation or contrast enhancement.\n\nFrom a medical oncologist's perspective, the key considerations would be:\n\n- Is this region part of a known tumor or nodal disease?\n- Does the ROI correspond to a critical structure that might influence treatment planning (e.g., tumor margin, lymph node involvement)?\n- Are there any visible signs of tumor infiltration, necrosis, or abnormal tissue density within this ROI?\n\nSince the bounding box is very limited in size and no additional imaging features or clinical data are provided, it is not possible to describe specific anatomical structures or abnormalities confidently.\n\nIf this ROI corresponds to a tumor or involved lymph node, its small size might suggest limited disease burden, which could be favorable for prognosis. Conversely, if this is a critical structure involved by tumor, it might complicate treatment.\n\nFinal assessment: Insufficient data to determine specific anatomical or pathological features.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-medical oncologist": "Answer:Alive",
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-medical oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-medical oncologist": "---\nAnswer: no\nReason: No additional specialists required\n---",
+        "Round 2-role-comment": "medical oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

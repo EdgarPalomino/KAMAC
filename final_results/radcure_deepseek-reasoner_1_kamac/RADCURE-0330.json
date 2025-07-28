@@ -1,0 +1,16 @@
+{
+    "RADCURE-0330": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 63.0, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T1, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are normalized and define two volumetric regions within the head and neck CT scan:\n   - Box 1: [245, 211, 109, 245, 247, 126]\n   - Box 2: [235, 170, 86, 235, 200, 97]\n\n2. These coordinates likely correspond to specific anatomical or pathological regions. Given the z, y, x axes, these boxes are relatively small and localized.\n\n3. From a radiation oncology perspective, these regions could represent:\n   - Organs at risk (OARs) such as salivary glands, lymph nodes, or parts of the pharynx.\n   - Disease regions such as primary tumor or involved lymph nodes.\n   - Cellular structures are less likely to be visible on CT but could be inferred from the ROI.\n\n4. Without the actual image, I infer that the first bounding box (larger in y and x dimensions) might correspond to a lymph node or a tumor mass in the oropharyngeal region or adjacent neck soft tissues.\n\n5. The second bounding box, smaller and more superior or anterior, could represent a smaller lymph node or a critical structure like a part of the carotid sheath or a minor salivary gland.\n\n6. No explicit abnormalities such as necrosis, calcifications, or gross tumor invasion can be confirmed without image visualization.\n\n7. From a radiation oncology standpoint, the presence of these ROIs suggests targeted volumes for radiation planning, possibly indicating involved lymph nodes or tumor sites.\n\n8. The survival probability would depend on the tumor stage, HPV status, nodal involvement, and treatment modality, none of which are explicitly provided here.\n\nFinal answer: Insufficient data to determine survival probability or specific abnormalities.\n\nAnswer: alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: HPV+ oropharyngeal survival assessment within scope\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

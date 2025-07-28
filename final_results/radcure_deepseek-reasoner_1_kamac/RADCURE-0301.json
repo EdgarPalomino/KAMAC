@@ -1,0 +1,16 @@
+{
+    "RADCURE-0301": {
+        "question": "Age: 47.5, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 20, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T3, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: ChemoRT, Chemo? : Yes, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist == Medical Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [243, 170, 86, 243, 217, 124]\n   - Box 2: [258, 222, 120, 258, 256, 151]\n\n2. These coordinates are normalized to the image size and define volumetric regions of interest (ROIs). The first box appears to be located more superiorly and anteriorly, while the second box is more inferior and posterior.\n\n3. Anatomical structures in this region typically include the oropharynx, tonsillar region, base of tongue, and adjacent lymph node levels (II, III, IV).\n\n4. The first ROI likely corresponds to a primary tumor site or involved lymph node in the oropharyngeal region, possibly the tonsillar fossa or base of tongue, given the anterior and superior location.\n\n5. The second ROI, located more inferiorly and posteriorly, may represent an involved lymph node in the lower neck or retropharyngeal space.\n\n6. From a radiation oncology perspective, these ROIs are critical for delineating gross tumor volume (GTV) and involved nodal disease for targeted radiotherapy planning.\n\n7. The presence of multiple ROIs suggests locoregional disease spread, which impacts staging and prognosis.\n\n8. If this patient has HPV-positive oropharyngeal squamous cell carcinoma, the prognosis is generally better, but the presence of multiple involved nodal regions may indicate advanced nodal disease (N2 or higher).\n\n9. Treatment would likely involve definitive chemoradiotherapy with dose escalation to these ROIs.\n\n10. Survival probability depends on tumor stage, HPV status, and treatment response. Multiple nodal involvements increase risk but HPV positivity improves outcomes.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: no knowledge gaps requiring additional expertise  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

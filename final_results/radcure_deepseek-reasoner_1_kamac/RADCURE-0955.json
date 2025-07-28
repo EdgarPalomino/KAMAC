@@ -1,0 +1,16 @@
+{
+    "RADCURE-0955": {
+        "question": "Age: 70.1, Sex: Male, ECOG PS: ECOG 1, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Base of Tongue, T: T4a, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: Yes, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "The bounding box coordinates provided are identical: [277, 158, 87, 277, 229, 116]. This suggests a very thin or possibly a single-slice region along the z-axis (since min z = max z = 277), spanning y from 158 to 229 and x from 87 to 116 in normalized coordinates.\n\nStep-by-step analysis as a radiation oncologist:\n\n1. **Anatomical Location**: Given the z-coordinate is fixed at 277, this corresponds to a single axial slice in the CT scan. The y and x ranges define a rectangular region within that slice. The location likely corresponds to a small region in the head and neck area, possibly part of the oropharynx or adjacent structures.\n\n2. **Structures in the Region**: The region is relatively small and localized. It could represent a tumor volume, a lymph node, or an organ at risk (OAR) such as part of the pharynx, larynx, or a nodal basin.\n\n3. **Patterns or Abnormalities**: Since the ROI is masked, it likely highlights a region of interest such as a tumor or involved lymph node. The fact that the bounding box is very thin in the z-axis suggests a small or superficial lesion or structure.\n\n4. **Implications for Radiation Therapy**: If this ROI corresponds to a tumor or involved node, precise targeting is critical to maximize dose to the tumor while sparing surrounding normal tissues. The small volume may allow for a focused boost dose.\n\n5. **Survival Probability Considerations**: Without additional clinical data (tumor stage, HPV status, nodal involvement), it is difficult to estimate survival. However, a small, localized lesion generally correlates with better prognosis, especially if HPV-positive oropharyngeal cancer is considered.\n\nFinal assessment: The bounding box likely represents a small, localized lesion or nodal involvement in the head and neck region. Given the limited information and assuming no distant metastasis or extensive nodal disease, the survival probability would lean towards favorable.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: current expertise suffices  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

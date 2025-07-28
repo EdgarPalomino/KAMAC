@@ -1,0 +1,16 @@
+{
+    "RADCURE-3451": {
+        "question": "Age: 58.1, Sex: Male, ECOG PS: ECOG 0, Smoking PY: 5, Smoking Status: Ex-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T1, N: N1, M : M0, Stage: III, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The CT scan is of the head and neck region, with two bounding boxes provided:\n   - Box 1: [208, 205, 92, 208, 230, 108]\n   - Box 2: [232, 171, 100, 232, 201, 118]\n\n2. These coordinates are normalized and define volumetric regions within the scan. The first box appears to be located more inferiorly and posteriorly (higher z and y values), while the second box is more superior and anterior.\n\n3. Given the typical anatomy of the head and neck CT, these bounding boxes likely correspond to regions around the oropharynx or adjacent lymph node areas.\n\n4. The presence of masked ROIs suggests these are areas of interest, possibly tumor or involved lymph nodes.\n\n5. From a radiation oncology perspective, the identification of these ROIs is critical for target volume delineation to ensure adequate dose coverage while sparing normal tissues.\n\n6. Without additional clinical data (tumor stage, HPV status, etc.), it is difficult to precisely assess prognosis, but involvement of multiple regions or lymph nodes generally indicates a more advanced disease stage.\n\n7. If these ROIs represent involved lymph nodes or tumor extensions, this would influence radiation field design and dose escalation.\n\n8. No obvious anatomical abnormalities such as bone erosion or gross soft tissue invasion are described here, but the presence of ROIs suggests disease involvement.\n\nFinal answer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no  \nAlive",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no  \nReason: All required expertise covered within current team scope.  \n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

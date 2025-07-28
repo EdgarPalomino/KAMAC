@@ -1,0 +1,16 @@
+{
+    "RADCURE-3273": {
+        "recruit-recruiter": "1. Radiation Oncologist - Your expertise is strictly limited to radiation therapy planning and dosing for head and neck squamous cell carcinoma, especially HPV-positive cases. - Hierarchy: Radiation Oncologist",
+        "question": "Age: 64.8, Sex: Female, ECOG PS: ECOG 0, Smoking PY: 0, Smoking Status: Non-smoker, Ds Site: Oropharynx, Subsite: Tonsillar Fossa, T: T2, N: N2b, M : M0, Stage: IVA, Path: Squamous Cell Carcinoma, HPV: positive, Tx Modality: RT alone, Chemo? : none, Dose: 70.0, Fx: 35, Local: none, Regional: none, Distant: none, 2nd Ca: none, ContrastEnhanced: 1\nAnswer: ",
+        "initial_assessment-radiation oncologist": "Step-by-step analysis as a radiation oncologist:\n\n1. The provided bounding box coordinates are normalized and define two volumetric regions within the head and neck CT scan:\n   - Box 1: [233, 156, 94, 233, 194, 114]\n   - Box 2: [257, 208, 112, 257, 237, 141]\n\n2. These coordinates likely correspond to specific anatomical or pathological regions. Given the z, y, x axes, these boxes may represent areas within the oropharynx or adjacent neck structures.\n\n3. From a radiation oncology perspective, the key interest is whether these regions correspond to:\n   - Gross tumor volume (GTV)\n   - Involved lymph nodes (N stage)\n   - Critical organs at risk (OARs) such as spinal cord, parotid glands, or pharyngeal constrictors\n\n4. Without direct visualization, but based on typical head and neck anatomy and the bounding box sizes, these regions could represent:\n   - Primary tumor or residual disease in the oropharynx or tonsillar region\n   - Regional lymph node involvement in the neck\n\n5. The presence of multiple bounding boxes suggests multifocal disease or tumor plus nodal involvement, which impacts staging and prognosis.\n\n6. From a survival probability standpoint, involvement of multiple regions, especially nodal disease, generally worsens prognosis but HPV status (if positive) can improve outcomes.\n\n7. No explicit abnormalities such as bone erosion or airway compromise are described, but these would be critical for radiation planning.\n\nFinal answer: Without additional clinical or pathological data, the visible regions likely represent tumor and nodal disease relevant for radiation targeting.\n\nAnswer: Alive",
+        "initial_assessment_review_assessment-radiation oncologist": "Answer:Alive",
+        "Round 1-role-comment": "radiation oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate_review_assessment-radiation oncologist": "Answer:no",
+        "Round 2-Turn 1-ask_gap_review_assessment-radiation oncologist": "---\nAnswer: no\nReason: team expertise suffices\n---",
+        "Round 2-role-comment": "radiation oncologist:alive",
+        "Round 2-num_agents": 1,
+        "num_cooperations-panel": 0,
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}
