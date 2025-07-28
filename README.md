@@ -1,6 +1,6 @@
 <!--
  * @Author: Xiao Wu
- * @LastEditTime: 2025-07-28 21:46:16
+ * @LastEditTime: 2025-07-28 21:50:53
  * Copyright (c) 2025 by UESTC, All Rights Reserved. 
 -->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
@@ -67,11 +67,12 @@ You can load the corpus and access ``final_result`` without downloading the data
 ~$ python main_kamac.py  \
     --dataset_name med_qa \
     --model_name gpt-4.1-mini \
-    --prefix gpt-4.1-mini_kamac \
+    --prefix gpt-4.1-mini_kamac_test \
     --cot \
     --auto_recruit \
     --resampling_mode all_specific_ids
     --cache-mode "none"
+    --num-agents 1
 ```
 
 
