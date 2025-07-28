@@ -27,8 +27,9 @@ Experiments on two real-world medical benchmarks demonstrate that KAMAC signific
 
 ### 2. Set up API keys:
 ```bash
-~$ export openai_api_key="your_openai_api_key_here"
-~$ export genai_api_key="your_genai_api_key_here"
+~$ export OPENAI_API_KEY="your_api_key_here"
+~$ export DEEPSEEK_API_KEY="your_api_key_here"
+~$ export CLAUDE_API_KEY="your_api_key_here"
 ```
 
 
