@@ -1,6 +1,6 @@
 <!--
  * @Author: Xiao Wu
- * @LastEditTime: 2025-07-28 21:50:53
+ * @LastEditTime: 2025-07-28 21:52:08
  * Copyright (c) 2025 by UESTC, All Rights Reserved. 
 -->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
@@ -30,6 +30,12 @@ Experiments on two real-world medical benchmarks demonstrate that KAMAC signific
 ~$ export OPENAI_API_KEY="your_api_key_here"
 ~$ export DEEPSEEK_API_KEY="your_api_key_here"
 ~$ export CLAUDE_API_KEY="your_api_key_here"
+```
+
+You can also set up Ollama for inference without additional changes: 
+
+```bash
+~$ ollama serve
 ```
 
 
