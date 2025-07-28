@@ -33,9 +33,9 @@ Experiments on two real-world medical benchmarks demonstrate that KAMAC signific
 
 
 ### 3. Download dataset: 
-* **MedQA** can be downloaded directly.
+* **MedQA** can be loaded directly from ``data/``.
 
-* **RADCURE** (≈500GB zipped) includes images and must be manually placed in the data/ directory.
+* **RADCURE** (≈500GB zipped) includes images and must be manually placed in the ``data/`` directory.
 
 ```bash
 ~$ huggingface-cli download elsting/RADCURE
@@ -46,7 +46,7 @@ Experiments on two real-world medical benchmarks demonstrate that KAMAC signific
 
 
 ### 1. Reproduce Final Results
-You can load the corpus and access **final_results** without downloading the dataset to trace agent interactions and decisions:
+You can load the corpus and access ``final_result`` without downloading the dataset to trace agent interactions and decisions:
 
 ```bash
 
