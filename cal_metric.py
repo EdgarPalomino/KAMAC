@@ -128,7 +128,7 @@ def calculate_bc_metrics_and_plot_roc(y_true, y_pred):
     #     color="blue",
     #     label=f"ROC curve (area = {roc_auc:.2f})",
     # )
-    # plt.plot([0, 1], [0, 1], color="red", linestyle="--")  # 线性分隔
+    # plt.plot([0, 1], [0, 1], color="red", linestyle="--") 
     # plt.xlim([0.0, 1.0])
     # plt.ylim([0.0, 1.0])
     # plt.xlabel("False Positive Rate")
@@ -152,21 +152,8 @@ def lists_are_equal(l1, l2):
 
 
 def load_radcure(exp_name):
-
-    # specific_ids = []
-    # non_consensus = copy.deepcopy(df_pred)
-    # non_consensus = copy.deepcopy(df_pred[df_pred["match_type"] != "OK"])
-    # specific_ids = list(non_consensus.index)
-    # non_consensus = non_consensus[non_consensus["match_type"] == "Successful discussion"]
-    # non_consensus = non_consensus[~non_consensus["patient_id"].isin(exclude_ids)]
-    # if specific_ids:
-    #     non_consensus = non_consensus[non_consensus["patient_id"].isin(specific_ids)]
-    #     specific_ids = list(non_consensus.index)
-    # df_pred = df_pred.drop(columns=["match_type"])
-
     # model_name = "gpt-4.1-mini"
     # model_name = "deepseek-reasoner"
-    # work_dir = r"C:\Projects\Xiao\AgenticMIA\MDAgent\radcure_basic"
     # file_dir = work_dir  # os.path.dirname(__file__)
     # print(model_name)
     with open(os.environ["data_file"], "r", encoding="utf-8") as json_file:
