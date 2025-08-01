@@ -1,13 +1,5 @@
-'''
-Author: Xiao Wu
-LastEditTime: 2025-07-04 13:20:57
-Copyright (c) 2025 by UESTC, All Rights Reserved. 
-'''
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 @Time    : 2023/5/18 00:40
-@Author  : alexanderwu
 @File    : token_counter.py
 @From    : https://github.com/geekan/MetaGPT/blob/main/metagpt/utils/token_counter.py
 ref1: https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb
@@ -121,7 +113,6 @@ class Costs(NamedTuple):
 
 
 class CostManager(metaclass=Singleton):
-    """计算使用接口的开销"""
 
     def __init__(self):
         self.total_prompt_tokens = 0
@@ -206,7 +197,6 @@ class CostManager(metaclass=Singleton):
         # CONFIG.total_cost = self.total_cost
 
     def get_costs(self) -> Costs:
-        """获得所有开销"""
         return Costs(
             self.total_prompt_tokens,
             self.total_completion_tokens,
