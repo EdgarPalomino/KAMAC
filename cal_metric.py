@@ -24,7 +24,6 @@ def remove_duplicates_by_key(dicts, key):
     unique_dicts = []
 
     for d in dicts:
-        # 获取字典中指定键的值
         value = d.get(key)
         if value not in seen and d["status"] != "nan":
             seen.add(value)
@@ -49,19 +48,18 @@ def multiclass_specificity(cm, labels=None):
 
 
 def calculate_mc_metrics_and_plot_roc(y_true, y_pred):
-    # 基本指标
+
     accuracy = accuracy_score(y_true, y_pred)
     precision = precision_score(y_true, y_pred, average="macro")
     recall = recall_score(y_true, y_pred, average="macro")
     f1 = f1_score(y_true, y_pred, average="macro")
 
-    # 混淆矩阵
     conf_matrix = confusion_matrix(y_true, y_pred)
     spec = multiclass_specificity(conf_matrix)
-    # 分类报告（含各类指标）
+
     report = classification_report(y_true, y_pred, digits=4)
 
-    # 打印结果
+
     print("Accuracy:", accuracy)
     print("Precision (macro):", precision)
     print("Recall (macro):", recall)
@@ -78,25 +76,25 @@ def calculate_bc_metrics_and_plot_roc(y_true, y_pred):
     mismatched_indices = np.where(y_true != y_pred)[0]
     y_scores = y_pred
 
-    # 计算混淆矩阵
+
     cm = confusion_matrix(y_true, y_pred)
     TN, FP, FN, TP = cm.ravel()
 
     # print(cm)
     print(TN, FP, FN, TP, end=" |")
 
-    # 计算准确率
+
     accuracy = (TP + TN) / (TP + TN + FP + FN)
 
-    # 计算召回率 (TPR)
+
     recall = TP / (TP + FN) if (TP + FN) != 0 else 0
 
-    # 计算精度
+
     precision = TP / (TP + FP) if (TP + FP) != 0 else 0
 
     FPR = FP / (FP + TN) if (FP + TN) != 0 else 0
 
-    # 计算F1分数
+
     f1 = (
         2 * (precision * recall) / (precision + recall)
         if (precision + recall) != 0
@@ -105,14 +103,14 @@ def calculate_bc_metrics_and_plot_roc(y_true, y_pred):
 
     auc = 0.5 * (TN / (TN + FP) + recall)
 
-    # 计算ROC AUC
+
     roc_auc = roc_auc_score(y_true, y_scores)
 
-    # 计算AP
+
     ap = average_precision_score(y_true, y_scores)
 
     fpr, tpr, thresholds = roc_curve(y_true, y_scores)
-    # 打印结果
+
     print(f"Accuracy: {accuracy:.4f}")
     print(f"Recall (TPR): {recall:.4f}, tpr: {tpr}")
     print(f"FPR: {FPR:.4f}, fpr: {fpr}")
@@ -121,7 +119,7 @@ def calculate_bc_metrics_and_plot_roc(y_true, y_pred):
     print(f"AUC: {roc_auc:.4f}, {auc:.4f}")
     print(f"Average Precision: {ap:.4f}")
 
-    # 绘制ROC曲线
+
 
     # plt.figure()
     # plt.plot(
