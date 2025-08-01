@@ -48,7 +48,7 @@ You can load the corpus and access ``final_results`` without downloading the dat
 ```bash
 
 ~$ python main_kamac.py  \
-    --dataset_name med_qa \
+    --dataset_name radcure \
     --model_name gpt-4.1-mini \
     --prefix gpt-4.1-mini_kamac \
     --cot \
@@ -61,7 +61,7 @@ You can load the corpus and access ``final_results`` without downloading the dat
 
 ```bash
 ~$ python main_kamac.py  \
-    --dataset_name med_qa \
+    --dataset_name radcure \
     --model_name gpt-4.1-mini \
     --prefix gpt-4.1-mini_kamac_test \
     --cot \
