@@ -1,9 +1,3 @@
-'''
-Author: Xiao Wu
-LastEditTime: 2025-03-28
-Copyright (c) 2025 by UESTC, All Rights Reserved. 
-'''
-
 import datetime
 import httpx
 import openai
