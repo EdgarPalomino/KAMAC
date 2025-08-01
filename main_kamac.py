@@ -1542,7 +1542,7 @@ def get_masked_image(subsubdir):
         # ).transpose(0, 1, 2)
         # # mask = mask[:, ::-1, ::-1]
 
-        mask = mask > 0  # 设置阈值以创建 mask
+        mask = mask > 0 
         areas = [mask[:, :, idx].sum() for idx in range(x_min_between, x_max_between)]
         x_idx = np.argmax(areas) + x_min_between
         mask2d = mask[:, :, x_idx]
@@ -1914,7 +1914,7 @@ def inference():
     os.makedirs(f"{work_dir}/{os.environ['cache_path']}", exist_ok=True)
     os.makedirs(f"{work_dir}/{os.environ['saved_as_path']}", exist_ok=True)
 
-    # 加载数据
+    
     specific_ids = []
     patient_list, examplers, _ = load_dataset(dataset_name, add_examplers=add_examplers)
 
