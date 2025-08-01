@@ -1,8 +1,3 @@
-'''
-Author: Xiao Wu
-LastEditTime: 2025-07-28 21:37:10
-Copyright (c) 2025 by UESTC, All Rights Reserved. 
-'''
 import json
 import re
 from pathlib import Path
