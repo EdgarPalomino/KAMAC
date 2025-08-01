@@ -311,7 +311,6 @@ class Agent_ollama:
                 text=True,
             )
             content = ""
-            # 实时读取输出
             while True:
                 output = process.stdout.read(1)
                 if output == "" and process.poll() is not None:
