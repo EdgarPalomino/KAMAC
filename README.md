@@ -39,11 +39,6 @@ You can also set up Ollama for inference without additional changes:
 
 * **RADCURE** (≈500GB zipped) includes images and must be manually placed in the ``data/`` directory.
 
-```bash
-~$ huggingface-cli download elsting/RADCURE
-```
-
-
 ## 🔍 Inference
 
 
