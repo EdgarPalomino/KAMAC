@@ -37,13 +37,13 @@ You can also set up Ollama for inference without additional changes:
 ### 3. Download dataset: 
 * **MedQA** can be loaded directly from ``data/``.
 
-* **RADCURE** (≈500GB zipped) includes images and must be manually placed in the ``data/`` directory.
+* **RADCURE** (≈500GB zipped) includes images and must be manually placed in the ``data/`` directory. The JSON file have been provided in ``data/``.
 
 ## 🔍 Inference
 
 
 ### 1. Reproduce Final Results
-You can load the corpus and access ``final_result`` without downloading the dataset to trace agent interactions and decisions:
+You can load the corpus and access ``final_results`` without downloading the dataset to trace agent interactions and decisions:
 
 ```bash
 
