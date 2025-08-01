@@ -1,8 +1,3 @@
-<!--
- * @Author: Xiao Wu
- * @LastEditTime: 2025-07-28 21:52:08
- * Copyright (c) 2025 by UESTC, All Rights Reserved. 
--->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
 
 <p align="center">
@@ -84,12 +79,3 @@ You can load the corpus and access ``final_result`` without downloading the data
 
 ## License
 This project is open sourced under GNU General Public License v3.0.
-
-## 📬 Contract
-
-For questions or collaborations, feel free to reach out:
-
-**Xiao Wu**
-📧 xiao.wu@mbzuai.ac.ae 
-
-📧 wswsx1997@gmail.com
