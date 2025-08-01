@@ -17,7 +17,6 @@ class FixedTimeFormatter(logging.Formatter):
         self.fixed_time_str = self.fixed_time.strftime("%Y-%m-%d %H:%M:%S")
 
     def formatTime(self, record, datefmt=None):
-        # 计算固定时间与记录创建时间的差值
         record_time = datetime.fromtimestamp(record.created)
         elapsed_time = record_time - self.fixed_time
         elapsed_days = elapsed_time.days
@@ -47,7 +46,6 @@ class RichLogger:
 
     @functools.lru_cache()  # so that calling setup_logger multiple times won't add many handlers
     def __init__(self, name: str, level: int = logging.INFO, log_file: str = "app.log"):
-        """初始化日志记录器"""
         self.name = name
         custom_theme = Theme(
             {
@@ -105,7 +103,6 @@ class Logger:
 
     @functools.lru_cache()  # so that calling setup_logger multiple times won't add many handlers
     def __init__(self, name: str, level: int = logging.INFO, log_file: str = "app.log"):
-        """初始化日志记录器"""
 
         custom_theme = Theme(
             {"info": "dim green", "warning": "magenta", "danger": "bold red"}
