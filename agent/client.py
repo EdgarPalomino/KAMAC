@@ -189,10 +189,10 @@ def encode_image_to_base64(pil_image):
 def time_it(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        start_time = time.time()  # 记录开始时间
-        result = func(*args, **kwargs)  # 调用原函数
-        end_time = time.time()  # 记录结束时间
-        duration = end_time - start_time  # 计算持续时间
+        start_time = time.time()  
+        result = func(*args, **kwargs)  
+        end_time = time.time() 
+        duration = end_time - start_time 
         base_logger.info(
             f"Function '{func.__name__}' took {duration:.4f} seconds to execute."
         )
@@ -209,14 +209,14 @@ def retry_on_api_error(func):
     def wrapper(*args, **kwargs):
         for attempt in range(max_retries):
             try:
-                response = func(*args, **kwargs)  # 调用被装饰的函数
+                response = func(*args, **kwargs)
                 if response is None:
                     continue
                 else:
                     return response
             except openai.APIError as e:
                 print(f"Attempt {attempt + 1} failed: {e}")
-                if attempt < max_retries - 1:  # 如果不是最后一次尝试
+                if attempt < max_retries - 1: 
                     time.sleep(retry_delay)
                 else:
                     print(
