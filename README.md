@@ -1,8 +1,3 @@
-<!--
- * @Author: Xiao Wu
- * @LastEditTime: 2025-08-02 09:33:36
- * Copyright (c) 2025 by UESTC, All Rights Reserved. 
--->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
 
 <p align="center">
