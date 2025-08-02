@@ -1774,78 +1774,99 @@ def selected_non_consensus_examples(dataset_name, gt, select=False):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run the inference pipeline for clinical datasets.")
-    
+
     parser.add_argument(
         "--dataset_name",
         default="med_qa",
         choices=["med_qa", "radcure"],
         help="Dataset to evaluate. Options: 'med_qa', 'radcure'."
     )
-    
+
     parser.add_argument(
         "--model_name",
         default="gpt-4.1-mini",
         help="Model identifier to be used for inference."
     )
-    
+
     parser.add_argument(
         "--prefix",
         default="gpt-4.1-mini_kamac",
         help="Experiment name prefix used for logging and result saving."
     )
-    
+
     parser.add_argument(
         "--vlm",
         action="store_true",
         help="Enable vision-language mode (for image-text datasets)."
     )
-    
+
     parser.add_argument(
         "--cot",
         action="store_true",
         help="Enable Chain-of-Thought (CoT) reasoning."
     )
-    
+
     parser.add_argument(
         "--auto_recruit",
         action="store_true",
         help="Automatically recruit agents for specific tasks (default: True)."
     )
-    
+
     parser.add_argument(
         "--add_examplers",
         action="store_true",
         help="Use few-shot exemplars in the prompt (few-shot learning)."
     )
-    
+
     parser.add_argument(
         "--num_agents",
         type=int,
         default=1,
         help="Number of agents involved in the decision process."
     )
-    
+
     parser.add_argument(
         "--resampling_mode",
         choices=["specific_ids", "all_specific_ids"],
         default="specific_ids",
         help="Select how patient cases are loaded: specific IDs or all."
     )
-    
+
     parser.add_argument(
         "--specific_ids",
         nargs="+",
         default=[],
         help="List of specific patient IDs to evaluate."
     )
-    
+
     parser.add_argument(
         "--cache_mode",
-        nargs=str,
         default="all",
+        type=str,
         help="List of specific patient IDs to evaluate."
     )
+
+    parser.add_argument(
+        "--cache_path",
+        default="results/your_cache_path",
+        type=str,
+        help="List of specific patient IDs to evaluate."
+    )
+
+    parser.add_argument(
+        "--saved_as_path",
+        default=None,
+        type=str,
+        help="List of specific patient IDs to evaluate.",
+    )
     
+    parser.add_argument(
+        "--n_jobs",
+        default=1,
+        type=int,
+        help="Number of jobs to run in parallel.",
+    )
+
     return parser.parse_args()
 
 
@@ -1894,7 +1915,6 @@ def inference():
     # "qwen2.5:72b",
     # "Qwen/Qwen2.5-32B-Instruct"
     # ]
-
     model_name = args_cli.model_name
     # model_name = ["qwen2.5:7b"]
     # model_name = ["claude-3-7-sonnet-20250219"]
@@ -1909,12 +1929,11 @@ def inference():
 
     os.environ["MODEL_INFO"] = model_name.replace("_", ":")
     os.environ["SOURCE"] = "openai"
-    os.environ["cache_path"] = f"results/{dataset_name}_{prefix}"
-    os.environ["saved_as_path"] = f"results/{dataset_name}_{prefix}_from_{prefix}"
+    os.environ["cache_path"] = args_cli.cache_path
+    os.environ["saved_as_path"] = args_cli.saved_as_path if args_cli.saved_as_path is not None else args_cli.cache_path
     os.makedirs(f"{work_dir}/{os.environ['cache_path']}", exist_ok=True)
     os.makedirs(f"{work_dir}/{os.environ['saved_as_path']}", exist_ok=True)
 
-    
     specific_ids = []
     patient_list, examplers, _ = load_dataset(dataset_name, add_examplers=add_examplers)
 
@@ -2041,13 +2060,12 @@ def inference():
                     logger,
                 ),
                 n_trials=sampler._n_min_trials,
-                n_jobs=1,
+                n_jobs=args_cli.n_jobs,
             )
         except KeyboardInterrupt:
             command = input("Please input the command (q to exit): ")
             if command == "q":
                 raise KeyboardInterrupt
-
 
 
 if __name__ == "__main__":

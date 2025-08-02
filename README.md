@@ -1,3 +1,8 @@
+<!--
+ * @Author: Xiao Wu
+ * @LastEditTime: 2025-08-02 09:33:36
+ * Copyright (c) 2025 by UESTC, All Rights Reserved. 
+-->
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
 
 <p align="center">
@@ -53,11 +58,22 @@ You can load the corpus and access ``final_results`` without downloading the dat
     --prefix gpt-4.1-mini_kamac \
     --cot \
     --auto_recruit \
-    --resampling_mode all_specific_ids
+    --resampling_mode all_specific_ids \
+    --cache_path final_results/radcure_gpt-4.1-mini_1_kamac \
+    --saved_as_path results/radcure_gpt-4.1-mini_1_kamac
 ```
 
+### 2. Evaluate Final Results
 
-### 2. Run a New Experiment
+Run the following command to evaluate the final performance of the model:
+
+```bash
+~$ python select_radcure.py 
+```
+This script will output key evaluation metrics:  Accuracy, Precision, Spectivity (1-FPR), Recall.
+
+
+### 3. Run a New Experiment
 
 ```bash
 ~$ python main_kamac.py  \
@@ -66,9 +82,11 @@ You can load the corpus and access ``final_results`` without downloading the dat
     --prefix gpt-4.1-mini_kamac_test \
     --cot \
     --auto_recruit \
-    --resampling_mode all_specific_ids
-    --cache-mode "none"
-    --num-agents 1
+    --resampling_mode all_specific_ids \
+    --cache-mode "none" \
+    --num-agents 1 \
+    --cache_path results/radcure_gpt-4.1-mini_kamac_test \
+    --n_jobs 8
 ```
 
 

@@ -7,8 +7,9 @@ import re
 import pandas as pd
 import copy
 from typing import Literal
-from KAMAC.cal_metric import cal_metric
+from cal_metric import cal_metric
 from collections import Counter
+import argparse
 
 # from rich.traceback import install
 # install()
@@ -65,9 +66,6 @@ def get_status(dataset_name, response_tasks):
         return response_tasks
 
 
-def consensus2vote():
-    ...
-
 
 def update_num_agents(content):
     num = 0
@@ -77,7 +75,6 @@ def update_num_agents(content):
                 num = value
             if "Turn 1" not in key and value == 0:
                 content[key] = num
-                print(name)
     return content
 
 
@@ -279,14 +276,20 @@ def read_files(file):
                 print(voting)
 
 
+# def parse_args():
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument("--file_path", type=str, required=True)
+#     return parser.parse_args()
+
+
 if __name__ == "__main__":
     import os 
 
     file_mini_1_kamac = (
-        rf"{os.path.dirname(__file__)}/results/radcure_gpt-4.1-mini_1_kamac"
+        rf"{os.path.dirname(__file__)}/final_results/radcure_gpt-4.1-mini_1_kamac"
     )
     file_mini_1_CoT = (
-        rf"{os.path.dirname(__file__)}/results/radcure_gpt-4.1-mini_1_CoT"
+        rf"{os.path.dirname(__file__)}/final_results/radcure_gpt-4.1-mini_1_CoT"
     )
     version = "1_kamac"
     model_name = "gpt-4.1-mini"
@@ -303,10 +306,10 @@ if __name__ == "__main__":
     
     ## deepseek-reasoner
     file_ds_1_kamac = (
-        rf"{os.path.dirname(__file__)}/results/radcure_deepseek-reasoner_1_kamac"
+        rf"{os.path.dirname(__file__)}/final_results/radcure_deepseek-reasoner_1_kamac"
     )
     file_ds_1_CoT = (
-        rf"{os.path.dirname(__file__)}/results/radcure_deepseek-reasoner_1_CoT"
+        rf"{os.path.dirname(__file__)}/final_results/radcure_deepseek-reasoner_1_CoT"
     )
     version = "1_kamac"
     model_name = "deepseek-reasoner"
