@@ -420,45 +420,6 @@ class Agent_ollama_python:
         else:
             # if self.model_info in ["gpt-3.5", "gpt-4", "gpt-4o", "gpt-4o-mini"]:
             self.messages.append({"role": "user", "content": json.dumps(message)})
-            # prompt = """
-            #         Rules:
-            #         - You MUST select trials exactly as provided (including number and parameters).
-            #         - "{context}\n\n"
-            #         - You MUST NOT modify, mix, create, or imagine any new parameter combinations.
-            #         - You MUST NOT invent new trial numbers.
-            #         - Trials already recommended ({used_trial_ids}) MUST NOT be selected again.
-            #         "1. ** Analysis of All Recommended Trials **"
-            #         "  and summarize performance metrics of recommended trials.\n
-            #         "- Evaluate performance trends for hyper-parameters.\n"
-            #         "- Highlight promising hyper-parameter combinations."
-            #         "2. **Optimization Recommendation**\n"
-            #         "- Recommend hyper-parameters for the next {n_jobs} trials from the given search space.\n"
-            #         "- Do not output any JSON blocks during the reasoning part."
-            #         "- Provide reasoning for each recommendation.\n\n"
-            #         "3. **Stop Optimization**\n"
-            #         "- Output 'Answer: Yes' ONLY if:\n"
-            #         "   * Best result is superior to the baseline.\n"
-            #         "   * You're confident further trials won't help.\n"
-            #         "- Otherwise, output 'Answer: No with confidence score: <float between 0 and 1>'.\n"
-            #         "- Provide a short (1-2 sentences) justification either way.\n"
-            #         "Finally, your response should include the following JSON format:\n\n"
-            #         ```json
-            #         [\n
-            #         '  {{"number": ..., "params": {{...}}}},\n'
-            #         '  {{"number": ..., "params": {{...}}}},\n'
-            #         '  {{"number": ..., "params": {{...}}}}\n'
-            #         ]
-            #         ```
-            #         """
-
-            # prompt = prompt.format(
-            #     n_jobs=3,
-            #     context=json.dumps(self.messages[1]["content"]["target_trials"]),
-            #     used_trial_ids=json.dumps(self.messages[1]["content"]["trials"]),
-            # )
-            # print_log(prompt, logger=self.logger)
-            # # self.logger.info(prompt)
-            # self.messages[1] = {"role": "user", "content": prompt}
 
             print("question: \n", self.messages[1]["content"])
             temperatures = [0.0]
@@ -769,43 +730,6 @@ class Agent:
                 print(content)
                 return content
 
-            # prompt = """
-            #         "Only use the existing parameter sets listed below. Do not mix, modify, or create new values.\n\n"
-            #         "{context}\n\n"
-            #         "The following trials have already been recommended and must not be repeated:\n"
-            #         "{used_trial_ids}\n\n"
-            #         "1. ** Analysis of All Recommended Trials **"
-            #         "  and summarize performance metrics of recommended trials.\n
-            #         "- Evaluate performance trends for hyper-parameters.\n"
-            #         "- Highlight promising hyper-parameter combinations."
-            #         "2. **Optimization Recommendation**\n"
-            #         "- Recommend hyper-parameters for the next {n_jobs} trials from the given search space.\n"
-            #         "- Do not output any JSON blocks during the reasoning part."
-            #         "- Provide reasoning for each recommendation.\n\n"
-            #         "3. **Stop Optimization**\n"
-            #         "- Output 'Answer: Yes' ONLY if:\n"
-            #         "   * Best result is superior to the baseline.\n"
-            #         "   * You're confident further trials won't help.\n"
-            #         "- Otherwise, output 'Answer: No with confidence score: <float between 0 and 1>'.\n"
-            #         "- Provide a short (1-2 sentences) justification either way.\n"
-            #         "Finally, your response should include the following JSON format:\n\n"
-            #         ```json
-            #         [\n
-            #         '  {{"number": ..., "params": {{...}}}},\n'
-            #         '  {{"number": ..., "params": {{...}}}},\n'
-            #         '  {{"number": ..., "params": {{...}}}}\n'
-            #         ]
-            #         ```
-            #         """
-
-            # prompt = prompt.format(
-            #     n_jobs=3,
-            #     context=json.dumps(self.messages[1]["content"]["target_trials"]),
-            #     used_trial_ids=json.dumps(self.messages[1]["content"]["trials"]),
-            # )
-            # print_log(prompt, logger=self.logger)
-            # # self.logger.info(prompt)
-            # self.messages[1] = {"role": "user", "content": prompt}
 
             print("response: \n")
             responses = {}
