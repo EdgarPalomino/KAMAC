@@ -18,6 +18,8 @@
         "Round 2-role-comment": "radiation oncologist:alive|medical oncologist:alive|surgical oncologist (recurrence/secondary cancers):dead|pathologist:dead",
         "Round 2-num_agents": 4,
         "num_cooperations-panel": 0,
-        "decision-Moderator": "('Answer: Alive',)"
+        "decision-Moderator": "('Answer: Alive',)",
+        "Total-role-comment": "radiation oncologist:alive|medical oncologist:alive|surgical oncologist (recurrence/secondary cancers):dead|pathologist:dead",
+        "Total-num_agents": 4
     }
 }

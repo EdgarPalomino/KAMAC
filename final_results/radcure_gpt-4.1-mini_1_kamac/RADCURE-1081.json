@@ -29,6 +29,8 @@
         "Round 2-role-comment": "radiation oncologist:alive|diagnostic radiologist (head and neck radiologist):dead|head and neck pathologist:dead|head and neck surgical oncologist:dead",
         "Round 2-num_agents": 4,
         "num_cooperations-panel": 2,
-        "decision-Moderator": "('Answer: Dead',)"
+        "decision-Moderator": "('Answer: Dead',)",
+        "Total-role-comment": "radiation oncologist:alive|diagnostic radiologist (head and neck radiologist):dead|head and neck pathologist:dead|head and neck surgical oncologist:dead",
+        "Total-num_agents": 4
     }
 }

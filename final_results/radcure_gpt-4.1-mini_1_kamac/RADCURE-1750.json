@@ -14,6 +14,8 @@
         "Round 2-role-comment": "medical oncologist:alive|radiologist (head and neck imaging):alive",
         "Round 2-num_agents": 2,
         "num_cooperations-panel": 0,
-        "decision-Moderator": "('Answer: Alive',)"
+        "decision-Moderator": "('Answer: Alive',)",
+        "Total-role-comment": "medical oncologist:alive|radiologist (head and neck imaging):alive",
+        "Total-num_agents": 2
     }
 }

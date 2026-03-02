@@ -16,6 +16,8 @@
         "Round 2-role-comment": "radiation oncologist:alive|diagnostic radiologist:alive|medical oncologist:dead",
         "Round 2-num_agents": 3,
         "num_cooperations-panel": 0,
-        "decision-Moderator": "('Answer: Alive',)"
+        "decision-Moderator": "('Answer: Alive',)",
+        "Total-role-comment": "radiation oncologist:alive|diagnostic radiologist:alive|medical oncologist:dead",
+        "Total-num_agents": 3
     }
 }
