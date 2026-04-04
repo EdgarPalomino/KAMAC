@@ -1,6 +1,6 @@
 [
     {
-        "Case ID": "e146ea33-991d-40e0-81c1-d33f9c719f62",
+        "patient_id": "e146ea33-991d-40e0-81c1-d33f9c719f62",
         "Case Submitter ID": "C3L-00017",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -43,7 +43,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "890f123e-71fe-4f22-9533-1019138d6aa3",
+        "patient_id": "890f123e-71fe-4f22-9533-1019138d6aa3",
         "Case Submitter ID": "C3L-00102",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -86,7 +86,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "e7ee4f4f-418f-4f96-aed6-0856d94f02f2",
+        "patient_id": "e7ee4f4f-418f-4f96-aed6-0856d94f02f2",
         "Case Submitter ID": "C3L-00189",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -129,7 +129,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "61fe740d-ae0d-4541-8fae-ab0c33b0f708",
+        "patient_id": "61fe740d-ae0d-4541-8fae-ab0c33b0f708",
         "Case Submitter ID": "C3L-00277",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -172,7 +172,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "72dabc4e-ff33-4ecb-8676-234e6ae27a8b",
+        "patient_id": "72dabc4e-ff33-4ecb-8676-234e6ae27a8b",
         "Case Submitter ID": "C3L-00401",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -215,7 +215,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "814e1879-8a9a-4b1f-8533-91edbfcaad7a",
+        "patient_id": "814e1879-8a9a-4b1f-8533-91edbfcaad7a",
         "Case Submitter ID": "C3L-00589",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -258,7 +258,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a415f239-a6ca-451d-81eb-196a7e7183d2",
+        "patient_id": "a415f239-a6ca-451d-81eb-196a7e7183d2",
         "Case Submitter ID": "C3L-00598",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -301,7 +301,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ddc466c8-7e8f-453c-920d-25ebb56be20f",
+        "patient_id": "ddc466c8-7e8f-453c-920d-25ebb56be20f",
         "Case Submitter ID": "C3L-00599",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -344,7 +344,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "81d2f222-b6ea-4593-9ccd-1619546ab73b",
+        "patient_id": "81d2f222-b6ea-4593-9ccd-1619546ab73b",
         "Case Submitter ID": "C3L-00622",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -387,7 +387,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "5aff3251-f272-4dcc-8bbd-b4ee767469f4",
+        "patient_id": "5aff3251-f272-4dcc-8bbd-b4ee767469f4",
         "Case Submitter ID": "C3L-00625",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -430,7 +430,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "6abc5a95-7e95-4706-93f4-8ab0eac7d60e",
+        "patient_id": "6abc5a95-7e95-4706-93f4-8ab0eac7d60e",
         "Case Submitter ID": "C3L-00640",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -473,7 +473,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9a0345e6-ba08-4f07-b768-79a039ba14f2",
+        "patient_id": "9a0345e6-ba08-4f07-b768-79a039ba14f2",
         "Case Submitter ID": "C3L-00819",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -516,7 +516,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "109369bc-354e-46c4-aa26-69d13194b085",
+        "patient_id": "109369bc-354e-46c4-aa26-69d13194b085",
         "Case Submitter ID": "C3L-00881",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -559,7 +559,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "669af5fb-0ace-47d8-ad5b-40ab44ada190",
+        "patient_id": "669af5fb-0ace-47d8-ad5b-40ab44ada190",
         "Case Submitter ID": "C3L-00928",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -602,7 +602,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c8f56efe-fb3d-4f96-88d2-1c0e3b7bdd38",
+        "patient_id": "c8f56efe-fb3d-4f96-88d2-1c0e3b7bdd38",
         "Case Submitter ID": "C3L-01031",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -645,7 +645,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f9149c15-2d78-4d42-815b-53fdbef4ed6b",
+        "patient_id": "f9149c15-2d78-4d42-815b-53fdbef4ed6b",
         "Case Submitter ID": "C3L-01036",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -688,7 +688,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c45a1331-dab4-4ba1-8237-5dc4a6991f6a",
+        "patient_id": "c45a1331-dab4-4ba1-8237-5dc4a6991f6a",
         "Case Submitter ID": "C3L-01037",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -731,7 +731,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "77e6c9de-2a62-4c1f-9fb0-f07e86c9b6de",
+        "patient_id": "77e6c9de-2a62-4c1f-9fb0-f07e86c9b6de",
         "Case Submitter ID": "C3L-01051",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -774,7 +774,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "622bfcbb-af4c-4893-8e1d-c6f65cbb8da8",
+        "patient_id": "622bfcbb-af4c-4893-8e1d-c6f65cbb8da8",
         "Case Submitter ID": "C3L-01052",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -817,7 +817,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ed932161-7b37-4bc4-aa09-b8adeb044f17",
+        "patient_id": "ed932161-7b37-4bc4-aa09-b8adeb044f17",
         "Case Submitter ID": "C3L-01053",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -860,7 +860,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "320df578-47ba-41a8-9991-a4972ce48810",
+        "patient_id": "320df578-47ba-41a8-9991-a4972ce48810",
         "Case Submitter ID": "C3L-01054",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -903,7 +903,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "5a3fd9f7-cd11-4ed9-b122-3096ba0e93a5",
+        "patient_id": "5a3fd9f7-cd11-4ed9-b122-3096ba0e93a5",
         "Case Submitter ID": "C3L-01124",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -946,7 +946,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "05e50d4c-1271-453c-a6c4-39a3565073ef",
+        "patient_id": "05e50d4c-1271-453c-a6c4-39a3565073ef",
         "Case Submitter ID": "C3L-01328",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -989,7 +989,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "48c5ef63-81a1-497e-89fe-21f96813de49",
+        "patient_id": "48c5ef63-81a1-497e-89fe-21f96813de49",
         "Case Submitter ID": "C3L-01453",
         "Ethnicity": "hispanic or latino",
         "Sex": "male",
@@ -1032,7 +1032,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "1ce589d3-f145-422b-8f7a-85f1e608fc39",
+        "patient_id": "1ce589d3-f145-422b-8f7a-85f1e608fc39",
         "Case Submitter ID": "C3L-01598",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -1075,7 +1075,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "25bac97e-ae38-44eb-b61a-1d8d383f0085",
+        "patient_id": "25bac97e-ae38-44eb-b61a-1d8d383f0085",
         "Case Submitter ID": "C3L-01637",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -1118,7 +1118,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "234b3e4e-525d-438f-a71a-4c007ba6ccbb",
+        "patient_id": "234b3e4e-525d-438f-a71a-4c007ba6ccbb",
         "Case Submitter ID": "C3L-01662",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -1161,7 +1161,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "04606c9c-ff6f-4acb-a9bd-e0122bf19ee1",
+        "patient_id": "04606c9c-ff6f-4acb-a9bd-e0122bf19ee1",
         "Case Submitter ID": "C3L-01687",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -1204,7 +1204,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "354aa1db-a43e-4972-a704-6536c164b6f5",
+        "patient_id": "354aa1db-a43e-4972-a704-6536c164b6f5",
         "Case Submitter ID": "C3L-01689",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1247,7 +1247,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "344f4536-d2cf-4162-99d8-dcc40972c80b",
+        "patient_id": "344f4536-d2cf-4162-99d8-dcc40972c80b",
         "Case Submitter ID": "C3L-01703",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1290,7 +1290,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "bca26d15-e38c-4220-a193-143c5496d20a",
+        "patient_id": "bca26d15-e38c-4220-a193-143c5496d20a",
         "Case Submitter ID": "C3L-01971",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -1333,7 +1333,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c89444ff-1751-41b1-af47-b96e36037a65",
+        "patient_id": "c89444ff-1751-41b1-af47-b96e36037a65",
         "Case Submitter ID": "C3L-02109",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -1376,7 +1376,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fe3b4978-c450-4943-bf87-e5974562f62f",
+        "patient_id": "fe3b4978-c450-4943-bf87-e5974562f62f",
         "Case Submitter ID": "C3L-02112",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1419,7 +1419,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f4c7d3bb-f214-4fb6-b2d7-bc173b715220",
+        "patient_id": "f4c7d3bb-f214-4fb6-b2d7-bc173b715220",
         "Case Submitter ID": "C3L-02115",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1462,7 +1462,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f78c3797-dd47-4d93-aacd-1d406cfcf36e",
+        "patient_id": "f78c3797-dd47-4d93-aacd-1d406cfcf36e",
         "Case Submitter ID": "C3L-02116",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1505,7 +1505,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c4452d81-fb01-488e-998e-032af8453e4b",
+        "patient_id": "c4452d81-fb01-488e-998e-032af8453e4b",
         "Case Submitter ID": "C3L-02118",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -1548,7 +1548,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a940e7fe-84e0-41f7-87fa-d188db8435f1",
+        "patient_id": "a940e7fe-84e0-41f7-87fa-d188db8435f1",
         "Case Submitter ID": "C3L-02463",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -1591,7 +1591,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "65961f24-e423-4dc7-b416-ec8f858ca39c",
+        "patient_id": "65961f24-e423-4dc7-b416-ec8f858ca39c",
         "Case Submitter ID": "C3L-02604",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -1634,7 +1634,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fc5b03d9-405b-4514-9a4b-4b64761c48fd",
+        "patient_id": "fc5b03d9-405b-4514-9a4b-4b64761c48fd",
         "Case Submitter ID": "C3L-02606",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -1677,7 +1677,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "78081bea-6b0b-404b-b9a1-f64ced91f728",
+        "patient_id": "78081bea-6b0b-404b-b9a1-f64ced91f728",
         "Case Submitter ID": "C3L-02610",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1720,7 +1720,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "48772971-6230-4918-b9a7-dd1b5af9aade",
+        "patient_id": "48772971-6230-4918-b9a7-dd1b5af9aade",
         "Case Submitter ID": "C3L-02613",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -1763,7 +1763,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d26a6b06-5d02-4220-9ec3-5788c0b643ec",
+        "patient_id": "d26a6b06-5d02-4220-9ec3-5788c0b643ec",
         "Case Submitter ID": "C3L-02701",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1806,7 +1806,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "b5f71e03-9c44-48ee-99b8-cf0fe4cb4dfe",
+        "patient_id": "b5f71e03-9c44-48ee-99b8-cf0fe4cb4dfe",
         "Case Submitter ID": "C3L-02809",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -1849,7 +1849,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "18b64ae1-2fe2-40d2-9126-bd1ed2ce4e95",
+        "patient_id": "18b64ae1-2fe2-40d2-9126-bd1ed2ce4e95",
         "Case Submitter ID": "C3L-02890",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -1892,7 +1892,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f48ec6e9-5efc-41a8-8fa4-4508b31ef9c2",
+        "patient_id": "f48ec6e9-5efc-41a8-8fa4-4508b31ef9c2",
         "Case Submitter ID": "C3L-02897",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -1935,7 +1935,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "0fdc2d7a-e945-4c3b-9df5-5745197e1513",
+        "patient_id": "0fdc2d7a-e945-4c3b-9df5-5745197e1513",
         "Case Submitter ID": "C3L-02899",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -1978,7 +1978,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "8d4aad8e-229d-4d7a-9244-b6343cb2fb5a",
+        "patient_id": "8d4aad8e-229d-4d7a-9244-b6343cb2fb5a",
         "Case Submitter ID": "C3L-03123",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2021,7 +2021,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "8202a1de-9592-456a-a318-6bc1fd56e0a7",
+        "patient_id": "8202a1de-9592-456a-a318-6bc1fd56e0a7",
         "Case Submitter ID": "C3L-03129",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2064,7 +2064,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9955c013-c8fd-4315-8946-f0c41edb024d",
+        "patient_id": "9955c013-c8fd-4315-8946-f0c41edb024d",
         "Case Submitter ID": "C3L-03350",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2107,7 +2107,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9530b47e-9017-4dec-bd62-60ae4386aed9",
+        "patient_id": "9530b47e-9017-4dec-bd62-60ae4386aed9",
         "Case Submitter ID": "C3L-03356",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2150,7 +2150,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "45e072c0-3603-46f9-a86b-3d8492532eef",
+        "patient_id": "45e072c0-3603-46f9-a86b-3d8492532eef",
         "Case Submitter ID": "C3L-03371",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2193,7 +2193,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "bcd1c547-3d14-48f4-9398-a775697cbcfc",
+        "patient_id": "bcd1c547-3d14-48f4-9398-a775697cbcfc",
         "Case Submitter ID": "C3L-03388",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2236,7 +2236,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "bc01b9f6-2355-47c8-bc06-6ad5865804ad",
+        "patient_id": "bc01b9f6-2355-47c8-bc06-6ad5865804ad",
         "Case Submitter ID": "C3L-03394",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2279,7 +2279,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "df0ee52d-df43-401b-909e-ca25f708ae64",
+        "patient_id": "df0ee52d-df43-401b-909e-ca25f708ae64",
         "Case Submitter ID": "C3L-03395",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2322,7 +2322,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "47f2962e-1c0c-49da-bcd4-93d9c1874ec2",
+        "patient_id": "47f2962e-1c0c-49da-bcd4-93d9c1874ec2",
         "Case Submitter ID": "C3L-03628",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2365,7 +2365,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d13f4bd1-0510-46a7-bd51-90546b8bfe4c",
+        "patient_id": "d13f4bd1-0510-46a7-bd51-90546b8bfe4c",
         "Case Submitter ID": "C3L-03630",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2408,7 +2408,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d9eff2f2-2098-497d-91f2-f89165e25033",
+        "patient_id": "d9eff2f2-2098-497d-91f2-f89165e25033",
         "Case Submitter ID": "C3L-03632",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2451,7 +2451,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fc08d3b9-1ea0-4926-922e-d4f4d4a77767",
+        "patient_id": "fc08d3b9-1ea0-4926-922e-d4f4d4a77767",
         "Case Submitter ID": "C3L-03635",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2494,7 +2494,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9e815dee-cfa4-46a0-a284-741ca0547c92",
+        "patient_id": "9e815dee-cfa4-46a0-a284-741ca0547c92",
         "Case Submitter ID": "C3L-03639",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2537,7 +2537,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "dc7b5f90-ea1e-4e4d-8445-ec2950cf5d55",
+        "patient_id": "dc7b5f90-ea1e-4e4d-8445-ec2950cf5d55",
         "Case Submitter ID": "C3L-03743",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -2580,7 +2580,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "e59ead0d-ee08-4c0e-bf73-8953587b49fb",
+        "patient_id": "e59ead0d-ee08-4c0e-bf73-8953587b49fb",
         "Case Submitter ID": "C3L-04027",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2623,7 +2623,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "7ff83eb6-a98a-4cf5-b5e6-22479ad984dd",
+        "patient_id": "7ff83eb6-a98a-4cf5-b5e6-22479ad984dd",
         "Case Submitter ID": "C3L-04072",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -2666,7 +2666,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "b11be1d7-8f96-4d28-b965-7ee2891291c6",
+        "patient_id": "b11be1d7-8f96-4d28-b965-7ee2891291c6",
         "Case Submitter ID": "C3L-04080",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -2709,7 +2709,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "588c0d27-fc63-4f2b-904a-09cd2507fc00",
+        "patient_id": "588c0d27-fc63-4f2b-904a-09cd2507fc00",
         "Case Submitter ID": "C3L-04473",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2752,7 +2752,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "2cb645f4-0733-48c8-9021-c880ebf23c4b",
+        "patient_id": "2cb645f4-0733-48c8-9021-c880ebf23c4b",
         "Case Submitter ID": "C3L-04475",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2795,7 +2795,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "dfbdbf47-7379-4d98-b6e4-175cd09ff0a4",
+        "patient_id": "dfbdbf47-7379-4d98-b6e4-175cd09ff0a4",
         "Case Submitter ID": "C3L-04479",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -2838,7 +2838,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "daabb823-5e5e-4446-b14b-6962cd3d1111",
+        "patient_id": "daabb823-5e5e-4446-b14b-6962cd3d1111",
         "Case Submitter ID": "C3L-04495",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2881,7 +2881,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "6abdfa5b-ab89-4ac9-974f-427a4007a133",
+        "patient_id": "6abdfa5b-ab89-4ac9-974f-427a4007a133",
         "Case Submitter ID": "C3L-04848",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2924,7 +2924,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "28c67334-e064-4692-8868-add8d830e983",
+        "patient_id": "28c67334-e064-4692-8868-add8d830e983",
         "Case Submitter ID": "C3L-04853",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -2967,7 +2967,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "656b9d5a-ac9b-419d-8300-52b31eb56be6",
+        "patient_id": "656b9d5a-ac9b-419d-8300-52b31eb56be6",
         "Case Submitter ID": "C3N-00198",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -3010,7 +3010,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9bb79b5f-fa75-4d05-8a23-eda606a6cfdc",
+        "patient_id": "9bb79b5f-fa75-4d05-8a23-eda606a6cfdc",
         "Case Submitter ID": "C3N-00249",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -3053,7 +3053,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "3d65abbe-5af5-4b1f-b887-43ac4f9fac6b",
+        "patient_id": "3d65abbe-5af5-4b1f-b887-43ac4f9fac6b",
         "Case Submitter ID": "C3N-00302",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3096,7 +3096,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "86b39157-8b7f-4b7a-a79e-e73d538b7a06",
+        "patient_id": "86b39157-8b7f-4b7a-a79e-e73d538b7a06",
         "Case Submitter ID": "C3N-00303",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3139,7 +3139,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ac628f19-20c7-420e-8a7c-10db8ab77656",
+        "patient_id": "ac628f19-20c7-420e-8a7c-10db8ab77656",
         "Case Submitter ID": "C3N-00436",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3182,7 +3182,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "dc5c98c3-f062-4a93-917f-1854af37c3f4",
+        "patient_id": "dc5c98c3-f062-4a93-917f-1854af37c3f4",
         "Case Submitter ID": "C3N-00511",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3225,7 +3225,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "2657813b-ca46-4047-889c-f98ed05f2796",
+        "patient_id": "2657813b-ca46-4047-889c-f98ed05f2796",
         "Case Submitter ID": "C3N-00512",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3268,7 +3268,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ca63469f-6f24-47be-8333-ebd44c3f831d",
+        "patient_id": "ca63469f-6f24-47be-8333-ebd44c3f831d",
         "Case Submitter ID": "C3N-00513",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3311,7 +3311,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "65786c81-1ca9-4836-89a4-d80d7dbf773c",
+        "patient_id": "65786c81-1ca9-4836-89a4-d80d7dbf773c",
         "Case Submitter ID": "C3N-00514",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3354,7 +3354,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "95fc8706-06da-4652-bcbb-0c02c4faeedd",
+        "patient_id": "95fc8706-06da-4652-bcbb-0c02c4faeedd",
         "Case Submitter ID": "C3N-00516",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3397,7 +3397,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "07e96995-726b-4b35-8fde-49fa5d6a1758",
+        "patient_id": "07e96995-726b-4b35-8fde-49fa5d6a1758",
         "Case Submitter ID": "C3N-00517",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3440,7 +3440,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "0f06151e-53a2-4573-84c3-76e1b5c0ce34",
+        "patient_id": "0f06151e-53a2-4573-84c3-76e1b5c0ce34",
         "Case Submitter ID": "C3N-00518",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3483,7 +3483,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f6d401bb-8001-4157-a2ff-82fc946ba933",
+        "patient_id": "f6d401bb-8001-4157-a2ff-82fc946ba933",
         "Case Submitter ID": "C3N-00709",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -3526,7 +3526,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "4c2fc223-0f54-4143-a379-290552598b6d",
+        "patient_id": "4c2fc223-0f54-4143-a379-290552598b6d",
         "Case Submitter ID": "C3N-00957",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -3569,7 +3569,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a251b23a-ae5b-4319-ab5b-ad425071eac3",
+        "patient_id": "a251b23a-ae5b-4319-ab5b-ad425071eac3",
         "Case Submitter ID": "C3N-01011",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -3612,7 +3612,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "5f38c09b-b5e6-4142-b3b0-dee4cf878e06",
+        "patient_id": "5f38c09b-b5e6-4142-b3b0-dee4cf878e06",
         "Case Submitter ID": "C3N-01012",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -3655,7 +3655,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fdfb73d7-a1c1-4c3a-8a7b-bb9157af50d2",
+        "patient_id": "fdfb73d7-a1c1-4c3a-8a7b-bb9157af50d2",
         "Case Submitter ID": "C3N-01165",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3698,7 +3698,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a3e3b167-2d2b-462d-9d3b-849a5f7ddea6",
+        "patient_id": "a3e3b167-2d2b-462d-9d3b-849a5f7ddea6",
         "Case Submitter ID": "C3N-01166",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3741,7 +3741,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "28294208-46e9-4581-ae2f-27f239f8ae78",
+        "patient_id": "28294208-46e9-4581-ae2f-27f239f8ae78",
         "Case Submitter ID": "C3N-01167",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3784,7 +3784,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "4a4e4119-73e6-468a-8e6b-05acf4c1b7f5",
+        "patient_id": "4a4e4119-73e6-468a-8e6b-05acf4c1b7f5",
         "Case Submitter ID": "C3N-01168",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3827,7 +3827,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "307fd220-d518-40ae-8eea-8cdc3476f145",
+        "patient_id": "307fd220-d518-40ae-8eea-8cdc3476f145",
         "Case Submitter ID": "C3N-01375",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3870,7 +3870,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "e75de5e1-5746-404a-adfe-52d1402f0e08",
+        "patient_id": "e75de5e1-5746-404a-adfe-52d1402f0e08",
         "Case Submitter ID": "C3N-01379",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3913,7 +3913,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "9a2f657d-5c27-40db-9d87-ffabb7f6b9b6",
+        "patient_id": "9a2f657d-5c27-40db-9d87-ffabb7f6b9b6",
         "Case Submitter ID": "C3N-01380",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -3956,7 +3956,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "81d7909d-4c3a-40ed-8283-0cbc599ac942",
+        "patient_id": "81d7909d-4c3a-40ed-8283-0cbc599ac942",
         "Case Submitter ID": "C3N-01381",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -3999,7 +3999,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "68141a72-2915-4223-a078-df4c0b3d3711",
+        "patient_id": "68141a72-2915-4223-a078-df4c0b3d3711",
         "Case Submitter ID": "C3N-01382",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4042,7 +4042,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "83672c84-e1f2-413a-8e9d-8c13d45f5291",
+        "patient_id": "83672c84-e1f2-413a-8e9d-8c13d45f5291",
         "Case Submitter ID": "C3N-01383",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4085,7 +4085,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ebab18a1-9760-4e31-8255-23082ad5c097",
+        "patient_id": "ebab18a1-9760-4e31-8255-23082ad5c097",
         "Case Submitter ID": "C3N-01388",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4128,7 +4128,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "3639f4a9-758d-4393-86d5-8c3222d0e869",
+        "patient_id": "3639f4a9-758d-4393-86d5-8c3222d0e869",
         "Case Submitter ID": "C3N-01502",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -4171,7 +4171,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "7e9a404c-2b80-4ea6-aa7c-7ebc02493cdc",
+        "patient_id": "7e9a404c-2b80-4ea6-aa7c-7ebc02493cdc",
         "Case Submitter ID": "C3N-01714",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4214,7 +4214,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "3406ba91-a386-4e61-931e-a6eceea00123",
+        "patient_id": "3406ba91-a386-4e61-931e-a6eceea00123",
         "Case Submitter ID": "C3N-01715",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4257,7 +4257,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "92543483-685d-4fa4-ac04-870bf7161ec9",
+        "patient_id": "92543483-685d-4fa4-ac04-870bf7161ec9",
         "Case Submitter ID": "C3N-01716",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4300,7 +4300,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "cfd7ba3c-afab-465b-a121-c951b3fca259",
+        "patient_id": "cfd7ba3c-afab-465b-a121-c951b3fca259",
         "Case Submitter ID": "C3N-01719",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4343,7 +4343,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "10784784-5101-4f5e-aefa-1311e0000fdf",
+        "patient_id": "10784784-5101-4f5e-aefa-1311e0000fdf",
         "Case Submitter ID": "C3N-01900",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4386,7 +4386,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d7597e55-49af-4dc7-b471-3d08a801c331",
+        "patient_id": "d7597e55-49af-4dc7-b471-3d08a801c331",
         "Case Submitter ID": "C3N-01907",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4429,7 +4429,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "b389c04b-e42a-4143-970b-f39cc6882ba0",
+        "patient_id": "b389c04b-e42a-4143-970b-f39cc6882ba0",
         "Case Submitter ID": "C3N-01997",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4472,7 +4472,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "5f9e7f05-b8d1-4dbc-88f0-8b057ef87eea",
+        "patient_id": "5f9e7f05-b8d1-4dbc-88f0-8b057ef87eea",
         "Case Submitter ID": "C3N-01998",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4515,7 +4515,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d10e77a2-fc25-463f-b3f4-ecb738069aed",
+        "patient_id": "d10e77a2-fc25-463f-b3f4-ecb738069aed",
         "Case Submitter ID": "C3N-02010",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -4558,7 +4558,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "43cb11a0-b404-4a33-88be-0fa826110ab6",
+        "patient_id": "43cb11a0-b404-4a33-88be-0fa826110ab6",
         "Case Submitter ID": "C3N-02295",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4601,7 +4601,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "5f0b87e2-c427-4465-9721-2c1e8923888f",
+        "patient_id": "5f0b87e2-c427-4465-9721-2c1e8923888f",
         "Case Submitter ID": "C3N-02573",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4644,7 +4644,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "71565a38-0036-4748-b4e4-e4b921ad1f72",
+        "patient_id": "71565a38-0036-4748-b4e4-e4b921ad1f72",
         "Case Submitter ID": "C3N-02579",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4687,7 +4687,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "0774e352-a193-4c70-8351-11f40108fd03",
+        "patient_id": "0774e352-a193-4c70-8351-11f40108fd03",
         "Case Submitter ID": "C3N-02585",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4730,7 +4730,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "0d000f9c-f76f-42a0-b88b-9a9054919adb",
+        "patient_id": "0d000f9c-f76f-42a0-b88b-9a9054919adb",
         "Case Submitter ID": "C3N-02589",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4773,7 +4773,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "e3cf305c-f83f-474a-a095-542970bbf3c8",
+        "patient_id": "e3cf305c-f83f-474a-a095-542970bbf3c8",
         "Case Submitter ID": "C3N-02592",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4816,7 +4816,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "58b42d9e-bba2-4a1f-9066-77586c0d6eb9",
+        "patient_id": "58b42d9e-bba2-4a1f-9066-77586c0d6eb9",
         "Case Submitter ID": "C3N-02768",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4859,7 +4859,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "cf30c228-aa32-45e8-8b46-fed54dac650e",
+        "patient_id": "cf30c228-aa32-45e8-8b46-fed54dac650e",
         "Case Submitter ID": "C3N-02940",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -4902,7 +4902,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "71bdfdcb-358b-446b-86fa-7a3879bb460e",
+        "patient_id": "71bdfdcb-358b-446b-86fa-7a3879bb460e",
         "Case Submitter ID": "C3N-02944",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -4945,7 +4945,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ef64289b-f333-49f6-a05b-043ed6455e10",
+        "patient_id": "ef64289b-f333-49f6-a05b-043ed6455e10",
         "Case Submitter ID": "C3N-02971",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -4988,7 +4988,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "df77dbcd-94d7-4a66-b15c-9564f86ee42e",
+        "patient_id": "df77dbcd-94d7-4a66-b15c-9564f86ee42e",
         "Case Submitter ID": "C3N-02998",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5031,7 +5031,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "23434bf3-f0eb-4070-964e-0c9a3ba61140",
+        "patient_id": "23434bf3-f0eb-4070-964e-0c9a3ba61140",
         "Case Submitter ID": "C3N-03000",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5074,7 +5074,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fae3dcf4-0303-4d82-8be4-c388ab49e7e6",
+        "patient_id": "fae3dcf4-0303-4d82-8be4-c388ab49e7e6",
         "Case Submitter ID": "C3N-03006",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5117,7 +5117,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "6fa52ee6-5dc2-4bed-8f6b-c6d4471fb81a",
+        "patient_id": "6fa52ee6-5dc2-4bed-8f6b-c6d4471fb81a",
         "Case Submitter ID": "C3N-03007",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5160,7 +5160,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "4b51d6c0-4ac8-43db-8e4f-f7152318874d",
+        "patient_id": "4b51d6c0-4ac8-43db-8e4f-f7152318874d",
         "Case Submitter ID": "C3N-03039",
         "Ethnicity": "not hispanic or latino",
         "Sex": "female",
@@ -5203,7 +5203,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "edde06b2-4a6b-4e5b-9be1-33d6efe922bc",
+        "patient_id": "edde06b2-4a6b-4e5b-9be1-33d6efe922bc",
         "Case Submitter ID": "C3N-03061",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5246,7 +5246,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d21fa2fa-9a2d-4baa-b7d8-601b906a16c7",
+        "patient_id": "d21fa2fa-9a2d-4baa-b7d8-601b906a16c7",
         "Case Submitter ID": "C3N-03069",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5289,7 +5289,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "4fc8d10b-c3c4-4137-881a-59148033b259",
+        "patient_id": "4fc8d10b-c3c4-4137-881a-59148033b259",
         "Case Submitter ID": "C3N-03086",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5332,7 +5332,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "905a9e60-75b1-4c53-9905-e2d3d171da7b",
+        "patient_id": "905a9e60-75b1-4c53-9905-e2d3d171da7b",
         "Case Submitter ID": "C3N-03173",
         "Ethnicity": "not hispanic or latino",
         "Sex": "male",
@@ -5375,7 +5375,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "66180ee3-f012-4749-97a4-fb622843bd1a",
+        "patient_id": "66180ee3-f012-4749-97a4-fb622843bd1a",
         "Case Submitter ID": "C3N-03190",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5418,7 +5418,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "1fc52010-b6e7-4f19-9cad-afb7bb55d487",
+        "patient_id": "1fc52010-b6e7-4f19-9cad-afb7bb55d487",
         "Case Submitter ID": "C3N-03211",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5461,7 +5461,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a2391397-3980-463e-8d1b-2290a993893b",
+        "patient_id": "a2391397-3980-463e-8d1b-2290a993893b",
         "Case Submitter ID": "C3N-03426",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5504,7 +5504,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "bb7a9ee6-ba4c-4052-b826-d966016d90d2",
+        "patient_id": "bb7a9ee6-ba4c-4052-b826-d966016d90d2",
         "Case Submitter ID": "C3N-03428",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5547,7 +5547,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fdc414bb-04a1-4990-8921-baa6c205f1a9",
+        "patient_id": "fdc414bb-04a1-4990-8921-baa6c205f1a9",
         "Case Submitter ID": "C3N-03430",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5590,7 +5590,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "ebe993cd-c210-459b-85c6-30c03fcca5f0",
+        "patient_id": "ebe993cd-c210-459b-85c6-30c03fcca5f0",
         "Case Submitter ID": "C3N-03439",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5633,7 +5633,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "fcfe466a-ca53-4a30-94b1-f071130286db",
+        "patient_id": "fcfe466a-ca53-4a30-94b1-f071130286db",
         "Case Submitter ID": "C3N-03440",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5676,7 +5676,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "96501b19-4b91-49c1-beff-06b3c46dbc3f",
+        "patient_id": "96501b19-4b91-49c1-beff-06b3c46dbc3f",
         "Case Submitter ID": "C3N-03665",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5719,7 +5719,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "1641e669-51eb-420d-92e3-cec18d23ea0d",
+        "patient_id": "1641e669-51eb-420d-92e3-cec18d23ea0d",
         "Case Submitter ID": "C3N-03666",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5762,7 +5762,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "da3a693f-01f0-4d7b-ae52-95c5438733d8",
+        "patient_id": "da3a693f-01f0-4d7b-ae52-95c5438733d8",
         "Case Submitter ID": "C3N-03670",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5805,7 +5805,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "f61386d0-dcb2-4d44-adf7-7b2cdae98b7c",
+        "patient_id": "f61386d0-dcb2-4d44-adf7-7b2cdae98b7c",
         "Case Submitter ID": "C3N-03754",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -5848,7 +5848,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "becc9d95-b799-4238-ab2e-0da05d48179a",
+        "patient_id": "becc9d95-b799-4238-ab2e-0da05d48179a",
         "Case Submitter ID": "C3N-03780",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5891,7 +5891,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c531b8d3-736b-4f87-b4f5-0234f5475cf5",
+        "patient_id": "c531b8d3-736b-4f87-b4f5-0234f5475cf5",
         "Case Submitter ID": "C3N-03839",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5934,7 +5934,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d9465f75-1a21-4c4f-8b6f-14e0600dffda",
+        "patient_id": "d9465f75-1a21-4c4f-8b6f-14e0600dffda",
         "Case Submitter ID": "C3N-03840",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -5977,7 +5977,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "69987aea-3042-4eb0-a30f-361caddde015",
+        "patient_id": "69987aea-3042-4eb0-a30f-361caddde015",
         "Case Submitter ID": "C3N-03853",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -6020,7 +6020,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "a3cbf3f4-b398-43c8-b323-c4e07c04d8d7",
+        "patient_id": "a3cbf3f4-b398-43c8-b323-c4e07c04d8d7",
         "Case Submitter ID": "C3N-03884",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -6063,7 +6063,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "b2412ff4-1532-4ace-b1ef-78ef45f492f2",
+        "patient_id": "b2412ff4-1532-4ace-b1ef-78ef45f492f2",
         "Case Submitter ID": "C3N-04119",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -6106,7 +6106,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "c955e0ee-8b00-48ab-9a48-1094f1f11c06",
+        "patient_id": "c955e0ee-8b00-48ab-9a48-1094f1f11c06",
         "Case Submitter ID": "C3N-04126",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -6149,7 +6149,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "33f484e3-9bf2-4985-8999-567e3022ac15",
+        "patient_id": "33f484e3-9bf2-4985-8999-567e3022ac15",
         "Case Submitter ID": "C3N-04282",
         "Ethnicity": "not reported",
         "Sex": "male",
@@ -6192,7 +6192,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "301c2377-cb9d-43d4-bf4b-3cf478fc2197",
+        "patient_id": "301c2377-cb9d-43d4-bf4b-3cf478fc2197",
         "Case Submitter ID": "C3N-04283",
         "Ethnicity": "not reported",
         "Sex": "female",
@@ -6235,7 +6235,7 @@
         "Diagnosis Is Primary Disease": "TRUE"
     },
     {
-        "Case ID": "d7e4e6ae-165e-44c5-943d-7a58f9d37931",
+        "patient_id": "d7e4e6ae-165e-44c5-943d-7a58f9d37931",
         "Case Submitter ID": "C3N-04284",
         "Ethnicity": "not reported",
         "Sex": "female",

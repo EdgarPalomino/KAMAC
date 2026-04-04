@@ -1,0 +1,9 @@
+{
+    "9955c013-c8fd-4315-8946-f0c41edb024d": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, especially in cases with stage III, T4N1M0 disease and residual disease status. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient is diagnosed with infiltrating duct carcinoma of the pancreas, specifically located in the head of the pancreas.\n2. The tumor is graded as G2, indicating a moderately differentiated tumor.\n3. The tumor staging is reported as Stage III, with T4N1M0 classification:\n   - T4 indicates tumor involvement of major arteries or veins, making it locally advanced.\n   - N1 indicates regional lymph node involvement.\n   - M0 indicates no distant metastasis.\n4. Residual disease status is R1, meaning microscopic residual tumor remains after surgery.\n5. The patient experienced recurrence within 301 days, and the last known disease status was \"With tumor,\" indicating persistent disease.\n6. The patient died 613 days after diagnosis, with the cause of death being cancer-related.\n7. Given the locally advanced stage (T4), nodal involvement (N1), residual microscopic disease (R1), and recurrence, the prognosis is poor despite treatment.\n8. From a medical oncology perspective, systemic therapy options such as chemotherapy or chemoradiation would be considered to manage residual disease and improve survival, but the overall survival remains limited in such cases.\n\nFinal answer:\nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

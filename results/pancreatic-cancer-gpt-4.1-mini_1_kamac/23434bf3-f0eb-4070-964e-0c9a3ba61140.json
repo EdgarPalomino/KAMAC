@@ -1,0 +1,9 @@
+{
+    "23434bf3-f0eb-4070-964e-0c9a3ba61140": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy, immunotherapy, and targeted therapies for pancreatic ductal adenocarcinoma, especially in advanced stage IV cases with metastasis and recurrence. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n- The patient has pancreatic ductal adenocarcinoma (PDAC), a highly aggressive malignancy with poor prognosis.\n- The tumor is classified as Stage IV (AJCC 8th edition), indicating metastatic disease (M1).\n- The tumor grade is G3, which is high grade, associated with more aggressive behavior.\n- The patient had residual disease after surgery (R1), meaning microscopic residual tumor was left behind.\n- The patient experienced recurrence.\n- The patient died 487 days after diagnosis, with cause of death cancer-related.\n- The patient was alive with tumor at last known disease status, but ultimately died within approximately 1.3 years.\n- Given the advanced stage, high grade, residual disease, and recurrence, survival is expected to be limited.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "Answer: Dead"
+    }
+}

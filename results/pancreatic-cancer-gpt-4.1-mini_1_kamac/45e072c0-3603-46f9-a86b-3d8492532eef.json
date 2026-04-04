@@ -1,0 +1,9 @@
+{
+    "45e072c0-3603-46f9-a86b-3d8492532eef": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with a focus on treatment planning based on tumor grade, stage, and molecular characteristics. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n- The patient has infiltrating duct carcinoma of the pancreas, which is pancreatic ductal adenocarcinoma (PDAC).\n- Tumor grade is G2, indicating a moderately differentiated tumor.\n- Tumor stage is Stage IA (T1N0M0), which is an early stage with no nodal or distant metastasis.\n- Residual disease is R0, meaning complete resection with no microscopic residual tumor.\n- The patient is reported as \"Dead\" with cause of death \"Cancer Related\" and days to death 560 after diagnosis.\n- Last known disease status was \"Tumor free\" at 560 days, indicating no recurrence before death.\n- Despite early stage and complete resection, the patient died from cancer within approximately 1.5 years.\n- This suggests aggressive disease biology or possible occult metastasis not detected at staging.\n- From an oncologist's perspective, even early-stage PDAC has a poor prognosis, and survival beyond 2 years is uncommon without adjuvant therapy.\n- The data confirms the patient is deceased.\n\nFinal answer:\nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "301c2377-cb9d-43d4-bf4b-3cf478fc2197": {
+        "question": "{\"patient_id\": \"301c2377-cb9d-43d4-bf4b-3cf478fc2197\", \"Case Submitter ID\": \"C3N-04283\", \"Ethnicity\": \"not reported\", \"Sex\": \"female\", \"Race\": \"white\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Pancreas, NOS\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G3\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"24187\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Surgical Complications\", \"Days to Birth\": \"-24187\", \"Days to Death\": \"1\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1952\", \"Year of Death\": \"2018\", \"Days to Last Follow Up\": \"1\", \"Days to Last Known Disease Status\": \"1\", \"Last Known Disease Status\": \"Tumor free\", \"Progression or Recurrence\": \"no\", \"Prior Malignancy\": \"MX\", \"AJCC Pathologic M\": \"M0\", \"AJCC Pathologic N\": \"N2\", \"AJCC Pathologic Stage\": \"Stage III\", \"AJCC Pathologic T\": \"T3\", \"AJCC Staging System Edition\": \"8th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R2\", \"Year of Diagnosis\": \"2018\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Multifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:dead",
+        "Total-num_agents": 1
+    }
+}

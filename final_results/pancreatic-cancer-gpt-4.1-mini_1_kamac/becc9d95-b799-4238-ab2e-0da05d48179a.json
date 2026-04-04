@@ -1,0 +1,19 @@
+{
+    "becc9d95-b799-4238-ab2e-0da05d48179a": {
+        "question": "{\"patient_id\": \"becc9d95-b799-4238-ab2e-0da05d48179a\", \"Case Submitter ID\": \"C3N-03780\", \"Ethnicity\": \"not reported\", \"Sex\": \"female\", \"Race\": \"white\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"25275\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Surgical Complications\", \"Days to Birth\": \"-25275\", \"Days to Death\": \"20\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1949\", \"Year of Death\": \"2018\", \"Days to Last Follow Up\": \"20\", \"Days to Last Known Disease Status\": \"20\", \"Last Known Disease Status\": \"Tumor free\", \"Progression or Recurrence\": \"no\", \"Prior Malignancy\": \"M1b\", \"AJCC Pathologic M\": \"M1b\", \"AJCC Pathologic N\": \"N0\", \"AJCC Pathologic Stage\": \"Stage IB\", \"AJCC Pathologic T\": \"T2\", \"AJCC Staging System Edition\": \"8th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R1\", \"Year of Diagnosis\": \"2018\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-surgical oncologist (recurrence/secondary cancers)": null,
+        "Round 1-role-comment": "surgical oncologist (recurrence/secondary cancers):dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-surgical oncologist (recurrence/secondary cancers)": null,
+        "Round 2-Turn 1-ask_gap-surgical oncologist (recurrence/secondary cancers)": null,
+        "Round 2-Turn 1-gap_identified-assistant": null,
+        "Round 2-Turn 1-gap_recruit-recruiter": null,
+        "Round 2-Turn 1-gap_recruited_assessment-medical oncologist": null,
+        "Round 2-Turn 1-gap_recruited_assessment-palliative care specialist": null,
+        "Round 2-Turn 1-Round 2-Turn 1-gap_recruited_discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-Round 2-Turn 1-gap_recruited_discuss-participate-palliative care specialist": null,
+        "Total-role-comment": "surgical oncologist (recurrence/secondary cancers):dead|medical oncologist:dead|palliative care specialist:dead",
+        "Total-num_agents": 3
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "b389c04b-e42a-4143-970b-f39cc6882ba0": {
+        "question": "{\"patient_id\": \"b389c04b-e42a-4143-970b-f39cc6882ba0\", \"Case Submitter ID\": \"C3N-01997\", \"Ethnicity\": \"not reported\", \"Sex\": \"male\", \"Race\": \"asian\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Tail of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"23169\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Unknown\", \"Days to Birth\": \"-23169\", \"Days to Death\": \"1035\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1953\", \"Year of Death\": \"2020\", \"Days to Last Follow Up\": \"1002\", \"Days to Last Known Disease Status\": \"1035\", \"Last Known Disease Status\": \"Tumor free\", \"Progression or Recurrence\": \"no\", \"Prior Malignancy\": \"M0\", \"AJCC Pathologic M\": \"MX\", \"AJCC Pathologic N\": \"N0\", \"AJCC Pathologic Stage\": \"Stage IB\", \"AJCC Pathologic T\": \"T2\", \"AJCC Staging System Edition\": \"7th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R0\", \"Year of Diagnosis\": \"2017\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:dead",
+        "Total-num_agents": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "45e072c0-3603-46f9-a86b-3d8492532eef": {
+        "question": "{\"patient_id\": \"45e072c0-3603-46f9-a86b-3d8492532eef\", \"Case Submitter ID\": \"C3L-03371\", \"Ethnicity\": \"not reported\", \"Sex\": \"male\", \"Race\": \"other\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"19582\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Other\", \"Primary Site\": \"Not Reported\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Cancer Related\", \"Days to Birth\": \"-19582\", \"Days to Death\": \"560\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1965\", \"Year of Death\": \"2020\", \"Days to Last Follow Up\": \"560\", \"Days to Last Known Disease Status\": \"560\", \"Last Known Disease Status\": \"Tumor free\", \"Progression or Recurrence\": \"no\", \"Prior Malignancy\": \"M0\", \"AJCC Pathologic M\": \"M0\", \"AJCC Pathologic N\": \"N0\", \"AJCC Pathologic Stage\": \"Stage IA\", \"AJCC Pathologic T\": \"T1\", \"AJCC Staging System Edition\": \"8th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R0\", \"Year of Diagnosis\": \"2018\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:dead",
+        "Total-num_agents": 1
+    }
+}

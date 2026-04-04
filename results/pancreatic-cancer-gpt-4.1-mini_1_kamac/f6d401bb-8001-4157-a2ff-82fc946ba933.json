@@ -1,0 +1,9 @@
+{
+    "f6d401bb-8001-4157-a2ff-82fc946ba933": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient has pancreatic ductal adenocarcinoma (PDAC), specifically infiltrating duct carcinoma of the head of the pancreas, which is a highly aggressive malignancy with generally poor prognosis.\n\n2. The tumor grade is G2, indicating a moderately differentiated tumor. This suggests an intermediate level of aggressiveness compared to G1 (well differentiated) or G3 (poorly differentiated).\n\n3. Tumor stage, nodal status, and metastasis status are not reported, which are critical for survival prognosis. Without staging, it is difficult to precisely estimate survival probability.\n\n4. The patient’s age at diagnosis is not provided, but the year of birth is 1935, which suggests the patient is elderly (approximately 85+ years old if diagnosis is recent). Advanced age is associated with poorer tolerance to systemic therapy and worse overall survival.\n\n5. No information on treatment, recurrence, or progression is available.\n\n6. Given the aggressive nature of PDAC, especially in elderly patients, and lack of staging or treatment data, the probability of long-term survival is low.\n\n7. From a medical oncologist’s perspective, without evidence of early-stage disease or effective systemic therapy, the likelihood that the patient is alive at follow-up is low.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "Answer: Dead"
+    }
+}

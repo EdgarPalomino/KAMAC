@@ -1,0 +1,9 @@
+{
+    "95fc8706-06da-4652-bcbb-0c02c4faeedd": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with a focus on treatment planning for Stage IIA, T3N0M0, G3 tumors and management of residual disease (R1). - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient has pancreatic ductal adenocarcinoma (PDAC), specifically an infiltrating duct carcinoma, NOS, located in the head of the pancreas.\n2. Tumor grade is G3, indicating a poorly differentiated, more aggressive tumor.\n3. Tumor stage is Stage IIA (T3N0M0) according to the AJCC 7th edition, meaning the tumor extends beyond the pancreas but without nodal involvement or distant metastasis.\n4. Residual disease status is R1, indicating microscopic residual tumor after resection, which is associated with a higher risk of recurrence and worse prognosis.\n5. The patient is male, white, born in 1948, diagnosed in 2016, and died in 2020, with a survival of approximately 3 years (1152 days).\n6. The cause of death is cancer-related, and the last known disease status was \"with tumor,\" indicating persistent or recurrent disease.\n7. From a medical oncology perspective, the presence of R1 resection and G3 tumor grade in Stage IIA PDAC generally predicts a poor prognosis despite systemic therapy.\n8. The survival of about 3 years post-diagnosis aligns with expected outcomes in such high-risk cases, especially with residual disease.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "e7ee4f4f-418f-4f96-aed6-0856d94f02f2": {
+        "question": "{\"patient_id\": \"e7ee4f4f-418f-4f96-aed6-0856d94f02f2\", \"Case Submitter ID\": \"C3L-00189\", \"Ethnicity\": \"not reported\", \"Sex\": \"female\", \"Race\": \"other\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"24958\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \"424\", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Cancer Related\", \"Days to Birth\": \"-24958\", \"Days to Death\": \"1036\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1948\", \"Year of Death\": \"2019\", \"Days to Last Follow Up\": \"1036\", \"Days to Last Known Disease Status\": \"1036\", \"Last Known Disease Status\": \"With tumor\", \"Progression or Recurrence\": \"yes\", \"Prior Malignancy\": \"M0\", \"AJCC Pathologic M\": \"M0\", \"AJCC Pathologic N\": \"N1\", \"AJCC Pathologic Stage\": \"Stage IIB\", \"AJCC Pathologic T\": \"T2\", \"AJCC Staging System Edition\": \"8th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R1\", \"Year of Diagnosis\": \"2016\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:dead",
+        "Total-num_agents": 1
+    }
+}

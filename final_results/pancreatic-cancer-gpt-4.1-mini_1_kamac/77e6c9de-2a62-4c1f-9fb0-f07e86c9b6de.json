@@ -1,0 +1,13 @@
+{
+    "77e6c9de-2a62-4c1f-9fb0-f07e86c9b6de": {
+        "question": "{\"patient_id\": \"77e6c9de-2a62-4c1f-9fb0-f07e86c9b6de\", \"Case Submitter ID\": \"C3L-01051\", \"Ethnicity\": \"not reported\", \"Sex\": \"male\", \"Race\": \"other\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"22192\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \" \", \"Days to Birth\": \"-22192\", \"Days to Death\": \" \", \"Vital Status\": \"Alive\", \"Year of Birth\": \"1956\", \"Year of Death\": \" \", \"Days to Last Follow Up\": \"0\", \"Days to Last Known Disease Status\": \"0\", \"Last Known Disease Status\": \"Unknown tumor status\", \"Progression or Recurrence\": \"not reported\", \"Prior Malignancy\": \"M0\", \"AJCC Pathologic M\": \"M0\", \"AJCC Pathologic N\": \"N1\", \"AJCC Pathologic Stage\": \"Stage IIB\", \"AJCC Pathologic T\": \"T3\", \"AJCC Staging System Edition\": \"7th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R0\", \"Year of Diagnosis\": \"2017\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:alive",
+        "Total-num_agents": 1
+    }
+}
