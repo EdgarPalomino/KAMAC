@@ -50,7 +50,7 @@ def create_question(sample, dataset):
     return sample["question"]
 
 
-def load_dataset(dataset_name: Literal["med_qa", "radcure"], add_examplers):
+def load_dataset(dataset_name: Literal["radcure", "pancreatic_cancer", "med_qa"], add_examplers):
 
     if dataset_name == "radcure":
         with open(
@@ -61,7 +61,15 @@ def load_dataset(dataset_name: Literal["med_qa", "radcure"], add_examplers):
             patient_list = json.load(json_file)
 
         return patient_list, None, None
-    else:
+    
+    elif dataset_name == "pancreatic_cancer":
+
+        with open("data/pancreatic_cancer_data_clean.json", "r", encoding="utf-8") as json_file:
+            patient_list = json.load(json_file)
+        
+        return patient_list, None, None
+
+    elif dataset_name == "med_qa":
         import datasets
 
         def vis_func(data):
@@ -281,7 +289,7 @@ def recruit_stage(
         cache=cache,
     )
 
-    if dataset_name in ["radcure"]:
+    if dataset_name == "radcure":
         instruction = (
             f"Question: {question}\n"
             f"Considering the medical question and the options for the answer, "
@@ -298,6 +306,27 @@ def recruit_stage(
             f"\n4. Pathologist - Your expertise is strictly limited to pathological diagnosis of head and neck squamous cell carcinoma, HPV status evaluation, and margin assessment post-surgery. - Hierarchy: Pathologist == Surgical Oncologist"
             f"\n5. Targeted Therapy Expert - Your expertise is strictly limited to clinical application of EGFR inhibitors and novel agents targeting HPV-positive tumors. - Hierarchy: Targeted Therapy Expert -> Medical Oncologist"
             f"\n\nYour answer must conform exactly to the format above."  # , with {num_agents} experts.
+        )
+    elif dataset_name == "pancreatic_cancer":
+        # Modify this prompt to change the recruitment process
+        instruction = (
+            f"Question: {question}"
+            f"You can recruit {num_agents} experts in different medical specialties."
+            f"Considering the pancreatic cancer prognosis question and the need to estimate vital status (Alive or Dead), what experts should be recruited to improve the accuracy of the prediction?"
+            f"Also specify the communication structure between experts (e.g., Pancreatic Surgical Oncologist == Medical Oncologist == GI Pathologist > Abdominal Radiologist), or indicate if they are independent."
+            f"Prefer experts relevant to pancreatic ductal adenocarcinoma prognosis, such as:"
+            f"- Pancreatic Surgical Oncologist"
+            f"- Medical Oncologist"
+            f"- Gastrointestinal Pathologist"
+            f"- Abdominal Radiologist"
+            f"- Cancer Prognosis Specialist / Clinical Outcomes Specialist"
+            f"Format exactly like:"
+            f"1. Pancreatic Surgical Oncologist - Focuses on resectability, pathologic stage, and surgical-risk-related prognosis in pancreatic cancer. - Hierarchy: Independent"
+            f"2. Medical Oncologist - Focuses on systemic therapy implications and clinical prognosis in pancreatic cancer - Hierarchy: Pancreatic Surgical Oncologist > Medical Oncologist"
+            f"3. Gastrointestinal Pathologist - Focuses on morphology, grade, nodal disease, and pathologic staging interpretation - Hierarchy: Independent"
+            f"4. Abdominal Radiologist - Focuses on imaging-based tumor extent and metastatic-risk interpretation - Hierarchy: Independent"
+            f"5. Clinical Outcomes Specialist - Focuses on prognosis estimation from structured clinical variables and follow-up patterns - Hierarchy: Independent"
+            f"Please answer in exactly the above format and do not include your reason."
         )
     elif dataset_name == "med_qa":
         instruction = (
@@ -1193,6 +1222,32 @@ def parse_mpt(
                 "Be thorough and precise in both your image-based observations and your clinical reasoning."
             )
         
+        elif dataset_name == "pancreatic_cancer":
+
+            _agent.vision_prompt = f"""
+                You will be provided with a pancreatic CT scan that includes a masked region of interest (ROI).
+                Alongside the scan, one or more 3D bounding box coordinates will be supplied, each defining specific volumetric regions within the scan. These may correspond to organs, pathological regions, or cellular structures.
+                Each bounding box is defined by its minimum and maximum values along the z, y, and x axes, normalized relative to the original image size.
+                The given bounding box coordinates are: {str(bbox_coords)}.
+                Task Instructions:
+                1. Initial Assessment: Carefully analyze the CT scan image (without using the bounding box data). Describe any visible anatomical structures, patterns, abnormalities, and and note the characteristics of the masked region of interest (ROI).
+                Do not use the bounding box data at this stage.
+                2. Mapping Bounding Boxes: Consider the bounding box coordinates and map them to the corresponding areas within the scan.
+                3. Clinical Reasoning: Summarize the patient's clinical context and findings in a clear, structured bullet-point format and reason through the patient's condition step by step.
+                4. Integrated Conclusion: Combine your findings from the image analysis, bounding box mapping, and masked ROI to concisely synthesize your final clinical impression.
+                Be thorough and precise in both your image-based observations and your clinical reasoning.
+            """
+
+            _agent.vision_prompt_part = f"""
+                Task Instructions:
+                1. Initial Assessment: Carefully analyze the CT scan image (without using the bounding box data). Describe any visible anatomical structures, patterns, abnormalities, and and note the characteristics of the masked region of interest (ROI).
+                Do not use the bounding box data at this stage.
+                2. Mapping Bounding Boxes: Consider the bounding box coordinates and map them to the corresponding areas within the scan.
+                3. Clinical Reasoning: Summarize the patient's clinical context and findings in a clear, structured bullet-point format and reason through the patient's condition step by step.
+                4. Integrated Conclusion: Combine your findings from the image analysis, bounding box mapping, and masked ROI to concisely synthesize your final clinical impression.
+                Be thorough and precise in both your image-based observations and your clinical reasoning.
+            """
+        
         agent_dict[agent_role] = _agent
         medical_agents.append(_agent)
 
@@ -1343,7 +1398,7 @@ def process_intermediate_query(
 
 def get_status(dataset_name, response_tasks):
 
-    if dataset_name == "radcure":
+    if dataset_name == "radcure" or dataset_name == "pancreatic_cancer":
         if "status:alive" in response_tasks.lower().replace(" ", "").replace(
             "\n", ""
         ).replace("*", "") or "answer:alive" in response_tasks.lower().replace(
@@ -1403,6 +1458,9 @@ def interact(args, case, results, number, patient_id, df_pred=None, logger=None)
     if args.vlm:
         if args.dataset_name == "radcure":
             path = Path(r"data\RADCURE\{patient_id}")
+            masked_image, bbox_coords = get_masked_image(path)
+        elif args.dataset_name == "pancreatic_cancer":
+            path = Path(f"data/PC/{patient_id}")
             masked_image, bbox_coords = get_masked_image(path)
         else:
             raise NotImplementedError
@@ -1488,7 +1546,7 @@ def objective(
     pbar=None,
     logger=None,
 ):
-    number = trial.suggest_categorical("patient_id", patient_number)
+    number = trial.suggest_int("patient_id", 0, len(patient_list)-1)
     patient = patient_list[number]
 
     if "patient_id" not in patient.keys():
@@ -1507,10 +1565,10 @@ def objective(
 def get_masked_image(subsubdir):
     # scale_factor = [1.0, 0.25, 0.125]
     scale_factor = [1.0, 1.0, 1.0]
-    target = list(subsubdir.rglob("*/"))[1]
+    target = list(subsubdir.rglob("*ct.nii.gz"))[0]
     # print(target)
-    mask_files = list(subsubdir.rglob("*.nii"))
-    dicom_slices = ReadSeriesImage(target).transpose(0, 1, 2)
+    mask_files = list(subsubdir.rglob("*tumor.nii.gz"))
+    dicom_slices = sitk.GetArrayFromImage(sitk.ReadImage(str(target)))
     # dicom_slices = dicom_slices[:, ::-1, ::-1]
     mask_list = [
         sitk.GetArrayFromImage(sitk.ReadImage(mask_file)).transpose(0, 1, 2)
@@ -1633,9 +1691,9 @@ def parse_args():
 
     parser.add_argument(
         "--dataset_name",
-        default="med_qa",
-        choices=["med_qa", "radcure"],
-        help="Dataset to evaluate. Options: 'med_qa', 'radcure'."
+        default="pancreatic_cancer",
+        choices=["radcure", "pancreatic_cancer", "med_qa"],
+        help="Dataset to evaluate. Options: 'radcure', 'pancreatic_cancer', 'med_qa'."
     )
 
     parser.add_argument(
@@ -1755,9 +1813,9 @@ def inference():
     #                 "initial_assessment-targeted therapy expert"]
     #     ))
     # os.environ["cached_action_keys"] = "recruit-recruiter"
-    # os.environ["cached_action_keys"] = "recruit-recruiter,initial_assessment-,examplers-"
+    os.environ["cached_action_keys"] = "recruit-recruiter,initial_assessment-,examplers-"
 
-    os.environ["cached_action_keys"] = "all"
+    # os.environ["cached_action_keys"] = "all"
 
     # model_name_list = [
     # "deepseek-r1:7b",
@@ -1870,7 +1928,7 @@ def inference():
             sampler=sampler,
         )
 
-        if dataset_name == "radcure":
+        if dataset_name == "radcure" or dataset_name == "pancreatic_cancer":
             final_answer_template = ("Answer: Alive or Dead",)
             answer_template = ("Answer:<Alive|Dead>",)
         elif dataset_name == "med_qa":
@@ -1884,8 +1942,8 @@ def inference():
             model_info=model_name,
             work_dir=work_dir,
             num_agents=num_agents,
-            num_rounds=1,
-            num_turns=3,
+            num_rounds=1, # Modify this to add more rounds
+            num_turns=3, # Modify this to add more turns
             prefix=prefix,
             vlm=vlm,
             cot=cot,

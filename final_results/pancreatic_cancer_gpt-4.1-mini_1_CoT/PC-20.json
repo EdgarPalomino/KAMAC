@@ -1,0 +1,17 @@
+{
+    "PC-20": {
+        "question": "Case ID: 6abdfa5b-ab89-4ac9-974f-427a4007a133, Case Submitter ID: C3L-04848, Ethnicity: not reported, Sex: female, Race: other, Morphology: 8500/3, Primary Diagnosis: Infiltrating duct carcinoma, NOS, Site of Resection or Biopsy: Head of pancreas, Tissue or Organ of Origin: Pancreas, NOS, Tumor Grade: G3, Age at Diagnosis: 26284, Days to Recurrence:  , Disease Type: Pancreatic Ductal Adenocarcinoma, Days to Birth: -26284, Year of Birth: 1946, Days to Last Follow Up: 196, Days to Last Known Disease Status: 196, Last Known Disease Status: Tumor free, Progression or Recurrence: no, Prior Malignancy: M0, AJCC Pathologic M: M0, AJCC Pathologic N: N1, AJCC Pathologic Stage: Stage IIB, AJCC Pathologic T: T3, AJCC Staging System Edition: 8th, Progression Free Survival Event: , Residual Disease: R0, Year of Diagnosis: 2018, Age Is Obfuscated: FALSE, Tumor Focality: Unifocal, patient_id: PC-20\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-pancreatic surgical oncologist": null,
+        "Round 1-role-comment": "pancreatic surgical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-pancreatic surgical oncologist": null,
+        "Round 2-Turn 1-ask_gap-pancreatic surgical oncologist": null,
+        "Round 2-Turn 1-gap_identified-assistant": null,
+        "Round 2-Turn 1-gap_recruit-recruiter": null,
+        "Round 2-Turn 1-gap_recruited_assessment-abdominal radiologist": null,
+        "Round 2-Turn 1-Round 2-Turn 1-gap_recruited_discuss-participate-abdominal radiologist": null,
+        "Total-role-comment": "pancreatic surgical oncologist:alive|abdominal radiologist:alive",
+        "Total-num_agents": 2
+    }
+}

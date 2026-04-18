@@ -1,0 +1,21 @@
+1 agent without CoT reasoning:
+
+11 20 0 5 |Accuracy: 0.4444
+Recall (TPR): 1.0000, tpr: [0. 1. 1.]
+FPR: 0.6452, fpr: [0.         0.64516129 1.        ]
+Precision: 0.2000
+F1 Score: 0.3333
+AUC: 0.6774, 0.6774
+Average Precision: 0.2000
+Wrong Predictions: 20
+
+1 agent with CoT reasoning:
+
+21 10 1 4 |Accuracy: 0.6944
+Recall (TPR): 0.8000, tpr: [0.  0.8 1. ]
+FPR: 0.3226, fpr: [0.         0.32258065 1.        ]
+Precision: 0.2857
+F1 Score: 0.4211
+AUC: 0.7387, 0.7387
+Average Precision: 0.2563
+Wrong Predictions: 11

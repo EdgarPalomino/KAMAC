@@ -1,0 +1,182 @@
+[
+    {
+        "number": 0,
+        "patient_id": "PC-1",
+        "status": "alive"
+    },
+    {
+        "number": 1,
+        "patient_id": "PC-2",
+        "status": "alive"
+    },
+    {
+        "number": 2,
+        "patient_id": "PC-3",
+        "status": "alive"
+    },
+    {
+        "number": 3,
+        "patient_id": "PC-4",
+        "status": "alive"
+    },
+    {
+        "number": 4,
+        "patient_id": "PC-5",
+        "status": "dead"
+    },
+    {
+        "number": 5,
+        "patient_id": "PC-6",
+        "status": "alive"
+    },
+    {
+        "number": 6,
+        "patient_id": "PC-7",
+        "status": "alive"
+    },
+    {
+        "number": 7,
+        "patient_id": "PC-8",
+        "status": "alive"
+    },
+    {
+        "number": 8,
+        "patient_id": "PC-9",
+        "status": "dead"
+    },
+    {
+        "number": 9,
+        "patient_id": "PC-10",
+        "status": "alive"
+    },
+    {
+        "number": 10,
+        "patient_id": "PC-11",
+        "status": "dead"
+    },
+    {
+        "number": 11,
+        "patient_id": "PC-12",
+        "status": "alive"
+    },
+    {
+        "number": 12,
+        "patient_id": "PC-13",
+        "status": "dead"
+    },
+    {
+        "number": 13,
+        "patient_id": "PC-14",
+        "status": "alive"
+    },
+    {
+        "number": 14,
+        "patient_id": "PC-15",
+        "status": "alive"
+    },
+    {
+        "number": 15,
+        "patient_id": "PC-16",
+        "status": "alive"
+    },
+    {
+        "number": 16,
+        "patient_id": "PC-17",
+        "status": "alive"
+    },
+    {
+        "number": 17,
+        "patient_id": "PC-18",
+        "status": "dead"
+    },
+    {
+        "number": 18,
+        "patient_id": "PC-19",
+        "status": "alive"
+    },
+    {
+        "number": 19,
+        "patient_id": "PC-20",
+        "status": "alive"
+    },
+    {
+        "number": 20,
+        "patient_id": "PC-21",
+        "status": "alive"
+    },
+    {
+        "number": 21,
+        "patient_id": "PC-22",
+        "status": "alive"
+    },
+    {
+        "number": 22,
+        "patient_id": "PC-23",
+        "status": "dead"
+    },
+    {
+        "number": 23,
+        "patient_id": "PC-24",
+        "status": "dead"
+    },
+    {
+        "number": 24,
+        "patient_id": "PC-25",
+        "status": "alive"
+    },
+    {
+        "number": 25,
+        "patient_id": "PC-26",
+        "status": "alive"
+    },
+    {
+        "number": 26,
+        "patient_id": "PC-27",
+        "status": "alive"
+    },
+    {
+        "number": 27,
+        "patient_id": "PC-28",
+        "status": "alive"
+    },
+    {
+        "number": 28,
+        "patient_id": "PC-29",
+        "status": "dead"
+    },
+    {
+        "number": 29,
+        "patient_id": "PC-30",
+        "status": "dead"
+    },
+    {
+        "number": 30,
+        "patient_id": "PC-31",
+        "status": "dead"
+    },
+    {
+        "number": 31,
+        "patient_id": "PC-32",
+        "status": "alive"
+    },
+    {
+        "number": 32,
+        "patient_id": "PC-33",
+        "status": "alive"
+    },
+    {
+        "number": 33,
+        "patient_id": "PC-34",
+        "status": "alive"
+    },
+    {
+        "number": 34,
+        "patient_id": "PC-35",
+        "status": "alive"
+    },
+    {
+        "number": 35,
+        "patient_id": "PC-36",
+        "status": "dead"
+    }
+]
