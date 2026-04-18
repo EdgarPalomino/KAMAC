@@ -1,0 +1,13 @@
+{
+    "4b51d6c0-4ac8-43db-8e4f-f7152318874d": {
+        "question": "{\"patient_id\": \"4b51d6c0-4ac8-43db-8e4f-f7152318874d\", \"Case Submitter ID\": \"C3N-03039\", \"Ethnicity\": \"not hispanic or latino\", \"Sex\": \"female\", \"Race\": \"white\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G2\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \" \", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \" \", \"Days to Birth\": \" \", \"Days to Death\": \" \", \"Vital Status\": \"Not Reported\", \"Year of Birth\": \"1944\", \"Year of Death\": \" \", \"Days to Last Follow Up\": \" \", \"Days to Last Known Disease Status\": \" \", \"Last Known Disease Status\": \"not reported\", \"Progression or Recurrence\": \"not reported\", \"Prior Malignancy\": \" \", \"AJCC Pathologic M\": \" \", \"AJCC Pathologic N\": \" \", \"AJCC Pathologic Stage\": \"Not Reported\", \"AJCC Pathologic T\": \" \", \"AJCC Staging System Edition\": \"Not Reported\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \" \", \"Year of Diagnosis\": \" \", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \" \", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:alive",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Total-role-comment": "medical oncologist:alive",
+        "Total-num_agents": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "fcfe466a-ca53-4a30-94b1-f071130286db": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with consideration of tumor grade, stage, and residual disease status. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step reasoning:\n\n- The patient is a female diagnosed with pancreatic ductal adenocarcinoma (PDAC), specifically infiltrating duct carcinoma, NOS, located in the head of the pancreas.\n- Tumor grade is G2, which is moderately differentiated, indicating an intermediate prognosis.\n- Tumor stage is reported as Stage IB (T2N0M0) according to the AJCC 8th edition, which means the tumor is limited to the pancreas and is relatively small without nodal or distant metastasis.\n- Residual disease status is R1, indicating microscopic residual tumor after resection, which is associated with a higher risk of recurrence and worse prognosis compared to R0 resection.\n- The patient is alive at last follow-up (315 days post-diagnosis), but tumor status is unknown.\n- Given the early stage (IB) and absence of nodal or distant metastasis, the prognosis is better than advanced stages, but the R1 margin status increases the risk of recurrence and mortality.\n- From a medical oncology perspective, systemic therapy (adjuvant chemotherapy) would be recommended to improve survival chances.\n- The patient is relatively young (born 1963, diagnosed 2018), which may favor better tolerance to systemic therapy and potentially better outcomes.\n- Overall, survival probability at this point is cautiously optimistic but guarded due to R1 status.\n\nFinal answer:\n\nAnswer:Alive",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

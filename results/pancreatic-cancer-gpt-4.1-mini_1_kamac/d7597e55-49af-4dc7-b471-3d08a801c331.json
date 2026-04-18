@@ -1,0 +1,9 @@
+{
+    "d7597e55-49af-4dc7-b471-3d08a801c331": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with focus on treatment options for infiltrating duct carcinoma of the pancreas and management of recurrence. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n- The patient has infiltrating duct carcinoma of the pancreas, which is a pancreatic ductal adenocarcinoma.\n- Tumor grade is G2, indicating a moderately differentiated tumor.\n- AJCC pathologic stage is Stage III, which generally indicates locally advanced disease with regional lymph node involvement or extension beyond the pancreas but no distant metastasis.\n- Residual disease status is RX, meaning residual tumor cannot be assessed.\n- The patient had recurrence (\"Progression or Recurrence\": yes).\n- The patient died 440 days after diagnosis, with cause of death cancer-related.\n- The last known disease status was \"With tumor,\" indicating active disease at last follow-up.\n- Given the aggressive nature of pancreatic ductal adenocarcinoma, stage III disease, recurrence, and death within approximately 1.2 years, the survival probability is poor.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "no",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No.  \nThe current team includes a medical oncologist with expertise in systemic therapy decisions for pancreatic ductal adenocarcinoma, including management of recurrence. There is no indication of missing perspectives related to systemic treatment decisions. Other aspects such as pathology, imaging, or supportive care are not within my scope to request unless specifically relevant to systemic therapy planning.",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

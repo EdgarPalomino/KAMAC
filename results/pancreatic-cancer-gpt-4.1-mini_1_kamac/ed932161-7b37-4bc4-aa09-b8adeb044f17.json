@@ -1,0 +1,9 @@
+{
+    "ed932161-7b37-4bc4-aa09-b8adeb044f17": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient is a female diagnosed with pancreatic ductal adenocarcinoma (PDAC), specifically infiltrating duct carcinoma, NOS, located in the head of the pancreas.\n\n2. Tumor grade is G2, indicating a moderately differentiated tumor, which generally has an intermediate prognosis.\n\n3. The tumor stage is reported as Stage IIB (T3N1M0) according to the AJCC 7th edition. This means the tumor is locally advanced (T3), with regional lymph node involvement (N1), but no distant metastasis (M0).\n\n4. The patient underwent resection with R0 margins, indicating no residual microscopic disease after surgery, which is favorable for survival.\n\n5. The patient was tumor-free at last known disease status and had no progression or recurrence.\n\n6. Despite these favorable factors, the patient died 191 days after diagnosis, but the cause of death was not cancer-related.\n\n7. From an oncologic perspective, the survival probability for a Stage IIB PDAC patient with R0 resection and no recurrence is generally poor but can vary. However, since the patient died early but not from cancer, this does not reflect the natural course of the disease.\n\n8. The vital status is \"Dead,\" so the final answer must reflect the patient's status at last follow-up.\n\nAnswer: Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

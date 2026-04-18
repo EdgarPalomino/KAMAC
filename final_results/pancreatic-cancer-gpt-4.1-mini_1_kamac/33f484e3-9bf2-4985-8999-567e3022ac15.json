@@ -1,0 +1,19 @@
+{
+    "33f484e3-9bf2-4985-8999-567e3022ac15": {
+        "question": "{\"patient_id\": \"33f484e3-9bf2-4985-8999-567e3022ac15\", \"Case Submitter ID\": \"C3N-04282\", \"Ethnicity\": \"not reported\", \"Sex\": \"male\", \"Race\": \"white\", \"Morphology\": \"8500/3\", \"Primary Diagnosis\": \"Infiltrating duct carcinoma, NOS\", \"Site of Resection or Biopsy\": \"Head of pancreas\", \"Tissue or Organ of Origin\": \"Pancreas, NOS\", \"Tumor Grade\": \"G3\", \"Tumor Stage\": \"Not Reported\", \"Age at Diagnosis\": \"27699\", \"Classification of Tumor\": \"not reported\", \"Days to Recurrence\": \" \", \"Disease Type\": \"Pancreatic Ductal Adenocarcinoma\", \"Primary Site\": \"Pancreas\", \"Program Name\": \"Clinical Proteomic Tumor Analysis Consortium\", \"Project Name\": \"CPTAC3 Discovery and Confirmatory\", \"Status\": \"Qualified\", \"Cause of Death\": \"Cancer Related\", \"Days to Birth\": \"-27699\", \"Days to Death\": \"303\", \"Vital Status\": \"Dead\", \"Year of Birth\": \"1942\", \"Year of Death\": \"2019\", \"Days to Last Follow Up\": \"303\", \"Days to Last Known Disease Status\": \"303\", \"Last Known Disease Status\": \"With tumor\", \"Progression or Recurrence\": \"yes\", \"Prior Malignancy\": \"MX\", \"AJCC Pathologic M\": \"M1\", \"AJCC Pathologic N\": \"N1\", \"AJCC Pathologic Stage\": \"Stage IV\", \"AJCC Pathologic T\": \"T3\", \"AJCC Staging System Edition\": \"8th\", \"Progression Free Survival Event\": \"\", \"Residual Disease\": \"R1\", \"Year of Diagnosis\": \"2018\", \"Age Is Obfuscated\": \"FALSE\", \"Tumor Focality\": \"Unifocal\", \"Diagnosis Is Primary Disease\": \"TRUE\"}\nAnswer: ",
+        "recruit-recruiter": null,
+        "initial_assessment-medical oncologist": null,
+        "Round 1-role-comment": "medical oncologist:dead",
+        "Round 1-num_agents": 1,
+        "Round 2-Turn 1-discuss-participate-medical oncologist": null,
+        "Round 2-Turn 1-ask_gap-medical oncologist": null,
+        "Round 2-Turn 1-gap_identified-assistant": null,
+        "Round 2-Turn 1-gap_recruit-recruiter": null,
+        "Round 2-Turn 1-gap_recruited_assessment-palliative care specialist": null,
+        "Round 2-Turn 1-gap_recruited_assessment-radiologist": null,
+        "Round 2-Turn 1-Round 2-Turn 1-gap_recruited_discuss-participate-palliative care specialist": null,
+        "Round 2-Turn 1-Round 2-Turn 1-gap_recruited_discuss-participate-radiologist": null,
+        "Total-role-comment": "medical oncologist:dead|palliative care specialist:dead|radiologist:dead",
+        "Total-num_agents": 3
+    }
+}

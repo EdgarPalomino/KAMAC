@@ -1,0 +1,9 @@
+{
+    "0774e352-a193-4c70-8351-11f40108fd03": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with a focus on treatment planning based on tumor grade, stage, and molecular characteristics. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient has pancreatic ductal adenocarcinoma (PDAC), which is generally an aggressive malignancy with poor prognosis.\n2. The tumor is classified as Stage IA (T1c, N0, Mx) according to the 8th edition AJCC staging system. Stage IA indicates a small tumor (T1c: tumor >1 cm but ≤2 cm) with no regional lymph node involvement (N0) and unknown distant metastasis status (Mx).\n3. The tumor grade is G3, which indicates poorly differentiated tumor cells, generally associated with more aggressive behavior and worse prognosis.\n4. The surgical resection was R0, meaning no residual tumor was left after surgery, which is favorable for survival.\n5. The patient was tumor-free at last known disease status and had no progression or recurrence.\n6. Despite these favorable factors (early stage, R0 resection, no recurrence), the patient died 1189 days (~3.3 years) after diagnosis.\n7. The cause of death is unknown, but given the aggressive nature of PDAC and the patient's death within a few years, it is likely related to the cancer or its complications.\n8. From an oncologist's perspective, survival beyond 3 years in PDAC is relatively uncommon, especially with a high-grade tumor, even if early stage and resected.\n9. Therefore, the patient is deceased.\n\nAnswer: Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

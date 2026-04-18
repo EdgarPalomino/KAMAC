@@ -54,11 +54,17 @@ def load_dataset(dataset_name: Literal["radcure", "pancreatic_cancer", "med_qa"]
 
     if dataset_name == "radcure":
         with open(
-            f"{os.environ['work_dir']}/data/radcure_test.json",
+            f"{os.environ['work_dir']}/data/pancreatic_cancer_data.json",
             "r",
             encoding="utf-8",
         ) as json_file:
             patient_list = json.load(json_file)
+        
+        for patient in patient_list:
+            if "question" not in patient:
+                question_text = json.dumps(patient)
+                patient["question"] = []
+                patient["question"].append(question_text)
 
         return patient_list, None, None
     

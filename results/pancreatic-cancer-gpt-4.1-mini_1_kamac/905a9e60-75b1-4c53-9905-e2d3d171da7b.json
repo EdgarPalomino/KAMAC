@@ -1,0 +1,9 @@
+{
+    "905a9e60-75b1-4c53-9905-e2d3d171da7b": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma, with focus on staging, tumor grade, and treatment planning. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient has pancreatic ductal adenocarcinoma (PDAC), which is an aggressive malignancy with generally poor prognosis.\n\n2. The tumor is located in the head of the pancreas, which is a common site for PDAC.\n\n3. Tumor grade is G2, indicating a moderately differentiated tumor, which has an intermediate prognosis compared to G1 (well differentiated) and G3 (poorly differentiated).\n\n4. The AJCC pathologic staging is Stage III (T2N2M0). T2 indicates tumor limited to the pancreas and >2 cm but ≤4 cm. N2 indicates metastasis to 4 or more regional lymph nodes, which is associated with worse prognosis. M0 indicates no distant metastasis.\n\n5. Residual disease status is RX, meaning that the presence or absence of residual tumor cannot be assessed, which may impact prognosis and treatment planning.\n\n6. The patient is alive at last follow-up (32 days after diagnosis), but tumor status is unknown.\n\n7. Given the advanced nodal involvement (N2) and stage III disease, the prognosis is guarded but not immediately fatal. Survival depends on systemic therapy and possible surgical resection.\n\n8. From an oncologist's perspective, the patient is currently alive, but the long-term survival probability is limited due to stage III disease.\n\nFinal answer:\n\nAnswer:Alive",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Alive',)"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "9bb79b5f-fa75-4d05-8a23-eda606a6cfdc": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy, immunotherapy, and management of pancreatic ductal adenocarcinoma, especially in cases with recurrence and advanced staging. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n- The patient has pancreatic ductal adenocarcinoma (PDAC), a highly aggressive malignancy with generally poor prognosis.\n- The tumor is staged as Stage IIB (T3N1M0) according to the 8th edition AJCC staging system, indicating a locally advanced tumor with regional lymph node involvement but no distant metastasis.\n- The tumor grade is G2, which is moderately differentiated, suggesting an intermediate level of aggressiveness.\n- The patient experienced recurrence (\"Progression or Recurrence\": \"yes\"), which typically worsens prognosis.\n- The patient is recorded as deceased with a cause of death related to cancer.\n- The survival time from diagnosis to death is 1590 days (~4.3 years), which is relatively long for PDAC, possibly reflecting treatment response or other factors.\n- Residual disease status is RX, meaning unknown residual tumor status after surgery, which may impact prognosis.\n- Overall, the patient had advanced disease with nodal involvement and recurrence, and ultimately died from cancer.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "Answer: Dead"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "0fdc2d7a-e945-4c3b-9df5-5745197e1513": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy, immunotherapy, and targeted therapy in pancreatic ductal adenocarcinoma. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n- The patient has pancreatic ductal adenocarcinoma (PDAC), a highly aggressive malignancy with poor prognosis.\n- The tumor is located in the head of the pancreas, with morphology 8500/3 indicating infiltrating duct carcinoma, NOS.\n- Tumor grade is G2, which is moderately differentiated.\n- The AJCC staging is Stage IV (T3, N2, M1), indicating locally advanced tumor with regional lymph node involvement and distant metastasis.\n- The patient is male, white, born in 1944, diagnosed in 2018, and died 91 days after diagnosis.\n- The cause of death is cancer-related, and the last known disease status was \"with tumor,\" indicating active disease at death.\n- Residual disease status is RX, meaning unknown.\n- Given the advanced stage (Stage IV) and short survival (91 days), the prognosis was very poor.\n- From a medical oncology perspective, systemic therapy options in Stage IV PDAC are limited and often palliative, with median survival typically measured in months.\n- The patient's rapid demise aligns with expected outcomes in metastatic PDAC despite treatment.\n\nFinal answer:  \nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "No",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "58b42d9e-bba2-4a1f-9066-77586c0d6eb9": {
+        "recruit-recruiter": "1. Medical Oncologist - Your expertise is strictly limited to systemic therapy decisions, including chemotherapy and immunotherapy in pancreatic ductal adenocarcinoma. - Hierarchy: Medical Oncologist",
+        "initial_assessment-medical oncologist": "Step-by-step analysis:\n\n1. The patient is a male diagnosed with pancreatic ductal adenocarcinoma (PDAC), specifically infiltrating duct carcinoma, NOS, located in the tail of the pancreas.\n\n2. Tumor grade is G3, indicating a poorly differentiated tumor, which generally correlates with a more aggressive disease and worse prognosis.\n\n3. The tumor stage is reported as Stage IIB (T2N1M0 or MX), with N1 indicating regional lymph node involvement, which is a negative prognostic factor.\n\n4. Residual disease is R0, meaning complete resection with no microscopic residual tumor, which is favorable for survival.\n\n5. The patient was tumor-free at last known disease status but died 430 days after diagnosis, with cause of death listed as cancer-related.\n\n6. The patient did not have documented recurrence or progression, but survival was limited to approximately 14 months post-diagnosis, consistent with the aggressive nature of PDAC even after surgery.\n\nFrom a medical oncologist's perspective, despite complete resection and no documented recurrence, the aggressive tumor grade and nodal involvement likely contributed to limited survival. Systemic therapy decisions would focus on adjuvant chemotherapy to improve outcomes, but overall prognosis remains poor in such cases.\n\nFinal answer:\n\nAnswer:Dead",
+        "Round 2-Turn 1-discuss-participate-medical oncologist": "no",
+        "Round 2-Turn 1-ask_gap-medical oncologist": "No",
+        "decision-Moderator": "('Answer: Dead',)"
+    }
+}
